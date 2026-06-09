@@ -49,11 +49,11 @@ For each test case in the JSON, treat it as a Qase case:
 
 ## Screenshots
 
-All screenshots taken during this agent's work (browser snapshots, Qase step screenshots, etc.) MUST be saved in the `agent-screens/` folder inside the project root.
+All screenshots taken during this agent's work (browser snapshots, Qase step screenshots, etc.) MUST be saved in the `agents-data/qase-io-agent/screens/` folder inside the project root.
 
-- At the start of execution, create the `agent-screens/` directory if it doesn't exist: `mkdir -p agent-screens`
-- Save each browser snapshot as: `agent-screens/{WSP-ID}_step{N}_{short_description}.png` (e.g., `agent-screens/WSP-2314_step1_login_page.png`)
-- If downloading Qase attachment screenshots, save them to: `agent-screens/{WSP-ID}_qase_step{N}.png`
+- At the start of execution, create the directory if it doesn't exist: `mkdir -p agents-data/qase-io-agent/screens`
+- Save each browser snapshot as: `agents-data/qase-io-agent/screens/{WSP-ID}_step{N}_{short_description}.png` (e.g., `agents-data/qase-io-agent/screens/WSP-2314_step1_login_page.png`)
+- If downloading Qase attachment screenshots, save them to: `agents-data/qase-io-agent/screens/{WSP-ID}_qase_step{N}.png`
 - Use the `browser_screenshot` tool (not just `browser_snapshot`) to capture visual PNG files
 
 ## Steps
@@ -71,7 +71,7 @@ Fetch case details via Qase.io API:
 
 Extract: WSP ID, title, steps, expected results, preconditions.
 
-**Step screenshots:** Only fetch attachment images when step text is ambiguous (e.g., "დააჭირე ღილაკს" without specifying which button). Skip for steps with clear element references. If an attachment URL is relative, prefix with `https://api.qase.io`.
+**Step screenshots:** ALWAYS download ALL attachment images from every Qase step — these screenshots often highlight the exact UI element being tested and are critical for the Write Test Agent to understand context. Save each attachment to `agents-data/qase-io-agent/screens/{WSP-ID}_qase_step{N}.png`. If an attachment URL is relative, prefix with `https://api.qase.io`. Also record the local path in the output as `"step_screenshot_local"` so the Write Test Agent can view them.
 
 ### 2. Check Existing Selectors & Methods FIRST
 
@@ -167,7 +167,8 @@ Generate `manual_output.json` with the following structure:
         "new_method": "methodName() (or null if existing_method found)",
         "api_endpoint": "/api/v1/endpoint (or null if no API call)",
         "ui_text_ge": "ქართული ტექსტი (or null if no text assertion)",
-        "step_screenshot": "URL or null — Qase attachment screenshot for this step (used to visually identify the target element)"
+        "step_screenshot": "URL or null — Qase attachment screenshot URL for this step",
+        "step_screenshot_local": "agents-data/qase-io-agent/screens/{WSP-ID}_qase_step{N}.png or null — local path to downloaded screenshot"
       }
     ]
   }

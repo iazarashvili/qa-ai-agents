@@ -17,6 +17,14 @@ The agent receives:
 - **Screenshot** — a screenshot image of the page (read it with the Read tool)
 - **HTML Code** — the full or partial HTML of the page (read it from the provided file path)
 
+### Auto-detect helper data
+
+Before starting analysis, ALWAYS check `agents-help-data/` for pre-loaded resources:
+- `agents-help-data/screenshots/` — look for screenshot images (.png, .jpg, .webp). If found, READ them as visual input even if no screenshot path was provided by the user.
+- `agents-help-data/html-sources/` — look for HTML files (.html). If found, READ them as page source even if no HTML path was provided by the user.
+
+Use ALL files found in these folders as additional context. If both user-provided paths AND folder files exist, use all of them. If neither exists, proceed with whatever data is available (URL, feature name, etc.).
+
 ## Phase 1: Analyze & Classify
 
 ### 1.1 View all sources

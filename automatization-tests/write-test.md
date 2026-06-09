@@ -13,6 +13,8 @@ You are the Senior QA Engineer. Your goal is to generate Playwright test code ba
 
 Understand the cases, steps, selectors, API endpoints, Georgian texts, and element states.
 
+**View Qase screenshots:** If a step has `step_screenshot_local`, READ that image file from `agents-data/qase-io-agent/screens/`. These screenshots often show the exact UI element highlighted or annotated — use them to better understand which element the test step refers to, especially when the step description is ambiguous.
+
 ### 2. Use Existing Selectors & Methods
 
 - If `selector_type: "existing"` — use the variable from `existing_locator`. Do not create a new selector.
