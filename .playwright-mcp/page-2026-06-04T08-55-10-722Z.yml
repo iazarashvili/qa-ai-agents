@@ -1,0 +1,43 @@
+- generic [ref=e4]:
+  - banner [ref=e5]:
+    - img "Crocobet" [ref=e7] [cursor=pointer]
+    - generic [ref=e8]:
+      - generic [ref=e9]: უკვე გაქვს ანგარიში?
+      - generic [ref=e10] [cursor=pointer]: შესვლა
+  - main [ref=e11]:
+    - generic [ref=e13]:
+      - generic [ref=e14]:
+        - button "ka ქართული" [ref=e18] [cursor=pointer]:
+          - generic [ref=e19]:
+            - img "ka" [ref=e20]
+            - generic [ref=e21]: ქართული
+        - link "დაურეკე საპორტს" [ref=e23] [cursor=pointer]:
+          - /url: tel:+995322597777
+      - progressbar [ref=e27]
+      - generic [ref=e35]:
+        - heading "რეგისტრაცია" [level=2] [ref=e37]
+        - generic [ref=e38]:
+          - generic [ref=e39]:
+            - generic [ref=e40]:
+              - button "GE +995" [ref=e43]:
+                - img "GE" [ref=e44]
+                - generic [ref=e45]: "+995"
+              - textbox "ტელეფონის ნომერი" [ref=e74]
+            - generic [ref=e75]: ტელეფონის ნომერი სავალდებულოა
+          - generic [ref=e49]:
+            - button "geo ქართ" [ref=e50] [cursor=pointer]:
+              - img "geo" [ref=e51]
+              - generic [ref=e52]: ქართ
+            - generic [ref=e53]:
+              - generic [ref=e76]: პირადი ნომერი
+              - textbox [active] [ref=e77]
+          - generic [ref=e55]:
+            - generic [ref=e56]:
+              - generic [ref=e57]: მოწვევის კოდი
+              - switch [checked] [ref=e60] [cursor=pointer]
+            - textbox "მოწვევის კოდი" [ref=e71]
+        - generic [ref=e62]:
+          - paragraph [ref=e63]: რეგისტრაციის ღილაკზე დაჭერით თანხომბას ვაცხადებ მითითებულ მონაცემების რეგისტრაციის მიზნით დამუშავებაზე
+          - button "რეგისტრაცია" [disabled] [ref=e65]:
+            - generic [ref=e66]: რეგისტრაცია
+  - button "მიწერე საპორტს" [ref=e67] [cursor=pointer]

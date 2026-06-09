@@ -1,0 +1,2171 @@
+- main [ref=e4]:
+  - generic [ref=e7]:
+    - img "Logo" [ref=e9] [cursor=pointer]
+    - generic [ref=e12]:
+      - generic [ref=e16] [cursor=pointer]:
+        - img "sport.svg" [ref=e17]
+        - generic [ref=e18]: სპორტი
+      - generic [ref=e21] [cursor=pointer]:
+        - img "live.svg" [ref=e22]
+        - generic [ref=e23]: LIVE
+      - generic [ref=e26] [cursor=pointer]:
+        - img "slots.svg" [ref=e27]
+        - generic [ref=e28]: სლოტები
+      - generic [ref=e31] [cursor=pointer]:
+        - img "casino.svg" [ref=e32]
+        - generic [ref=e33]: კაზინო
+      - generic [ref=e36] [cursor=pointer]:
+        - img "fastgame.svg" [ref=e37]
+        - generic [ref=e38]: თამაშები
+      - generic [ref=e39] [cursor=pointer]:
+        - generic [ref=e40]: ახალი
+        - generic [ref=e42]:
+          - img "games.svg" [ref=e43]
+          - generic [ref=e44]: P2P
+      - generic [ref=e47] [cursor=pointer]:
+        - img "poker.svg" [ref=e48]
+        - generic [ref=e49]: პოკერი
+      - generic [ref=e52] [cursor=pointer]:
+        - img "virtual.svg" [ref=e53]
+        - generic [ref=e54]: VIRTUAL
+      - generic [ref=e57] [cursor=pointer]:
+        - img "promos.svg" [ref=e58]
+        - generic [ref=e59]: აქციები
+      - generic [ref=e60] [cursor=pointer]:
+        - generic [ref=e61]: ახალი
+        - generic [ref=e63]:
+          - img "live-stream.svg" [ref=e64]
+          - generic [ref=e65]: STREAMS
+  - generic [ref=e67]:
+    - generic [ref=e69]:
+      - generic [ref=e74]:
+        - text: prev
+        - generic [ref=e75] [cursor=pointer]: next
+        - generic [ref=e76]:
+          - img "*" [ref=e80] [cursor=pointer]
+          - img "*" [ref=e84] [cursor=pointer]
+          - img "*" [ref=e88] [cursor=pointer]
+          - img "*" [ref=e92] [cursor=pointer]
+          - img "*" [ref=e96] [cursor=pointer]
+      - generic [ref=e98]:
+        - button "რეგისტრაცია" [ref=e100] [cursor=pointer]
+        - generic [ref=e104]:
+          - img [ref=e106]
+          - generic [ref=e110]:
+            - generic:
+              - generic: მომხმარებელი
+            - textbox "მომხმარებელი" [ref=e111]
+        - generic [ref=e112]:
+          - generic [ref=e115]:
+            - img [ref=e117]
+            - generic [ref=e122]:
+              - generic:
+                - generic: პაროლი
+              - textbox "პაროლი" [ref=e123]
+          - img "show-password" [ref=e124] [cursor=pointer]
+        - button "შესვლა" [ref=e127] [cursor=pointer]
+    - generic [ref=e129]:
+      - generic [ref=e132]:
+        - generic [ref=e134]:
+          - generic [ref=e135]:
+            - img "undefined" [ref=e139] [cursor=pointer]
+            - img "undefined" [ref=e143] [cursor=pointer]
+            - img "undefined" [ref=e147] [cursor=pointer]
+            - img "undefined" [ref=e151] [cursor=pointer]
+            - img "undefined" [ref=e155] [cursor=pointer]
+            - img "undefined" [ref=e159] [cursor=pointer]
+            - img "undefined" [ref=e163] [cursor=pointer]
+            - img "undefined" [ref=e167] [cursor=pointer]
+            - img "undefined" [ref=e171] [cursor=pointer]
+            - img "undefined" [ref=e175] [cursor=pointer]
+            - img "undefined" [ref=e179] [cursor=pointer]
+            - img "undefined" [ref=e183] [cursor=pointer]
+            - img "undefined" [ref=e187] [cursor=pointer]
+            - img "undefined" [ref=e191] [cursor=pointer]
+            - img "undefined" [ref=e195] [cursor=pointer]
+            - img "undefined" [ref=e199] [cursor=pointer]
+            - img "undefined" [ref=e203] [cursor=pointer]
+            - img "undefined" [ref=e207] [cursor=pointer]
+            - img "undefined" [ref=e211] [cursor=pointer]
+            - img "undefined" [ref=e215] [cursor=pointer]
+            - img "undefined" [ref=e219] [cursor=pointer]
+            - img "undefined" [ref=e223] [cursor=pointer]
+          - generic: next
+          - generic: prev
+        - paragraph [ref=e270]: 1 / 22
+      - generic [ref=e279]:
+        - generic [ref=e280]:
+          - generic [ref=e283] [cursor=pointer]:
+            - img "*" [ref=e284]
+            - generic [ref=e285]:
+              - generic:
+                - generic:
+                  - generic:
+                    - img "*"
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "1"
+                              - generic: "2"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "0"
+                              - generic: "1"
+                            - text: ","
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "8"
+                              - generic: "9"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "0"
+                              - generic: "1"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "9"
+                              - generic: "0"
+                            - text: ","
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "6"
+                              - generic: "7"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "7"
+                              - generic: "8"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "4"
+                              - generic: "5"
+                            - text: .
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "7"
+                              - generic: "8"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "8"
+                              - generic: "9"
+                    - generic:
+                      - paragraph:
+                        - generic: G
+                        - generic: E
+                        - generic: L
+            - generic [ref=e286]:
+              - generic:
+                - generic:
+                  - generic:
+                    - img "*"
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "1"
+                              - generic: "2"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "2"
+                              - generic: "3"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "4"
+                              - generic: "5"
+                            - text: ","
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "9"
+                              - generic: "0"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "4"
+                              - generic: "5"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "3"
+                              - generic: "4"
+                            - text: .
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "4"
+                              - generic: "5"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "3"
+                              - generic: "4"
+                    - generic:
+                      - paragraph:
+                        - generic: G
+                        - generic: E
+                        - generic: L
+            - generic [ref=e287]:
+              - generic:
+                - generic:
+                  - generic:
+                    - img "*"
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "2"
+                              - generic: "3"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "0"
+                              - generic: "1"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "9"
+                              - generic: "0"
+                            - text: .
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "6"
+                              - generic: "7"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "4"
+                              - generic: "5"
+                    - generic:
+                      - paragraph:
+                        - generic: G
+                        - generic: E
+                        - generic: L
+            - generic [ref=e288]:
+              - generic:
+                - generic:
+                  - generic:
+                    - img "*"
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "2"
+                              - generic: "3"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "5"
+                              - generic: "6"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "6"
+                              - generic: "7"
+                            - text: .
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "5"
+                              - generic: "6"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "6"
+                              - generic: "7"
+                    - generic:
+                      - paragraph:
+                        - generic: G
+                        - generic: E
+                        - generic: L
+          - generic [ref=e291] [cursor=pointer]:
+            - img "*"
+            - generic [ref=e292]:
+              - generic:
+                - generic:
+                  - generic:
+                    - img "*"
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "2"
+                              - generic: "3"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "7"
+                              - generic: "8"
+                            - text: ","
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "2"
+                              - generic: "3"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "1"
+                              - generic: "2"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "5"
+                              - generic: "6"
+                            - text: .
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "9"
+                              - generic: "0"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "6"
+                              - generic: "7"
+                    - generic:
+                      - paragraph:
+                        - generic: G
+                        - generic: E
+                        - generic: L
+            - generic [ref=e293]:
+              - generic:
+                - generic:
+                  - generic:
+                    - img "*"
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "5"
+                              - generic: "6"
+                            - text: ","
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "8"
+                              - generic: "9"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "9"
+                              - generic: "0"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "4"
+                              - generic: "5"
+                            - text: .
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "2"
+                              - generic: "3"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "2"
+                              - generic: "3"
+                    - generic:
+                      - paragraph:
+                        - generic: G
+                        - generic: E
+                        - generic: L
+            - generic [ref=e294]:
+              - generic:
+                - generic:
+                  - generic:
+                    - img "*"
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "5"
+                              - generic: "6"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "0"
+                              - generic: "1"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "0"
+                              - generic: "1"
+                            - text: .
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "0"
+                              - generic: "1"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "0"
+                              - generic: "1"
+                    - generic:
+                      - paragraph:
+                        - generic: G
+                        - generic: E
+                        - generic: L
+            - generic [ref=e295]:
+              - generic:
+                - generic:
+                  - generic:
+                    - img "*"
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "1"
+                              - generic: "2"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "0"
+                              - generic: "1"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "0"
+                              - generic: "1"
+                            - text: .
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "0"
+                              - generic: "1"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "0"
+                              - generic: "1"
+                    - generic:
+                      - paragraph:
+                        - generic: G
+                        - generic: E
+                        - generic: L
+          - generic [ref=e298] [cursor=pointer]:
+            - img "*"
+            - generic [ref=e299]:
+              - generic:
+                - generic:
+                  - generic:
+                    - img "*"
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "6"
+                              - generic: "7"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "3"
+                              - generic: "4"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "8"
+                              - generic: "9"
+                            - text: ","
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "2"
+                              - generic: "3"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "8"
+                              - generic: "9"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "8"
+                              - generic: "9"
+                            - text: .
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "6"
+                              - generic: "7"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "0"
+                              - generic: "1"
+                    - generic:
+                      - paragraph:
+                        - generic: G
+                        - generic: E
+                        - generic: L
+            - generic [ref=e300]:
+              - generic:
+                - generic:
+                  - generic:
+                    - img "*"
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "5"
+                              - generic: "6"
+                            - text: ","
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "6"
+                              - generic: "7"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "2"
+                              - generic: "3"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "3"
+                              - generic: "4"
+                            - text: .
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "4"
+                              - generic: "5"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "4"
+                              - generic: "5"
+                    - generic:
+                      - paragraph:
+                        - generic: G
+                        - generic: E
+                        - generic: L
+            - generic [ref=e301]:
+              - generic:
+                - generic:
+                  - generic:
+                    - img "*"
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "8"
+                              - generic: "9"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "8"
+                              - generic: "9"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "7"
+                              - generic: "8"
+                            - text: .
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "4"
+                              - generic: "5"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "1"
+                              - generic: "2"
+                    - generic:
+                      - paragraph:
+                        - generic: G
+                        - generic: E
+                        - generic: L
+            - generic [ref=e302]:
+              - generic:
+                - generic:
+                  - generic:
+                    - img "*"
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "5"
+                              - generic: "6"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "9"
+                              - generic: "0"
+                            - text: .
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "9"
+                              - generic: "0"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "8"
+                              - generic: "9"
+                    - generic:
+                      - paragraph:
+                        - generic: G
+                        - generic: E
+                        - generic: L
+          - generic [ref=e306] [cursor=pointer]:
+            - img "*"
+            - generic [ref=e307]:
+              - generic:
+                - generic:
+                  - generic:
+                    - img "*"
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "1"
+                              - generic: "2"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "8"
+                              - generic: "9"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "7"
+                              - generic: "8"
+                            - text: ","
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "3"
+                              - generic: "4"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "8"
+                              - generic: "9"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "7"
+                              - generic: "8"
+                            - text: .
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "6"
+                              - generic: "7"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "3"
+                              - generic: "4"
+                    - generic:
+                      - paragraph:
+                        - generic: G
+                        - generic: E
+                        - generic: L
+            - generic [ref=e308]:
+              - generic:
+                - generic:
+                  - generic:
+                    - img "*"
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "2"
+                              - generic: "3"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "7"
+                              - generic: "8"
+                            - text: ","
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "7"
+                              - generic: "8"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "4"
+                              - generic: "5"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "2"
+                              - generic: "3"
+                            - text: .
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "0"
+                              - generic: "1"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "9"
+                              - generic: "0"
+                    - generic:
+                      - paragraph:
+                        - generic: G
+                        - generic: E
+                        - generic: L
+          - generic [ref=e311] [cursor=pointer]:
+            - img "*"
+            - generic [ref=e312]:
+              - generic:
+                - generic:
+                  - generic:
+                    - img "*"
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "1"
+                              - generic: "2"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "3"
+                              - generic: "4"
+                            - text: ","
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "3"
+                              - generic: "4"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "2"
+                              - generic: "3"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "2"
+                              - generic: "3"
+                            - text: .
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "7"
+                              - generic: "8"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "1"
+                              - generic: "2"
+                    - generic:
+                      - paragraph:
+                        - generic: G
+                        - generic: E
+                        - generic: L
+            - generic [ref=e313]:
+              - generic:
+                - generic:
+                  - generic:
+                    - img "*"
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "1"
+                              - generic: "2"
+                            - text: ","
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "4"
+                              - generic: "5"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "4"
+                              - generic: "5"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "6"
+                              - generic: "7"
+                            - text: .
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "4"
+                              - generic: "5"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "7"
+                              - generic: "8"
+                    - generic:
+                      - paragraph:
+                        - generic: G
+                        - generic: E
+                        - generic: L
+            - generic [ref=e314]:
+              - generic:
+                - generic:
+                  - generic:
+                    - img "*"
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "3"
+                              - generic: "4"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "5"
+                              - generic: "6"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "0"
+                              - generic: "1"
+                            - text: .
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "0"
+                              - generic: "1"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "0"
+                              - generic: "1"
+                    - generic:
+                      - paragraph:
+                        - generic: G
+                        - generic: E
+                        - generic: L
+            - generic [ref=e315]:
+              - generic:
+                - generic:
+                  - generic:
+                    - img "*"
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "1"
+                              - generic: "2"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "8"
+                              - generic: "9"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "0"
+                              - generic: "1"
+                            - text: .
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "0"
+                              - generic: "1"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "0"
+                              - generic: "1"
+                    - generic:
+                      - paragraph:
+                        - generic: G
+                        - generic: E
+                        - generic: L
+          - generic [ref=e318] [cursor=pointer]:
+            - img "*"
+            - generic [ref=e319]:
+              - generic:
+                - generic:
+                  - generic:
+                    - img "*"
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "2"
+                              - generic: "3"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "0"
+                              - generic: "1"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "6"
+                              - generic: "7"
+                            - text: ","
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "8"
+                              - generic: "9"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "8"
+                              - generic: "9"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "1"
+                              - generic: "2"
+                            - text: .
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "9"
+                              - generic: "0"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "9"
+                              - generic: "0"
+                    - generic:
+                      - paragraph:
+                        - generic: G
+                        - generic: E
+                        - generic: L
+            - generic [ref=e320]:
+              - generic:
+                - generic:
+                  - generic:
+                    - img "*"
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "5"
+                              - generic: "6"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "5"
+                              - generic: "6"
+                            - text: ","
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "4"
+                              - generic: "5"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "7"
+                              - generic: "8"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "2"
+                              - generic: "3"
+                            - text: .
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "6"
+                              - generic: "7"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "2"
+                              - generic: "3"
+                    - generic:
+                      - paragraph:
+                        - generic: G
+                        - generic: E
+                        - generic: L
+            - generic [ref=e321]:
+              - generic:
+                - generic:
+                  - generic:
+                    - img "*"
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "4"
+                              - generic: "5"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "6"
+                              - generic: "7"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "0"
+                              - generic: "1"
+                            - text: .
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "9"
+                              - generic: "0"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "6"
+                              - generic: "7"
+                    - generic:
+                      - paragraph:
+                        - generic: G
+                        - generic: E
+                        - generic: L
+            - generic [ref=e322]:
+              - generic:
+                - generic:
+                  - generic:
+                    - img "*"
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "2"
+                              - generic: "3"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "6"
+                              - generic: "7"
+                            - text: .
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "3"
+                              - generic: "4"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "0"
+                              - generic: "1"
+                    - generic:
+                      - paragraph:
+                        - generic: G
+                        - generic: E
+                        - generic: L
+          - generic [ref=e325] [cursor=pointer]:
+            - img "*"
+            - generic [ref=e326]:
+              - generic:
+                - generic:
+                  - generic:
+                    - img "*"
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "9"
+                              - generic: "0"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "1"
+                              - generic: "2"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "2"
+                              - generic: "3"
+                            - text: ","
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "4"
+                              - generic: "5"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "3"
+                              - generic: "4"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "2"
+                              - generic: "3"
+                            - text: .
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "9"
+                              - generic: "0"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "0"
+                              - generic: "1"
+                    - generic:
+                      - paragraph:
+                        - generic: G
+                        - generic: E
+                        - generic: L
+            - generic [ref=e327]:
+              - generic:
+                - generic:
+                  - generic:
+                    - img "*"
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "1"
+                              - generic: "2"
+                            - text: ","
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "6"
+                              - generic: "7"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "9"
+                              - generic: "0"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "0"
+                              - generic: "1"
+                            - text: .
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "3"
+                              - generic: "4"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "5"
+                              - generic: "6"
+                    - generic:
+                      - paragraph:
+                        - generic: G
+                        - generic: E
+                        - generic: L
+            - generic [ref=e328]:
+              - generic:
+                - generic:
+                  - generic:
+                    - img "*"
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "1"
+                              - generic: "2"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "2"
+                              - generic: "3"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "2"
+                              - generic: "3"
+                            - text: .
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "9"
+                              - generic: "0"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "3"
+                              - generic: "4"
+                    - generic:
+                      - paragraph:
+                        - generic: G
+                        - generic: E
+                        - generic: L
+            - generic [ref=e329]:
+              - generic:
+                - generic:
+                  - generic:
+                    - img "*"
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "6"
+                              - generic: "7"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "0"
+                              - generic: "1"
+                            - text: .
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "9"
+                              - generic: "0"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "4"
+                              - generic: "5"
+                    - generic:
+                      - paragraph:
+                        - generic: G
+                        - generic: E
+                        - generic: L
+          - generic [ref=e333] [cursor=pointer]:
+            - img "*"
+            - generic [ref=e334]:
+              - generic:
+                - generic:
+                  - generic:
+                    - img "*"
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "3"
+                              - generic: "4"
+                            - text: ","
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "5"
+                              - generic: "6"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "2"
+                              - generic: "3"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "9"
+                              - generic: "0"
+                            - text: .
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "3"
+                              - generic: "4"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "2"
+                              - generic: "3"
+                    - generic:
+                      - paragraph:
+                        - generic: G
+                        - generic: E
+                        - generic: L
+            - generic [ref=e335]:
+              - generic:
+                - generic:
+                  - generic:
+                    - img "*"
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "2"
+                              - generic: "3"
+                            - text: ","
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "0"
+                              - generic: "1"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "6"
+                              - generic: "7"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "2"
+                              - generic: "3"
+                            - text: .
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "5"
+                              - generic: "6"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "8"
+                              - generic: "9"
+                    - generic:
+                      - paragraph:
+                        - generic: G
+                        - generic: E
+                        - generic: L
+        - img "Next" [ref=e337] [cursor=pointer]
+        - img "Previous" [ref=e339] [cursor=pointer]
+      - generic [ref=e342]:
+        - generic [ref=e346]:
+          - generic [ref=e347]:
+            - generic [ref=e350]: სიახლეები
+            - generic [ref=e351] [cursor=pointer]: ყველას ნახვა (9)
+          - generic [ref=e354]:
+            - generic [ref=e355]:
+              - img "Slot & Casino Leaderboard" [ref=e360]
+              - img "p2p car leaderboard" [ref=e365]
+              - img "Registration Bonus" [ref=e370]
+              - img "Offer Market" [ref=e375]
+              - img "Registration Leaderboard" [ref=e380]
+              - img "Freespin Quest" [ref=e385]
+              - img "Cashback Roulette" [ref=e390]
+              - img "Endorphina Leaderboard" [ref=e395]
+              - img "Basketball Kutaisi" [ref=e400]
+            - generic: next
+            - text: prev
+        - generic [ref=e404]:
+          - generic [ref=e405]:
+            - generic [ref=e408]: რეკომენდირებული
+            - generic [ref=e409] [cursor=pointer]: ყველა (12)
+          - generic [ref=e412]:
+            - generic [ref=e413]:
+              - img "5 Dazzling Hot" [ref=e420]
+              - img "Vampire Night Bell Link" [ref=e427]
+              - img "Zodiac Wheel" [ref=e434]
+              - img "Gates of Olympus" [ref=e441]
+              - img "Sweet Bonanza 1000" [ref=e448]
+              - img "5 dazzling hot" [ref=e455]
+              - img "Shining Crown" [ref=e462]
+              - img "10 Burning Heart" [ref=e469]
+              - img "Gates of Olympus 1000" [ref=e476]
+              - img "Madame Destiny Megaways" [ref=e483]
+              - generic [ref=e486]:
+                - generic [ref=e487]: "+2"
+                - text: ნახე მეტი
+            - generic: next
+            - text: prev
+        - generic [ref=e490]:
+          - generic [ref=e491]:
+            - generic [ref=e492]:
+              - img "TOP მოგებები" [ref=e494]
+              - generic [ref=e495]: TOP მოგებები
+              - img [ref=e497] [cursor=pointer]
+            - generic [ref=e501] [cursor=pointer]: ყველა (20)
+          - generic [ref=e503] [cursor=pointer]:
+            - generic [ref=e505]:
+              - img "Gates of Olympus 1000" [ref=e507]
+              - generic [ref=e508]:
+                - generic [ref=e509]:
+                  - paragraph [ref=e510]: L***9
+                  - paragraph [ref=e511]: 141367 ₾
+                - generic [ref=e512]:
+                  - paragraph [ref=e513]: Gates of Olympus 1000
+                  - paragraph [ref=e514]: 141.37x
+            - generic [ref=e516]:
+              - img "VIP 40 Burning Hot Bell Link" [ref=e518]
+              - generic [ref=e519]:
+                - generic [ref=e520]:
+                  - paragraph [ref=e521]: i***8
+                  - paragraph [ref=e522]: 85500 ₾
+                - generic [ref=e523]:
+                  - paragraph [ref=e524]: VIP 40 Burning Hot Bell Link
+                  - paragraph [ref=e525]: 171x
+            - generic [ref=e527]:
+              - img "20 Pirate Bombs" [ref=e529]
+              - generic [ref=e530]:
+                - generic [ref=e531]:
+                  - paragraph [ref=e532]: c***9
+                  - paragraph [ref=e533]: 63750 ₾
+                - generic [ref=e534]:
+                  - paragraph [ref=e535]: 20 Pirate Bombs
+                  - paragraph [ref=e536]: 212.5x
+            - generic [ref=e538]:
+              - img "10 Burning Heart" [ref=e540]
+              - generic [ref=e541]:
+                - generic [ref=e542]:
+                  - paragraph [ref=e543]: z***z
+                  - paragraph [ref=e544]: 48060 ₾
+                - generic [ref=e545]:
+                  - paragraph [ref=e546]: 10 Burning Heart
+                  - paragraph [ref=e547]: 534x
+            - generic [ref=e549]:
+              - img "100 Extra Crown" [ref=e551]
+              - generic [ref=e552]:
+                - generic [ref=e553]:
+                  - paragraph [ref=e554]: S***8
+                  - paragraph [ref=e555]: 47838 ₾
+                - generic [ref=e556]:
+                  - paragraph [ref=e557]: 100 Extra Crown
+                  - paragraph [ref=e558]: 683.4x
+            - generic [ref=e560]:
+              - img "VIP 40 Burning Hot Bell Link" [ref=e562]
+              - generic [ref=e563]:
+                - generic [ref=e564]:
+                  - paragraph [ref=e565]: i***8
+                  - paragraph [ref=e566]: 41900 ₾
+                - generic [ref=e567]:
+                  - paragraph [ref=e568]: VIP 40 Burning Hot Bell Link
+                  - paragraph [ref=e569]: 83.8x
+            - generic [ref=e571]:
+              - img "VIP 20 Super Hot Bell Link" [ref=e573]
+              - generic [ref=e574]:
+                - generic [ref=e575]:
+                  - paragraph [ref=e576]: s***a
+                  - paragraph [ref=e577]: 41000 ₾
+                - generic [ref=e578]:
+                  - paragraph [ref=e579]: VIP 20 Super Hot Bell Link
+                  - paragraph [ref=e580]: 82x
+            - generic [ref=e582]:
+              - img "Book of Waka-Waka" [ref=e584]
+              - generic [ref=e585]:
+                - generic [ref=e586]:
+                  - paragraph [ref=e587]: M***1
+                  - paragraph [ref=e588]: 40432 ₾
+                - generic [ref=e589]:
+                  - paragraph [ref=e590]: Book of Waka-Waka
+                  - paragraph [ref=e591]: 5054x
+            - generic [ref=e593]:
+              - img "VIP 40 Burning Hot Bell Link" [ref=e595]
+              - generic [ref=e596]:
+                - generic [ref=e597]:
+                  - paragraph [ref=e598]: i***8
+                  - paragraph [ref=e599]: 39000 ₾
+                - generic [ref=e600]:
+                  - paragraph [ref=e601]: VIP 40 Burning Hot Bell Link
+                  - paragraph [ref=e602]: 156x
+            - generic [ref=e604]:
+              - img "Sweet Bonanza 1000 Dice" [ref=e606]
+              - generic [ref=e607]:
+                - generic [ref=e608]:
+                  - paragraph [ref=e609]: M***e
+                  - paragraph [ref=e610]: 36387.6 ₾
+                - generic [ref=e611]:
+                  - paragraph [ref=e612]: Sweet Bonanza 1000 Dice
+                  - paragraph [ref=e613]: 18.19x
+            - generic [ref=e615]:
+              - img "VIP 40 Burning Hot Bell Link" [ref=e617]
+              - generic [ref=e618]:
+                - generic [ref=e619]:
+                  - paragraph [ref=e620]: i***8
+                  - paragraph [ref=e621]: 34500 ₾
+                - generic [ref=e622]:
+                  - paragraph [ref=e623]: VIP 40 Burning Hot Bell Link
+                  - paragraph [ref=e624]: 69x
+            - generic [ref=e626]:
+              - img "VIP 20 Super Hot Bell Link" [ref=e628]
+              - generic [ref=e629]:
+                - generic [ref=e630]:
+                  - paragraph [ref=e631]: s***a
+                  - paragraph [ref=e632]: 33600 ₾
+                - generic [ref=e633]:
+                  - paragraph [ref=e634]: VIP 20 Super Hot Bell Link
+                  - paragraph [ref=e635]: 67.2x
+            - generic [ref=e637]:
+              - img "VIP 5 Dazzling Hot Bell Link" [ref=e639]
+              - generic [ref=e640]:
+                - generic [ref=e641]:
+                  - paragraph [ref=e642]: g***a
+                  - paragraph [ref=e643]: 32800 ₾
+                - generic [ref=e644]:
+                  - paragraph [ref=e645]: VIP 5 Dazzling Hot Bell Link
+                  - paragraph [ref=e646]: 218.67x
+            - generic [ref=e648]:
+              - 'img "Sunny Fruits 2: Hold and Win" [ref=e650]'
+              - generic [ref=e651]:
+                - generic [ref=e652]:
+                  - paragraph [ref=e653]: W***1
+                  - paragraph [ref=e654]: 31900 ₾
+                - generic [ref=e655]:
+                  - paragraph [ref=e656]: "Sunny Fruits 2: Hold and Win"
+                  - paragraph [ref=e657]: 319x
+            - generic [ref=e659]:
+              - img "20 Pirate Bombs" [ref=e661]
+              - generic [ref=e662]:
+                - generic [ref=e663]:
+                  - paragraph [ref=e664]: e***7
+                  - paragraph [ref=e665]: 30375 ₾
+                - generic [ref=e666]:
+                  - paragraph [ref=e667]: 20 Pirate Bombs
+                  - paragraph [ref=e668]: 101.25x
+            - generic [ref=e670]:
+              - img "VIP 40 Burning Hot Bell Link" [ref=e672]
+              - generic [ref=e673]:
+                - generic [ref=e674]:
+                  - paragraph [ref=e675]: i***8
+                  - paragraph [ref=e676]: 28000 ₾
+                - generic [ref=e677]:
+                  - paragraph [ref=e678]: VIP 40 Burning Hot Bell Link
+                  - paragraph [ref=e679]: 56x
+            - generic [ref=e681]:
+              - img "VIP 40 Burning Hot Bell Link" [ref=e683]
+              - generic [ref=e684]:
+                - generic [ref=e685]:
+                  - paragraph [ref=e686]: i***8
+                  - paragraph [ref=e687]: 23000 ₾
+                - generic [ref=e688]:
+                  - paragraph [ref=e689]: VIP 40 Burning Hot Bell Link
+                  - paragraph [ref=e690]: 46x
+            - generic [ref=e692]:
+              - img "Shining Crown" [ref=e694]
+              - generic [ref=e695]:
+                - generic [ref=e696]:
+                  - paragraph [ref=e697]: z***z
+                  - paragraph [ref=e698]: 22800 ₾
+                - generic [ref=e699]:
+                  - paragraph [ref=e700]: Shining Crown
+                  - paragraph [ref=e701]: 114x
+            - generic [ref=e703]:
+              - img "VIP 40 Zodiac Wheel Bell Link" [ref=e705]
+              - generic [ref=e706]:
+                - generic [ref=e707]:
+                  - paragraph [ref=e708]: L***9
+                  - paragraph [ref=e709]: 22800 ₾
+                - generic [ref=e710]:
+                  - paragraph [ref=e711]: VIP 40 Zodiac Wheel Bell Link
+                  - paragraph [ref=e712]: 456x
+            - generic [ref=e714]:
+              - img "VIP 5 Dazzling Hot Bell Link" [ref=e716]
+              - generic [ref=e717]:
+                - generic [ref=e718]:
+                  - paragraph [ref=e719]: g***a
+                  - paragraph [ref=e720]: 22650 ₾
+                - generic [ref=e721]:
+                  - paragraph [ref=e722]: VIP 5 Dazzling Hot Bell Link
+                  - paragraph [ref=e723]: 151x
+            - generic [ref=e725]:
+              - img "Gates of Olympus 1000" [ref=e727]
+              - generic [ref=e728]:
+                - generic [ref=e729]:
+                  - paragraph [ref=e730]: L***9
+                  - paragraph [ref=e731]: 141367 ₾
+                - generic [ref=e732]:
+                  - paragraph [ref=e733]: Gates of Olympus 1000
+                  - paragraph [ref=e734]: 141.37x
+            - generic [ref=e736]:
+              - img "VIP 40 Burning Hot Bell Link" [ref=e738]
+              - generic [ref=e739]:
+                - generic [ref=e740]:
+                  - paragraph [ref=e741]: i***8
+                  - paragraph [ref=e742]: 85500 ₾
+                - generic [ref=e743]:
+                  - paragraph [ref=e744]: VIP 40 Burning Hot Bell Link
+                  - paragraph [ref=e745]: 171x
+            - generic [ref=e747]:
+              - img "20 Pirate Bombs" [ref=e749]
+              - generic [ref=e750]:
+                - generic [ref=e751]:
+                  - paragraph [ref=e752]: c***9
+                  - paragraph [ref=e753]: 63750 ₾
+                - generic [ref=e754]:
+                  - paragraph [ref=e755]: 20 Pirate Bombs
+                  - paragraph [ref=e756]: 212.5x
+            - generic [ref=e758]:
+              - img "10 Burning Heart" [ref=e760]
+              - generic [ref=e761]:
+                - generic [ref=e762]:
+                  - paragraph [ref=e763]: z***z
+                  - paragraph [ref=e764]: 48060 ₾
+                - generic [ref=e765]:
+                  - paragraph [ref=e766]: 10 Burning Heart
+                  - paragraph [ref=e767]: 534x
+            - generic [ref=e769]:
+              - img "100 Extra Crown" [ref=e771]
+              - generic [ref=e772]:
+                - generic [ref=e773]:
+                  - paragraph [ref=e774]: S***8
+                  - paragraph [ref=e775]: 47838 ₾
+                - generic [ref=e776]:
+                  - paragraph [ref=e777]: 100 Extra Crown
+                  - paragraph [ref=e778]: 683.4x
+            - generic [ref=e780]:
+              - img "VIP 40 Burning Hot Bell Link" [ref=e782]
+              - generic [ref=e783]:
+                - generic [ref=e784]:
+                  - paragraph [ref=e785]: i***8
+                  - paragraph [ref=e786]: 41900 ₾
+                - generic [ref=e787]:
+                  - paragraph [ref=e788]: VIP 40 Burning Hot Bell Link
+                  - paragraph [ref=e789]: 83.8x
+            - generic [ref=e791]:
+              - img "VIP 20 Super Hot Bell Link" [ref=e793]
+              - generic [ref=e794]:
+                - generic [ref=e795]:
+                  - paragraph [ref=e796]: s***a
+                  - paragraph [ref=e797]: 41000 ₾
+                - generic [ref=e798]:
+                  - paragraph [ref=e799]: VIP 20 Super Hot Bell Link
+                  - paragraph [ref=e800]: 82x
+            - generic [ref=e802]:
+              - img "Book of Waka-Waka" [ref=e804]
+              - generic [ref=e805]:
+                - generic [ref=e806]:
+                  - paragraph [ref=e807]: M***1
+                  - paragraph [ref=e808]: 40432 ₾
+                - generic [ref=e809]:
+                  - paragraph [ref=e810]: Book of Waka-Waka
+                  - paragraph [ref=e811]: 5054x
+            - generic [ref=e813]:
+              - img "VIP 40 Burning Hot Bell Link" [ref=e815]
+              - generic [ref=e816]:
+                - generic [ref=e817]:
+                  - paragraph [ref=e818]: i***8
+                  - paragraph [ref=e819]: 39000 ₾
+                - generic [ref=e820]:
+                  - paragraph [ref=e821]: VIP 40 Burning Hot Bell Link
+                  - paragraph [ref=e822]: 156x
+            - generic [ref=e824]:
+              - img "Sweet Bonanza 1000 Dice" [ref=e826]
+              - generic [ref=e827]:
+                - generic [ref=e828]:
+                  - paragraph [ref=e829]: M***e
+                  - paragraph [ref=e830]: 36387.6 ₾
+                - generic [ref=e831]:
+                  - paragraph [ref=e832]: Sweet Bonanza 1000 Dice
+                  - paragraph [ref=e833]: 18.19x
+            - generic [ref=e835]:
+              - img "VIP 40 Burning Hot Bell Link" [ref=e837]
+              - generic [ref=e838]:
+                - generic [ref=e839]:
+                  - paragraph [ref=e840]: i***8
+                  - paragraph [ref=e841]: 34500 ₾
+                - generic [ref=e842]:
+                  - paragraph [ref=e843]: VIP 40 Burning Hot Bell Link
+                  - paragraph [ref=e844]: 69x
+            - generic [ref=e846]:
+              - img "VIP 20 Super Hot Bell Link" [ref=e848]
+              - generic [ref=e849]:
+                - generic [ref=e850]:
+                  - paragraph [ref=e851]: s***a
+                  - paragraph [ref=e852]: 33600 ₾
+                - generic [ref=e853]:
+                  - paragraph [ref=e854]: VIP 20 Super Hot Bell Link
+                  - paragraph [ref=e855]: 67.2x
+            - generic [ref=e857]:
+              - img "VIP 5 Dazzling Hot Bell Link" [ref=e859]
+              - generic [ref=e860]:
+                - generic [ref=e861]:
+                  - paragraph [ref=e862]: g***a
+                  - paragraph [ref=e863]: 32800 ₾
+                - generic [ref=e864]:
+                  - paragraph [ref=e865]: VIP 5 Dazzling Hot Bell Link
+                  - paragraph [ref=e866]: 218.67x
+            - generic [ref=e868]:
+              - 'img "Sunny Fruits 2: Hold and Win" [ref=e870]'
+              - generic [ref=e871]:
+                - generic [ref=e872]:
+                  - paragraph [ref=e873]: W***1
+                  - paragraph [ref=e874]: 31900 ₾
+                - generic [ref=e875]:
+                  - paragraph [ref=e876]: "Sunny Fruits 2: Hold and Win"
+                  - paragraph [ref=e877]: 319x
+            - generic [ref=e879]:
+              - img "20 Pirate Bombs" [ref=e881]
+              - generic [ref=e882]:
+                - generic [ref=e883]:
+                  - paragraph [ref=e884]: e***7
+                  - paragraph [ref=e885]: 30375 ₾
+                - generic [ref=e886]:
+                  - paragraph [ref=e887]: 20 Pirate Bombs
+                  - paragraph [ref=e888]: 101.25x
+            - generic [ref=e890]:
+              - img "VIP 40 Burning Hot Bell Link" [ref=e892]
+              - generic [ref=e893]:
+                - generic [ref=e894]:
+                  - paragraph [ref=e895]: i***8
+                  - paragraph [ref=e896]: 28000 ₾
+                - generic [ref=e897]:
+                  - paragraph [ref=e898]: VIP 40 Burning Hot Bell Link
+                  - paragraph [ref=e899]: 56x
+            - generic [ref=e901]:
+              - img "VIP 40 Burning Hot Bell Link" [ref=e903]
+              - generic [ref=e904]:
+                - generic [ref=e905]:
+                  - paragraph [ref=e906]: i***8
+                  - paragraph [ref=e907]: 23000 ₾
+                - generic [ref=e908]:
+                  - paragraph [ref=e909]: VIP 40 Burning Hot Bell Link
+                  - paragraph [ref=e910]: 46x
+            - generic [ref=e912]:
+              - img "Shining Crown" [ref=e914]
+              - generic [ref=e915]:
+                - generic [ref=e916]:
+                  - paragraph [ref=e917]: z***z
+                  - paragraph [ref=e918]: 22800 ₾
+                - generic [ref=e919]:
+                  - paragraph [ref=e920]: Shining Crown
+                  - paragraph [ref=e921]: 114x
+            - generic [ref=e923]:
+              - img "VIP 40 Zodiac Wheel Bell Link" [ref=e925]
+              - generic [ref=e926]:
+                - generic [ref=e927]:
+                  - paragraph [ref=e928]: L***9
+                  - paragraph [ref=e929]: 22800 ₾
+                - generic [ref=e930]:
+                  - paragraph [ref=e931]: VIP 40 Zodiac Wheel Bell Link
+                  - paragraph [ref=e932]: 456x
+            - generic [ref=e934]:
+              - img "VIP 5 Dazzling Hot Bell Link" [ref=e936]
+              - generic [ref=e937]:
+                - generic [ref=e938]:
+                  - paragraph [ref=e939]: g***a
+                  - paragraph [ref=e940]: 22650 ₾
+                - generic [ref=e941]:
+                  - paragraph [ref=e942]: VIP 5 Dazzling Hot Bell Link
+                  - paragraph [ref=e943]: 151x
+        - generic [ref=e947]:
+          - generic [ref=e948]:
+            - generic [ref=e951]: TOP თამაშები
+            - generic [ref=e952] [cursor=pointer]: ყველა (27)
+          - generic [ref=e955]:
+            - generic [ref=e956]:
+              - img "Burning Hot" [ref=e963]
+              - img "5 Dazzling Hot" [ref=e970]
+              - img "VIP Zodiac Wheel Bell Link" [ref=e977]
+              - img "Gates of Olympus 1000" [ref=e984]
+              - img "VIP 5 Dazzling Hot Bell Link" [ref=e991]
+              - img "Sweet Bonanza" [ref=e998]
+              - img "Sweet Bonanza Super Scatter" [ref=e1005]
+              - img "100 Burning Hot" [ref=e1012]
+              - img "Art of Gold Golden Coins Link VIP" [ref=e1019]
+              - img "100 Bulky Fruits Golden Coins Link" [ref=e1026]
+              - generic [ref=e1029]:
+                - generic [ref=e1030]: "+17"
+                - text: ნახე მეტი
+            - generic: next
+            - text: prev
+        - generic [ref=e1034]:
+          - generic [ref=e1035]:
+            - generic [ref=e1038]: TOP მატჩები
+            - generic [ref=e1039] [cursor=pointer]: ყველა (5)
+          - generic [ref=e1042]:
+            - generic [ref=e1043]:
+              - generic [ref=e1046] [cursor=pointer]:
+                - generic [ref=e1047]:
+                  - generic [ref=e1048]:
+                    - img "ა. საბალენკა" [ref=e1049]
+                    - generic [ref=e1050]: ა. საბალენკა
+                  - generic [ref=e1051]:
+                    - generic [ref=e1052]:
+                      - generic [ref=e1053]: დღეს
+                      - text: 14:10
+                    - generic [ref=e1054]: Roland Garros
+                    - generic [ref=e1055]: "+223"
+                  - generic [ref=e1056]:
+                    - img "დ. შნეიდერი" [ref=e1057]
+                    - generic [ref=e1058]: დ. შნეიდერი
+                - generic [ref=e1059]:
+                  - generic [ref=e1062]:
+                    - generic [ref=e1063]: "1"
+                    - generic [ref=e1064]: "1.09"
+                  - generic [ref=e1067]:
+                    - generic [ref=e1068]: "2"
+                    - generic [ref=e1069]: "5.60"
+              - generic [ref=e1072] [cursor=pointer]:
+                - generic [ref=e1073]:
+                  - generic [ref=e1074]:
+                    - img "ფ.ო. ალიასიმი" [ref=e1075]
+                    - generic [ref=e1076]: ფ.ო. ალიასიმი
+                  - generic [ref=e1077]:
+                    - generic [ref=e1078]:
+                      - generic [ref=e1079]: დღეს
+                      - text: 15:20
+                    - generic [ref=e1080]: Roland Garros
+                    - generic [ref=e1081]: "+255"
+                  - generic [ref=e1082]:
+                    - img "ფ. კობოლი" [ref=e1083]
+                    - generic [ref=e1084]: ფ. კობოლი
+                - generic [ref=e1085]:
+                  - generic [ref=e1088]:
+                    - generic [ref=e1089]: "1"
+                    - generic [ref=e1090]: "1.80"
+                  - generic [ref=e1093]:
+                    - generic [ref=e1094]: "2"
+                    - generic [ref=e1095]: "1.80"
+              - generic [ref=e1098] [cursor=pointer]:
+                - generic [ref=e1099]:
+                  - generic [ref=e1100]:
+                    - img "მ. ბერეტინი" [ref=e1101]
+                    - generic [ref=e1102]: მ. ბერეტინი
+                  - generic [ref=e1103]:
+                    - generic [ref=e1104]:
+                      - generic [ref=e1105]: დღეს
+                      - text: 22:15
+                    - generic [ref=e1106]: Roland Garros
+                    - generic [ref=e1107]: "+255"
+                  - generic [ref=e1108]:
+                    - img "მ. არნალდი" [ref=e1109]
+                    - generic [ref=e1110]: მ. არნალდი
+                - generic [ref=e1111]:
+                  - generic [ref=e1114]:
+                    - generic [ref=e1115]: "1"
+                    - generic [ref=e1116]: "1.45"
+                  - generic [ref=e1119]:
+                    - generic [ref=e1120]: "2"
+                    - generic [ref=e1121]: "2.40"
+              - generic [ref=e1124] [cursor=pointer]:
+                - generic [ref=e1125]:
+                  - generic [ref=e1126]:
+                    - img "ნიდერლანდები" [ref=e1127]
+                    - generic [ref=e1128]: ნიდერლანდები
+                  - generic [ref=e1129]:
+                    - generic [ref=e1130]:
+                      - generic [ref=e1131]: დღეს
+                      - text: 22:45
+                    - generic [ref=e1132]: ამხანაგური
+                    - generic [ref=e1133]: "+3625"
+                  - generic [ref=e1134]:
+                    - img "ალჟირი" [ref=e1135]
+                    - generic [ref=e1136]: ალჟირი
+                - generic [ref=e1137]:
+                  - generic [ref=e1140]:
+                    - generic [ref=e1141]: "1"
+                    - generic [ref=e1142]: "1.30"
+                  - generic [ref=e1145]:
+                    - generic [ref=e1146]: X
+                    - generic [ref=e1147]: "4.40"
+                  - generic [ref=e1150]:
+                    - generic [ref=e1151]: "2"
+                    - generic [ref=e1152]: "7.40"
+              - generic [ref=e1155] [cursor=pointer]:
+                - generic [ref=e1156]:
+                  - generic [ref=e1157]:
+                    - img "ლუქსემბურგი" [ref=e1158]
+                    - generic [ref=e1159]: ლუქსემბურგი
+                  - generic [ref=e1160]:
+                    - generic [ref=e1161]:
+                      - generic [ref=e1162]: დღეს
+                      - text: 22:45
+                    - generic [ref=e1163]: ამხანაგური
+                    - generic [ref=e1164]: "+3052"
+                  - generic [ref=e1165]:
+                    - img "იტალია" [ref=e1166]
+                    - generic [ref=e1167]: იტალია
+                - generic [ref=e1168]:
+                  - generic [ref=e1171]:
+                    - generic [ref=e1172]: "1"
+                    - generic [ref=e1173]: "6.20"
+                  - generic [ref=e1176]:
+                    - generic [ref=e1177]: X
+                    - generic [ref=e1178]: "3.95"
+                  - generic [ref=e1181]:
+                    - generic [ref=e1182]: "2"
+                    - generic [ref=e1183]: "1.40"
+            - generic: next
+            - text: prev
+        - generic [ref=e1187]:
+          - generic [ref=e1188]:
+            - generic [ref=e1191]: კაზინო
+            - generic [ref=e1192] [cursor=pointer]: ყველა (12)
+          - generic [ref=e1195]:
+            - generic [ref=e1196]:
+              - generic [ref=e1202]:
+                - img "Croco Evolution Live Roullete" [ref=e1203]
+                - generic [ref=e1205] [cursor=pointer]:
+                  - generic [ref=e1206]: 0.5 ₾ - 10000 ₾
+                  - generic [ref=e1207]: Croco Evolution Live Roullete
+                - generic [ref=e1211]:
+                  - generic [ref=e1213]: "35"
+                  - generic [ref=e1214]:
+                    - generic [ref=e1215]: "20"
+                    - generic [ref=e1216]: "6"
+                    - generic [ref=e1217]: "1"
+                    - generic [ref=e1218]: "11"
+                    - generic [ref=e1219]: "21"
+              - generic [ref=e1225]:
+                - img "Immersive Roulette" [ref=e1226]
+                - generic [ref=e1228] [cursor=pointer]:
+                  - generic [ref=e1229]: 1 ₾ - 10000 ₾
+                  - generic [ref=e1230]: Immersive Roulette
+                - generic [ref=e1234]:
+                  - generic [ref=e1236]: "1"
+                  - generic [ref=e1237]:
+                    - generic [ref=e1238]: "8"
+                    - generic [ref=e1239]: "2"
+                    - generic [ref=e1240]: "34"
+                    - generic [ref=e1241]: "0"
+                    - generic [ref=e1242]: "17"
+              - generic [ref=e1248]:
+                - img "Lightning Roulette" [ref=e1249]
+                - generic [ref=e1251] [cursor=pointer]:
+                  - generic [ref=e1252]: 0.4 ₾ - 10000 ₾
+                  - generic [ref=e1253]: Lightning Roulette
+                - generic [ref=e1257]:
+                  - generic [ref=e1259]: "36"
+                  - generic [ref=e1260]:
+                    - generic [ref=e1261]: "12"
+                    - generic [ref=e1262]: "0"
+                    - generic [ref=e1263]: "20"
+                    - generic [ref=e1264]: "36"
+                    - generic [ref=e1265]: "12"
+              - generic [ref=e1271]:
+                - img "Croco Live Auto Roulette" [ref=e1272]
+                - generic [ref=e1274] [cursor=pointer]:
+                  - generic [ref=e1275]: 0.25 ₾ - 250 ₾
+                  - generic [ref=e1276]: Croco Live Auto Roulette
+              - generic [ref=e1282]:
+                - img "Crazy Time" [ref=e1283]
+                - generic [ref=e1285] [cursor=pointer]:
+                  - generic [ref=e1286]: 0.2 ₾ - 20000 ₾
+                  - generic [ref=e1287]: Crazy Time
+              - generic [ref=e1293]:
+                - img "Ice fishing" [ref=e1294]
+                - generic [ref=e1296] [cursor=pointer]:
+                  - generic [ref=e1297]: 0.2 ₾ - 10000 ₾
+                  - generic [ref=e1298]: Ice fishing
+              - generic [ref=e1304]:
+                - img "Funky Time" [ref=e1305]
+                - generic [ref=e1307] [cursor=pointer]:
+                  - generic [ref=e1308]: 0.2 ₾ - 10000 ₾
+                  - generic [ref=e1309]: Funky Time
+              - generic [ref=e1315]:
+                - img "Auto-Roulette" [ref=e1316]
+                - generic [ref=e1318] [cursor=pointer]:
+                  - generic [ref=e1319]: 0.2 ₾ - 10000 ₾
+                  - generic [ref=e1320]: Auto-Roulette
+                - generic [ref=e1324]:
+                  - generic [ref=e1326]: "5"
+                  - generic [ref=e1327]:
+                    - generic [ref=e1328]: "25"
+                    - generic [ref=e1329]: "17"
+                    - generic [ref=e1330]: "23"
+                    - generic [ref=e1331]: "13"
+                    - generic [ref=e1332]: "12"
+              - generic [ref=e1338]:
+                - img "XXXtreme Roulette" [ref=e1339]
+                - generic [ref=e1341] [cursor=pointer]:
+                  - generic [ref=e1342]: 0.4 ₾ - 10000 ₾
+                  - generic [ref=e1343]: XXXtreme Roulette
+                - generic [ref=e1347]:
+                  - generic [ref=e1349]: "12"
+                  - generic [ref=e1350]:
+                    - generic [ref=e1351]: "31"
+                    - generic [ref=e1352]: "9"
+                    - generic [ref=e1353]: "35"
+                    - generic [ref=e1354]: "24"
+                    - generic [ref=e1355]: "11"
+              - generic [ref=e1361]:
+                - img "Lightning Storm" [ref=e1362]
+                - generic [ref=e1364] [cursor=pointer]:
+                  - generic [ref=e1365]: 1 ₾ - 5000 ₾
+                  - generic [ref=e1366]: Lightning Storm
+              - generic [ref=e1369]:
+                - generic [ref=e1370]: "+2"
+                - text: ნახე მეტი
+            - generic: next
+            - text: prev
+        - generic [ref=e1374]:
+          - generic [ref=e1375]:
+            - generic [ref=e1378]: თამაშები
+            - generic [ref=e1379] [cursor=pointer]: ყველა (15)
+          - generic [ref=e1382]:
+            - generic [ref=e1383]:
+              - generic [ref=e1389]:
+                - generic [ref=e1391]: ახალი
+                - img "UFO" [ref=e1392]
+              - img "Suit Runner" [ref=e1399]
+              - img "Aviator" [ref=e1406]
+              - img "JetX" [ref=e1413]
+              - img "Aviamasters" [ref=e1420]
+              - generic [ref=e1426]:
+                - generic [ref=e1428]: ახალი
+                - img "KING'S MOVE" [ref=e1429]
+              - generic [ref=e1435]:
+                - generic [ref=e1437]: ახალი
+                - img "Cheesy Road" [ref=e1438]
+              - img "UFOX" [ref=e1445]
+              - img "Spaceman" [ref=e1452]
+              - img "HelicopterX" [ref=e1459]
+              - generic [ref=e1462]:
+                - generic [ref=e1463]: "+5"
+                - text: ნახე მეტი
+            - generic: next
+            - text: prev
+      - generic [ref=e1465]:
+        - generic [ref=e1466]:
+          - generic [ref=e1467]:
+            - img "games" [ref=e1468]
+            - generic [ref=e1469]: P2P
+          - generic [ref=e1470]:
+            - generic [ref=e1471] [cursor=pointer]:
+              - generic: დომინო
+              - img [ref=e1476]
+            - generic [ref=e1484] [cursor=pointer]:
+              - generic: ბურა
+              - img [ref=e1489]
+            - generic [ref=e1497] [cursor=pointer]:
+              - generic: ნარდი
+              - img [ref=e1502]
+        - generic [ref=e1510]:
+          - generic [ref=e1511]:
+            - img "spin games" [ref=e1512]
+            - generic [ref=e1513]: POKER
+          - generic [ref=e1514]:
+            - generic [ref=e1515] [cursor=pointer]:
+              - generic: პოკერი
+              - img [ref=e1519]
+            - generic [ref=e1529] [cursor=pointer]:
+              - generic: SPIN&GO
+              - img [ref=e1533]
+    - generic [ref=e1557]:
+      - generic [ref=e1559]:
+        - generic [ref=e1560]:
+          - img "bog" [ref=e1561]
+          - img "tbc" [ref=e1562]
+          - img "liberty" [ref=e1563]
+          - img "visa" [ref=e1564]
+        - generic [ref=e1565]:
+          - img "ka" [ref=e1567] [cursor=pointer]
+          - img "en" [ref=e1569] [cursor=pointer]
+          - img "ru" [ref=e1571] [cursor=pointer]
+          - img "tr" [ref=e1573] [cursor=pointer]
+      - generic [ref=e1574]:
+        - generic [ref=e1575]:
+          - generic [ref=e1576]:
+            - heading "ჩვენ შესახებ" [level=3] [ref=e1577]
+            - generic [ref=e1578] [cursor=pointer]: ზოგადი წესები
+            - generic [ref=e1579] [cursor=pointer]: სპორტის წესები
+            - generic [ref=e1580] [cursor=pointer]: სამორინის რეგლამენტი
+            - generic [ref=e1581] [cursor=pointer]: შეზღუდული ქვეყნები
+            - generic [ref=e1582] [cursor=pointer]: 25+
+            - generic [ref=e1583] [cursor=pointer]: შეთავაზებები
+          - generic [ref=e1584]:
+            - heading "გამოგვყევით" [level=3] [ref=e1585]
+            - link "Facebook" [ref=e1586] [cursor=pointer]:
+              - /url: https://www.facebook.com/crocobet
+              - generic [ref=e1587]: Facebook
+            - link "Instagram" [ref=e1588] [cursor=pointer]:
+              - /url: https://www.instagram.com/crocobet_com/
+              - generic [ref=e1589]: Instagram
+            - link "Youtube" [ref=e1590] [cursor=pointer]:
+              - /url: https://www.youtube.com/@crocobet-7649
+              - generic [ref=e1591]: Youtube
+          - generic [ref=e1592]:
+            - heading "საკონტაქტო ინფორმაცია" [level=3] [ref=e1593]
+            - generic [ref=e1595]: "*0707"
+            - generic [ref=e1597]: (032) 2597777
+            - generic [ref=e1599]: support@crocobet.com
+            - generic [ref=e1600] [cursor=pointer]: სალაროები
+        - generic [ref=e1601]:
+          - generic [ref=e1602]:
+            - generic: Live Chat
+          - link "messenger messenger" [ref=e1603] [cursor=pointer]:
+            - /url: "#"
+            - generic: messenger
+            - img "messenger" [ref=e1604]
+          - link "viber viber" [ref=e1605] [cursor=pointer]:
+            - /url: "#"
+            - generic: viber
+            - img "viber" [ref=e1606]
+          - link "telegram telegram" [ref=e1607] [cursor=pointer]:
+            - /url: "#"
+            - generic: telegram
+            - img "telegram" [ref=e1608]
+      - generic [ref=e1609]:
+        - generic [ref=e1610]:
+          - generic [ref=e1611]: ნებართვა N19-04/90 / ნებართვა N19-05/384 / ნებართვა N19-10/001 / ნებართვა N19-11/001 / ნებართვა N19-12/001
+          - generic [ref=e1612]: © 2016-2026 crocobet.com. V.4.2.2 ყველა უფლება დაცულია
+        - img "25+" [ref=e1614]
+  - generic [ref=e1618]:
+    - generic [ref=e1620]: ჩვენ ვიყენებთ Cookie ფაილებს, რათა გაგიმარტივოთ ნავიგაცია და მოვარგოთ ვებგვერდი თქვენს საჭიროებებს. დახურვის ღილაკზე დაჭერით თქვენ ეთანხმებით ჩვენს უსაფრთხოების პოლიტიკას
+    - button "ვეთანხმები" [ref=e1622] [cursor=pointer]
+    - img "close" [ref=e1624] [cursor=pointer]

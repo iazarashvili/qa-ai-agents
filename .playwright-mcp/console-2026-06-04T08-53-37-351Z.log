@@ -1,0 +1,6 @@
+[     358ms] [WARNING] The `useDefaultLang` and `defaultLanguage` options are deprecated. Please use `fallbackLang` instead. @ https://account.crocobet.com/chunk-HEFQ7R36.js:4
+[     654ms] [LOG] started @ https://account.crocobet.com/main-PBDD2NU4.js:0
+[     770ms] [LOG] from Navigation End null null null false @ https://account.crocobet.com/chunk-I7G7IKOC.js:0
+[     772ms] [LOG] verificationChatWrapper2 undefined @ https://account.crocobet.com/chunk-I7G7IKOC.js:0
+[     772ms] [LOG] supportChatWrapper2 undefined @ https://account.crocobet.com/chunk-I7G7IKOC.js:0
+[   43315ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://10.80.150.10/UserCheck/PortalMain?IID=77C61D78-0382-C6F6-4D9D-A0FAE16DB3AF&origUrl=aHR0cHM6Ly9tYy55YW5kZXgucnUvbWV0cmlrYS90YWcuanM:0

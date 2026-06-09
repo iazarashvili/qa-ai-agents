@@ -1,0 +1,48 @@
+[    8732ms] [LOG] Google Analytics Facade @ https://pre-prod.crocobet.com/libs_shared_src_index_ts-_b1010.a99a9743e386da26.js:0
+[    8835ms] [ERROR] Access to script at 'https://pre-prod-mfe.crocobet.com/landing/663.e48000b390ac283e.js' from origin 'https://pre-prod.crocobet.com' has been blocked by CORS policy: Permission was denied for this request to access the `local` address space. @ https://pre-prod.crocobet.com/:0
+[    8835ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://pre-prod-mfe.crocobet.com/landing/663.e48000b390ac283e.js:0
+[    8841ms] [ERROR] ERROR ChunkLoadError: Loading chunk 663 failed.
+(error: https://pre-prod-mfe.crocobet.com/landing/663.e48000b390ac283e.js)
+    at __webpack_require__.f.j (https://pre-prod-mfe.crocobet.com/landing/remoteEntry.mjs:5803:28)
+    at https://pre-prod-mfe.crocobet.com/landing/remoteEntry.mjs:5140:39
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (https://pre-prod-mfe.crocobet.com/landing/remoteEntry.mjs:5139:66)
+    at ./LandingWebRoutes (https://pre-prod-mfe.crocobet.com/landing/remoteEntry.mjs:937:365)
+    at Module.get (https://pre-prod-mfe.crocobet.com/landing/remoteEntry.mjs:944:23)
+    at https://pre-prod.crocobet.com/vendor.b2bd72372e06e164.js:1:12140
+    at Generator.next (<anonymous>)
+    at g (https://pre-prod.crocobet.com/vendor.b2bd72372e06e164.js:1:123)
+    at T (https://pre-prod.crocobet.com/vendor.b2bd72372e06e164.js:1:325) @ https://pre-prod.crocobet.com/node_modules_angular_core_fesm2022_core_mjs.85a577d6dda2aeb9.js:0
+[    9648ms] [LOG] FastTrack CRM application loaded @ https://crm-lib.fasttrack-solutions.com/loader/fasttrack-crm.js?v=1780487223199:175
+[   10583ms] [LOG] Fasttrack CRM: loginWithAuthToken, sid: [o6yRUQ127X3EDukuq2r3bcyroS25EHxt9Hz6xVh/oe8=], source: [undefined] @ https://crm-lib.fasttrack-solutions.com/lib/js/fasttrack-crm-app.js?v=ce9c069:0
+[   10583ms] [WARNING] Fasttrack CRM: loginWithAuthToken, source is not set @ https://crm-lib.fasttrack-solutions.com/lib/js/fasttrack-crm-app.js?v=ce9c069:0
+[   10818ms] [LOG] Fasttrack CRM: Successfully authenticated! @ https://crm-lib.fasttrack-solutions.com/lib/js/fasttrack-crm-app.js?v=ce9c069:0
+[   10818ms] [INFO] Rewards initialized @ https://crm-lib.fasttrack-solutions.com/wc/rewards-main.umd.cjs?v=494579:677
+[   11926ms] [LOG] Fasttrack CRM: Connected to ws channel: private-prisma-176-1418227 @ https://crm-lib.fasttrack-solutions.com/lib/js/fasttrack-crm-app.js?v=ce9c069:0
+[   12263ms] [LOG] Fasttrack CRM: Successfully subscribed to ws channel: private-prisma-176-1418227 @ https://crm-lib.fasttrack-solutions.com/lib/js/fasttrack-crm-app.js?v=ce9c069:0
+[   46298ms] [LOG] Google Analytics Facade @ https://pre-prod.crocobet.com/libs_shared_src_index_ts-_b1010.a99a9743e386da26.js:0
+[   46478ms] [LOG] Filtered Panels: [] @ https://pre-prod-mfe.crocobet.com/landing/479.d102ebe3992e0e2a.js:0
+[   46678ms] [LOG] Cache has been cleared. @ https://widget.crocobet.com//main.js:0
+[   46768ms] [TIMEEND] generateLandingData: 0.930908203125 ms @ https://pre-prod.crocobet.com/node_modules_croco_store_fesm2022_croco-store_mjs-_5c6a0.74c706c340e97f41.js:0
+[   46772ms] [LOG] Filtered Panels: [Object, Object, Object, Object, Object, Object] @ https://pre-prod-mfe.crocobet.com/landing/479.d102ebe3992e0e2a.js:0
+[   47299ms] [LOG] FastTrack CRM application loaded @ https://crm-lib.fasttrack-solutions.com/loader/fasttrack-crm.js?v=1780487260742:175
+[   47988ms] [LOG] Fasttrack CRM: loginWithAuthToken, sid: [o6yRUQ127X3EDukuq2r3bcyroS25EHxt9Hz6xVh/oe8=], source: [undefined] @ https://crm-lib.fasttrack-solutions.com/lib/js/fasttrack-crm-app.js?v=ce9c069:0
+[   47988ms] [WARNING] Fasttrack CRM: loginWithAuthToken, source is not set @ https://crm-lib.fasttrack-solutions.com/lib/js/fasttrack-crm-app.js?v=ce9c069:0
+[   48210ms] [LOG] Fasttrack CRM: Successfully authenticated! @ https://crm-lib.fasttrack-solutions.com/lib/js/fasttrack-crm-app.js?v=ce9c069:0
+[   48210ms] [INFO] Rewards initialized @ https://crm-lib.fasttrack-solutions.com/wc/rewards-main.umd.cjs?v=494579:677
+[   49088ms] [LOG] Fasttrack CRM: Connected to ws channel: private-prisma-176-1418227 @ https://crm-lib.fasttrack-solutions.com/lib/js/fasttrack-crm-app.js?v=ce9c069:0
+[   49423ms] [LOG] Fasttrack CRM: Successfully subscribed to ws channel: private-prisma-176-1418227 @ https://crm-lib.fasttrack-solutions.com/lib/js/fasttrack-crm-app.js?v=ce9c069:0
+[   50624ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://10.80.150.10/UserCheck/PortalMain?IID=5E1B9FB3-9D2A-CF4A-8D93-50F3A216A897&origUrl=aHR0cHM6Ly9tYy55YW5kZXgucnUvbWV0cmlrYS90YWcuanM:0
+[   75343ms] [LOG] HOST RECEIVED CUSTOM EVENT CustomEvent @ https://pre-prod.crocobet.com/apps_web_src_bootstrap_ts.db0f33d95c34ea42.js:0
+[   75387ms] Uncaught TypeError: Cannot read properties of undefined (reading 'unshift')
+    at <anonymous> (https://www.clarity.ms/tag/rybus3kf5q?ref=gtm:0:325)
+    at <anonymous> (https://www.clarity.ms/tag/rybus3kf5q?ref=gtm:0:370)
+[   75590ms] [WARNING] Error CL001: Multiple Clarity tags detected. @ https://scripts.clarity.ms/0.8.64/clarity.js:1
+[   75890ms] [WARNING] Failed to decode downloaded font: https://pre-prod.crocobet.com/assets/sport/fonts/CrocoSansBlackCaps.woff2?v=4 @ https://pre-prod.crocobet.com/sport/pre-match?lang=ka:0
+[   75890ms] [WARNING] OTS parsing error: invalid sfntVersion: 1008813135 @ https://pre-prod.crocobet.com/sport/pre-match?lang=ka:0
+[   75890ms] [WARNING] Failed to decode downloaded font: https://pre-prod.crocobet.com/assets/sport/fonts/CrocoSansBlackCaps.woff2?v=4 @ https://pre-prod.crocobet.com/sport/pre-match?lang=ka:0
+[   75890ms] [WARNING] OTS parsing error: invalid sfntVersion: 1008813135 @ https://pre-prod.crocobet.com/sport/pre-match?lang=ka:0
+[   76321ms] [WARNING] Failed to decode downloaded font: https://pre-prod.crocobet.com/assets/sport/fonts/CrocoSansBlackCaps.woff2?v=4 @ https://pre-prod.crocobet.com/sport/pre-match?lang=ka:0
+[   76321ms] [WARNING] OTS parsing error: invalid sfntVersion: 1008813135 @ https://pre-prod.crocobet.com/sport/pre-match?lang=ka:0
+[   76411ms] [WARNING] Zone Js detected. @ https://betbooster-widget.lvision.io/v3/prod/bundle-es5.js:0
+[   76681ms] [WARNING] Widget Zone Js has been loaded. @ https://betbooster-widget.lvision.io/v3/prod/bundle-es5.js:0

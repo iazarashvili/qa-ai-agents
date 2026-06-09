@@ -1,0 +1,1206 @@
+- main [ref=e4]:
+  - generic [ref=e7]:
+    - img "Logo" [ref=e9] [cursor=pointer]
+    - generic [ref=e12]:
+      - img "sport.svg" [ref=e17] [cursor=pointer]
+      - generic [ref=e21] [cursor=pointer]:
+        - img "live.svg" [ref=e22]
+        - generic [ref=e23]: LIVE
+      - generic [ref=e26] [cursor=pointer]:
+        - img "slots.svg" [ref=e27]
+        - generic [ref=e28]: სლოტები
+      - generic [ref=e31] [cursor=pointer]:
+        - img "casino.svg" [ref=e32]
+        - generic [ref=e33]: კაზინო
+      - generic [ref=e36] [cursor=pointer]:
+        - img "fastgame.svg" [ref=e37]
+        - generic [ref=e38]: თამაშები
+      - generic [ref=e39] [cursor=pointer]:
+        - generic [ref=e40]: ახალი
+        - generic [ref=e42]:
+          - img "games.svg" [ref=e43]
+          - generic [ref=e44]: P2P
+      - generic [ref=e47] [cursor=pointer]:
+        - img "poker.svg" [ref=e48]
+        - generic [ref=e49]: პოკერი
+      - generic [ref=e52] [cursor=pointer]:
+        - img "virtual.svg" [ref=e53]
+        - generic [ref=e54]: VIRTUAL
+      - generic [ref=e57] [cursor=pointer]:
+        - img "promos.svg" [ref=e58]
+        - generic [ref=e59]: აქციები
+      - generic [ref=e60] [cursor=pointer]:
+        - generic [ref=e61]: ახალი
+        - generic [ref=e63]:
+          - img "live-stream.svg" [ref=e64]
+          - generic [ref=e65]: STREAMS
+  - generic [ref=e67]:
+    - generic [ref=e69]:
+      - generic [ref=e74]:
+        - text: prev
+        - generic [ref=e75] [cursor=pointer]: next
+        - generic [ref=e76]:
+          - img "*" [ref=e80] [cursor=pointer]
+          - img "*" [ref=e84] [cursor=pointer]
+          - img "*" [ref=e88] [cursor=pointer]
+          - img "*" [ref=e92] [cursor=pointer]
+          - img "*" [ref=e96] [cursor=pointer]
+      - generic [ref=e98]:
+        - button "რეგისტრაცია" [ref=e100] [cursor=pointer]
+        - generic [ref=e104]:
+          - img [ref=e106]
+          - generic [ref=e110]:
+            - generic:
+              - generic: მომხმარებელი
+            - textbox "მომხმარებელი" [ref=e111]
+        - generic [ref=e112]:
+          - generic [ref=e115]:
+            - img [ref=e117]
+            - generic [ref=e122]:
+              - generic:
+                - generic: პაროლი
+              - textbox "პაროლი" [ref=e123]
+          - img "show-password" [ref=e124] [cursor=pointer]
+        - button "შესვლა" [ref=e127] [cursor=pointer]
+    - generic [ref=e1638]:
+      - generic [ref=e1644]:
+        - generic [ref=e1648]:
+          - generic [ref=e1650]:
+            - generic [ref=e1651]:
+              - generic [ref=e1654] [cursor=pointer]:
+                - generic [ref=e1657]:
+                  - generic [ref=e1658]:
+                    - generic [ref=e1659]: "08"
+                    - generic [ref=e1660]: დღე
+                  - generic [ref=e1661]: ":"
+                  - generic [ref=e1662]:
+                    - generic [ref=e1663]: "09"
+                    - generic [ref=e1664]: საათი
+                  - generic [ref=e1665]: ":"
+                  - generic [ref=e1666]:
+                    - generic [ref=e1667]: "38"
+                    - generic [ref=e1668]: წუთი
+                  - generic [ref=e1669]: ":"
+                  - generic [ref=e1670]:
+                    - generic [ref=e1671]: "21"
+                    - generic [ref=e1672]: წამი
+                - img "undefined" [ref=e1673]
+              - img "undefined" [ref=e1677] [cursor=pointer]
+              - img "undefined" [ref=e1681] [cursor=pointer]
+              - img "undefined" [ref=e1685] [cursor=pointer]
+              - img "undefined" [ref=e1689] [cursor=pointer]
+              - img "undefined" [ref=e1693] [cursor=pointer]
+            - generic: next
+            - generic: prev
+          - paragraph [ref=e1708]: 6 / 6
+        - generic [ref=e1716]:
+          - generic [ref=e1717]:
+            - generic [ref=e1720]:
+              - img [ref=e1722]
+              - textbox "ძიება" [ref=e1724] [cursor=pointer]
+            - generic [ref=e1727]:
+              - generic [ref=e1729] [cursor=pointer]:
+                - img "*" [ref=e1730]
+                - text: 3 საათი
+                - img "*" [ref=e9601]
+              - generic [ref=e1732]:
+                - generic [ref=e1733] [cursor=pointer]: დღეს
+                - generic [ref=e1734] [cursor=pointer]: ხვალ
+          - generic [ref=e1735]:
+            - generic [ref=e1738]:
+              - generic [ref=e1739] [cursor=pointer]:
+                - img [ref=e1740]
+                - generic [ref=e1744]: FANTASY
+              - generic [ref=e1745] [cursor=pointer]:
+                - img [ref=e1746]
+                - generic [ref=e1751]: VIRTUAL
+              - generic [ref=e1752] [cursor=pointer]:
+                - img "*" [ref=e1753]
+                - generic [ref=e1754]: ბეთზონა
+              - generic [ref=e1756] [cursor=pointer]: გამარჯვ.
+              - generic [ref=e1758] [cursor=pointer]: უფასო სპ.
+            - img "*" [ref=e1760] [cursor=pointer]
+        - generic [ref=e9603]:
+          - generic [ref=e9604] [cursor=pointer]:
+            - img "*" [ref=e9605]
+            - generic [ref=e9606]: ფეხბურთი
+          - generic [ref=e9607] [cursor=pointer]:
+            - img "*" [ref=e9608]
+            - generic [ref=e9609]: ჩოგბურთი
+          - generic [ref=e9610] [cursor=pointer]:
+            - img "*" [ref=e9611]
+            - generic [ref=e9612]: კალათბურთი
+          - generic [ref=e9613] [cursor=pointer]:
+            - img "*" [ref=e9614]
+            - generic [ref=e9615]: ფრენბურთი
+          - generic [ref=e9616] [cursor=pointer]:
+            - img "*" [ref=e9617]
+            - generic [ref=e9618]: მაგიდის ჩოგბურთი
+          - generic [ref=e9619] [cursor=pointer]:
+            - img "*" [ref=e9620]
+            - generic [ref=e9621]: ბადმინტონი
+          - generic [ref=e9622] [cursor=pointer]:
+            - img "*" [ref=e9623]
+            - generic [ref=e9624]: ბეისბოლი
+          - generic [ref=e9625] [cursor=pointer]:
+            - img "*" [ref=e9626]
+            - generic [ref=e9627]: ჭადრაკი
+          - generic [ref=e9628] [cursor=pointer]:
+            - img "*" [ref=e9629]
+            - generic [ref=e9630]: კრიკეტი
+          - generic [ref=e9631] [cursor=pointer]:
+            - img "*" [ref=e9632]
+            - generic [ref=e9633]: ველოსპორტი
+          - generic [ref=e9634] [cursor=pointer]:
+            - img "*" [ref=e9635]
+            - generic [ref=e9636]: დარტსი
+          - generic [ref=e9637] [cursor=pointer]:
+            - img "*" [ref=e9638]
+            - generic [ref=e9639]: სკვოში
+          - generic [ref=e9640] [cursor=pointer]:
+            - img "*" [ref=e9641]
+            - generic [ref=e9642]: ES Counter-Strike
+          - generic [ref=e9643] [cursor=pointer]:
+            - img "*" [ref=e9644]
+            - generic [ref=e9645]: ES League of Legends
+          - generic [ref=e9646] [cursor=pointer]:
+            - img "*" [ref=e9647]
+            - generic [ref=e9648]: E-Soccer
+          - generic [ref=e9649] [cursor=pointer]:
+            - img "*" [ref=e9650]
+            - generic [ref=e9651]: E-Basketball
+          - generic [ref=e9652] [cursor=pointer]:
+            - generic [ref=e9653]: "1"
+            - img "*" [ref=e9654]
+            - generic [ref=e9655]: E-Icehockey
+        - generic [ref=e1878]:
+          - generic [ref=e1891]:
+            - button "* ფეხბურთი *" [ref=e9656] [cursor=pointer]:
+              - img "*" [ref=e1896]
+              - generic [ref=e1897]: ფეხბურთი
+              - img "*" [ref=e9657]
+            - button "* ჩოგბურთი *" [ref=e9658] [cursor=pointer]:
+              - img "*" [ref=e1899]
+              - generic [ref=e1900]: ჩოგბურთი
+              - img "*" [ref=e9659]
+            - button "* კალათბურთი *" [ref=e9660] [cursor=pointer]:
+              - img "*" [ref=e1902]
+              - generic [ref=e1903]: კალათბურთი
+              - img "*" [ref=e9661]
+            - button "* ფრენბურთი *" [ref=e9662] [cursor=pointer]:
+              - img "*" [ref=e9663]
+              - generic [ref=e9664]: ფრენბურთი
+              - img "*" [ref=e9665]
+            - button "* მაგიდის ჩოგბურთი *" [ref=e9666] [cursor=pointer]:
+              - img "*" [ref=e9667]
+              - generic [ref=e9668]: მაგიდის ჩოგბურთი
+              - img "*" [ref=e9669]
+            - button "* ბადმინტონი *" [ref=e9670] [cursor=pointer]:
+              - img "*" [ref=e9671]
+              - generic [ref=e9672]: ბადმინტონი
+              - img "*" [ref=e9673]
+            - button "* ბეისბოლი *" [ref=e9674] [cursor=pointer]:
+              - img "*" [ref=e1917]
+              - generic [ref=e1918]: ბეისბოლი
+              - img "*" [ref=e9675]
+            - button "* ჭადრაკი *" [ref=e9676] [cursor=pointer]:
+              - img "*" [ref=e9677]
+              - generic [ref=e9678]: ჭადრაკი
+              - img "*" [ref=e9679]
+            - button "* კრიკეტი *" [ref=e9680] [cursor=pointer]:
+              - img "*" [ref=e9681]
+              - generic [ref=e9682]: კრიკეტი
+              - img "*" [ref=e9683]
+            - button "* ველოსპორტი *" [ref=e9684] [cursor=pointer]:
+              - img "*" [ref=e9685]
+              - generic [ref=e9686]: ველოსპორტი
+              - img "*" [ref=e9687]
+            - button "* დარტსი *" [ref=e9688] [cursor=pointer]:
+              - img "*" [ref=e9689]
+              - generic [ref=e9690]: დარტსი
+              - img "*" [ref=e9691]
+            - button "* სკვოში *" [ref=e9692] [cursor=pointer]:
+              - img "*" [ref=e9693]
+              - generic [ref=e9694]: სკვოში
+              - img "*" [ref=e9695]
+            - button "* ES Counter-Strike *" [ref=e9696] [cursor=pointer]:
+              - img "*" [ref=e9697]
+              - generic [ref=e9698]: ES Counter-Strike
+              - img "*" [ref=e9699]
+            - button "* ES League of Legends *" [ref=e9700] [cursor=pointer]:
+              - img "*" [ref=e9701]
+              - generic [ref=e9702]: ES League of Legends
+              - img "*" [ref=e9703]
+            - button "* E-Soccer *" [ref=e9704] [cursor=pointer]:
+              - img "*" [ref=e9705]
+              - generic [ref=e9706]: E-Soccer
+              - img "*" [ref=e9707]
+            - button "* E-Basketball *" [ref=e9708] [cursor=pointer]:
+              - img "*" [ref=e9709]
+              - generic [ref=e9710]: E-Basketball
+              - img "*" [ref=e9711]
+            - button "* E-Icehockey *" [ref=e9712] [cursor=pointer]:
+              - img "*" [ref=e9713]
+              - generic [ref=e9714]: E-Icehockey
+              - img "*" [ref=e9715]
+          - generic [ref=e9716] [cursor=pointer]:
+            - img "*" [ref=e9717]
+            - generic [ref=e9718]: გასუფთავება
+        - generic [ref=e1923]:
+          - button "ამხანაგური" [ref=e9720] [cursor=pointer]:
+            - generic [ref=e9721]: ამხანაგური
+          - button "ამხანაგური (ქალები)" [ref=e9723] [cursor=pointer]:
+            - generic [ref=e9724]: ამხანაგური (ქალები)
+          - button "NPL ACT" [ref=e9726] [cursor=pointer]:
+            - generic [ref=e9727]: NPL ACT
+          - button "NPL ქვინზლენდი" [ref=e9729] [cursor=pointer]:
+            - generic [ref=e9730]: NPL ქვინზლენდი
+          - button "ქვინზლენდ პრემიერ ლიგა" [ref=e9732] [cursor=pointer]:
+            - generic [ref=e9733]: ქვინზლენდ პრემიერ ლიგა
+          - button "NPL ქვინზლენდი (ქალები)" [ref=e9735] [cursor=pointer]:
+            - generic [ref=e9736]: NPL ქვინზლენდი (ქალები)
+          - button "South Australia State League, Women" [ref=e9738] [cursor=pointer]:
+            - generic [ref=e9739]: South Australia State League, Women
+          - button "Northern NSW League One, Reserves, Women" [ref=e9741] [cursor=pointer]:
+            - generic [ref=e9742]: Northern NSW League One, Reserves, Women
+          - button "Western Australia State League 2, Reserves" [ref=e9744] [cursor=pointer]:
+            - generic [ref=e9745]: Western Australia State League 2, Reserves
+          - button "PFL - ჯგუფი 2" [ref=e9747] [cursor=pointer]:
+            - generic [ref=e9748]: PFL - ჯგუფი 2
+          - button "ამხანაგური SRL" [ref=e9750] [cursor=pointer]:
+            - generic [ref=e9751]: ამხანაგური SRL
+        - generic [ref=e1933]:
+          - generic [ref=e9753]:
+            - generic [ref=e9754] [cursor=pointer]:
+              - generic [ref=e9756]:
+                - generic [ref=e9757]:
+                  - generic [ref=e9758]:
+                    - img "*" [ref=e9760]
+                    - generic [ref=e9761]:
+                      - generic [ref=e9762]:
+                        - text: ამხანაგური
+                        - emphasis [ref=e9763]: "1"
+                      - paragraph [ref=e9764]: საერთაშორისო
+                  - generic [ref=e9765]:
+                    - button "* ცხრილი" [ref=e9766]:
+                      - img "*" [ref=e9767]
+                      - generic [ref=e9768]: ცხრილი
+                    - button "* სპეც. ფსონები" [ref=e9769]:
+                      - img "*" [ref=e9770]
+                      - generic [ref=e9771]: სპეც. ფსონები
+                - generic [ref=e9772]:
+                  - button "* გოლი" [ref=e9773]:
+                    - img "*" [ref=e9774]
+                    - generic [ref=e9775]: გოლი
+                  - button "* კუთხური" [ref=e9776]:
+                    - img "*" [ref=e9777]
+                    - generic [ref=e9778]: კუთხური
+                  - button "* ბარათი" [ref=e9779]:
+                    - img "*" [ref=e9780]
+                    - generic [ref=e9781]: ბარათი
+              - generic [ref=e9782]:
+                - img [ref=e9784]
+                - button [ref=e9787]:
+                  - img [ref=e9788]
+                - button "*" [ref=e9792]:
+                  - img "*" [ref=e9793]
+            - generic [ref=e9794]:
+              - generic [ref=e9796]:
+                - generic [ref=e9797]: დროწყვილი
+                - generic [ref=e9798]:
+                  - generic [ref=e9799]: "1"
+                  - generic [ref=e9800]: X
+                  - generic [ref=e9801]: "2"
+                  - generic [ref=e9802]: 1X
+                  - generic [ref=e9803]: "12"
+                  - generic [ref=e9804]: X2
+                  - generic [ref=e9805]: ნაკ.
+                  - generic [ref=e9806]: ტოტ.
+                  - generic [ref=e9807]: მეტ.
+                  - generic [ref=e9808]: კი
+                  - generic [ref=e9809]: არა
+                  - generic [ref=e9810]: +
+              - generic [ref=e9813] [cursor=pointer]:
+                - generic [ref=e9814]:
+                  - generic [ref=e9815]:
+                    - generic [ref=e9818]:
+                      - heading "დღეს" [level=4] [ref=e9819]
+                      - heading "15:30" [level=1] [ref=e9820]
+                    - generic [ref=e9822]:
+                      - generic [ref=e9823]:
+                        - img [ref=e9825]
+                        - generic [ref=e9826]: ფილიპინები
+                      - generic [ref=e9827]:
+                        - img [ref=e9829]
+                        - generic [ref=e9830]: გუამი
+                  - generic [ref=e9832]:
+                    - img [ref=e9836]
+                    - button [ref=e9840]:
+                      - img [ref=e9842]
+                    - button [ref=e9846]:
+                      - img [ref=e9847]
+                    - button [ref=e9848]:
+                      - img [ref=e9849]
+                - generic [ref=e9852]:
+                  - button "1.04 0%" [ref=e9855]:
+                    - generic [ref=e9858]:
+                      - paragraph [ref=e9861]: "1.04"
+                      - generic [ref=e9862]:
+                        - text: 0%
+                        - emphasis
+                  - button "8.40 0%" [ref=e9865]:
+                    - generic [ref=e9868]:
+                      - paragraph [ref=e9871]: "8.40"
+                      - generic [ref=e9872]:
+                        - text: 0%
+                        - emphasis
+                  - button "23.00 0%" [ref=e9875]:
+                    - generic [ref=e9878]:
+                      - paragraph [ref=e9881]: "23.00"
+                      - generic [ref=e9882]:
+                        - text: 0%
+                        - emphasis
+                  - button "1.01 0%" [ref=e9885]:
+                    - generic [ref=e9888]:
+                      - paragraph [ref=e9891]: "1.01"
+                      - generic [ref=e9892]:
+                        - text: 0%
+                        - emphasis
+                  - button "1.01 0%" [ref=e9895]:
+                    - generic [ref=e9898]:
+                      - paragraph [ref=e9901]: "1.01"
+                      - generic [ref=e9902]:
+                        - text: 0%
+                        - emphasis
+                  - button "3.60 0%" [ref=e9905]:
+                    - generic [ref=e9908]:
+                      - paragraph [ref=e9911]: "3.60"
+                      - generic [ref=e9912]:
+                        - text: 0%
+                        - emphasis
+                  - button "3.25 0%" [ref=e9915]:
+                    - generic [ref=e9918]:
+                      - paragraph [ref=e9921]: "3.25"
+                      - generic [ref=e9922]:
+                        - text: 0%
+                        - emphasis
+                  - button "* 2.5 *" [ref=e9924]:
+                    - img "*" [ref=e9925]
+                    - paragraph [ref=e9927]: "2.5"
+                    - img "*" [ref=e9928]
+                  - button "1.23 0%" [ref=e9931]:
+                    - generic [ref=e9934]:
+                      - paragraph [ref=e9937]: "1.23"
+                      - generic [ref=e9938]:
+                        - text: 0%
+                        - emphasis
+                  - button "2.65 0%" [ref=e9941]:
+                    - generic [ref=e9944]:
+                      - paragraph [ref=e9947]: "2.65"
+                      - generic [ref=e9948]:
+                        - text: 0%
+                        - emphasis
+                  - button "1.35 0%" [ref=e9951]:
+                    - generic [ref=e9954]:
+                      - paragraph [ref=e9957]: "1.35"
+                      - generic [ref=e9958]:
+                        - text: 0%
+                        - emphasis
+                  - link "+667" [ref=e9959]:
+                    - /url: /sport/pre-match?leagueIds=129345&leagueIds=129428&leagueIds=122119&leagueIds=129362&leagueIds=87285&leagueIds=89615&leagueIds=129114&leagueIds=129128&leagueIds=297738&leagueIds=297800&leagueIds=297715&leagueIds=297818&leagueIds=133543&leagueIds=133523&leagueIds=253600&leagueIds=253691&leagueIds=146265&leagueIds=253475&leagueIds=253722&leagueIds=297820&leagueIds=298066&leagueIds=123936&leagueIds=123601&leagueIds=294611&leagueIds=294613&leagueIds=294594&leagueIds=294597&leagueIds=294615&leagueIds=294587&leagueIds=294589&leagueIds=294599&leagueIds=294596&leagueIds=294605&leagueIds=297916&leagueIds=126757&leagueIds=126864&leagueIds=132324&leagueIds=137495&leagueIds=137493&leagueIds=131619&leagueIds=142411&leagueIds=139616&leagueIds=139614&leagueIds=139611&leagueIds=139617&leagueIds=139615&leagueIds=254618&leagueIds=122076&leagueIds=122101&leagueIds=208831&leagueIds=253910&leagueIds=298036&leagueIds=253917&leagueIds=298034&leagueIds=298039&leagueIds=253919&leagueIds=253920&leagueIds=236226&leagueIds=236228&leagueIds=252974&leagueIds=252975&leagueIds=252976&leagueIds=142100&leagueIds=127338&leagueIds=294576&leagueIds=128848&leagueIds=126740&leagueIds=125664&leagueIds=128603&leagueIds=126062&leagueIds=255834&leagueIds=284302&leagueIds=287987&leagueIds=297938&leagueIds=294580&leagueIds=251310&leagueIds=251311&leagueIds=294624&leagueIds=122576&leagueIds=253903&leagueIds=253923&leagueIds=248770&leagueIds=248771&leagueIds=248773&leagueIds=248774&leagueIds=253901&leagueIds=152035&leagueIds=203915&leagueIds=258277&leagueIds=127845&leagueIds=182329&leagueIds=185220&leagueIds=93351&leagueIds=133585&eventsCounts=1&eventsCounts=3&eventsCounts=7&eventsCounts=1&eventsCounts=2&eventsCounts=2&eventsCounts=2&eventsCounts=2&eventsCounts=1&eventsCounts=4&eventsCounts=3&eventsCounts=6&eventsCounts=2&eventsCounts=4&eventsCounts=4&eventsCounts=2&eventsCounts=6&eventsCounts=4&eventsCounts=5&eventsCounts=2&eventsCounts=1&eventsCounts=1&eventsCounts=3&eventsCounts=6&eventsCounts=8&eventsCounts=10&eventsCounts=10&eventsCounts=8&eventsCounts=2&eventsCounts=12&eventsCounts=4&eventsCounts=4&eventsCounts=1&eventsCounts=1&eventsCounts=17&eventsCounts=1&eventsCounts=1&eventsCounts=1&eventsCounts=2&eventsCounts=10&eventsCounts=32&eventsCounts=2&eventsCounts=5&eventsCounts=6&eventsCounts=3&eventsCounts=2&eventsCounts=3&eventsCounts=3&eventsCounts=1&eventsCounts=4&eventsCounts=2&eventsCounts=2&eventsCounts=6&eventsCounts=5&eventsCounts=4&eventsCounts=2&eventsCounts=3&eventsCounts=10&eventsCounts=9&eventsCounts=3&eventsCounts=2&eventsCounts=5&eventsCounts=28&eventsCounts=3&eventsCounts=35&eventsCounts=1&eventsCounts=1&eventsCounts=1&eventsCounts=1&eventsCounts=2&eventsCounts=1&eventsCounts=1&eventsCounts=1&eventsCounts=2&eventsCounts=11&eventsCounts=3&eventsCounts=2&eventsCounts=1&eventsCounts=1&eventsCounts=6&eventsCounts=7&eventsCounts=3&eventsCounts=2&eventsCounts=4&eventsCounts=1&eventsCounts=5&eventsCounts=1&eventsCounts=1&eventsCounts=12&eventsCounts=1&eventsCounts=1&eventsCounts=1&eventsCounts=1&eventsCounts=2&eventsTime=3&isAllSport=true&ignoreSort=true&defaultSportId=1&eventId=54255298
+                    - generic [ref=e9960]: "+667"
+          - generic [ref=e9962]:
+            - generic [ref=e9963] [cursor=pointer]:
+              - generic [ref=e9965]:
+                - generic [ref=e9966]:
+                  - generic [ref=e9967]:
+                    - img "*" [ref=e9969]
+                    - generic [ref=e9970]:
+                      - generic [ref=e9971]:
+                        - text: ამხანაგური (ქალები)
+                        - emphasis [ref=e9972]: "3"
+                      - paragraph [ref=e9973]: საერთაშორისო
+                  - generic [ref=e9974]:
+                    - button "* ცხრილი" [ref=e9975]:
+                      - img "*" [ref=e9976]
+                      - generic [ref=e9977]: ცხრილი
+                    - button "* სპეც. ფსონები" [ref=e9978]:
+                      - img "*" [ref=e9979]
+                      - generic [ref=e9980]: სპეც. ფსონები
+                - generic [ref=e9981]:
+                  - button "* გოლი" [ref=e9982]:
+                    - img "*" [ref=e9983]
+                    - generic [ref=e9984]: გოლი
+                  - button "* კუთხური" [ref=e9985]:
+                    - img "*" [ref=e9986]
+                    - generic [ref=e9987]: კუთხური
+                  - button "* ბარათი" [ref=e9988]:
+                    - img "*" [ref=e9989]
+                    - generic [ref=e9990]: ბარათი
+              - generic [ref=e9991]:
+                - img [ref=e9993]
+                - button [ref=e9996]:
+                  - img [ref=e9997]
+                - button "*" [ref=e10001]:
+                  - img "*" [ref=e10002]
+            - generic [ref=e10003]:
+              - generic [ref=e10005]:
+                - generic [ref=e10006]: დროწყვილი
+                - generic [ref=e10007]:
+                  - generic [ref=e10008]: "1"
+                  - generic [ref=e10009]: X
+                  - generic [ref=e10010]: "2"
+                  - generic [ref=e10011]: 1X
+                  - generic [ref=e10012]: "12"
+                  - generic [ref=e10013]: X2
+                  - generic [ref=e10014]: ნაკ.
+                  - generic [ref=e10015]: ტოტ.
+                  - generic [ref=e10016]: მეტ.
+                  - generic [ref=e10017]: კი
+                  - generic [ref=e10018]: არა
+                  - generic [ref=e10019]: +
+              - generic [ref=e10022] [cursor=pointer]:
+                - generic [ref=e10023]:
+                  - generic [ref=e10024]:
+                    - generic [ref=e10027]:
+                      - heading "დღეს" [level=4] [ref=e10028]
+                      - heading "14:30" [level=1] [ref=e10029]
+                    - generic [ref=e10031]:
+                      - generic [ref=e10032]:
+                        - img [ref=e10034]
+                        - generic [ref=e10035]: მიანმარი (ქ)
+                      - generic [ref=e10036]:
+                        - img [ref=e10038]
+                        - generic [ref=e10039]: უზბეკეთი (ქ)
+                  - generic [ref=e10041]:
+                    - img [ref=e10045]
+                    - button [ref=e10049]:
+                      - img [ref=e10051]
+                    - button [ref=e10055]:
+                      - img [ref=e10056]
+                    - button [disabled] [ref=e10057]:
+                      - img [ref=e10058]
+                - generic [ref=e10061]:
+                  - button "2.45 0%" [ref=e10064]:
+                    - generic [ref=e10067]:
+                      - paragraph [ref=e10070]: "2.45"
+                      - generic [ref=e10071]:
+                        - text: 0%
+                        - emphasis
+                  - button "3.15 0%" [ref=e10074]:
+                    - generic [ref=e10077]:
+                      - paragraph [ref=e10080]: "3.15"
+                      - generic [ref=e10081]:
+                        - text: 0%
+                        - emphasis
+                  - button "2.45 0%" [ref=e10084]:
+                    - generic [ref=e10087]:
+                      - paragraph [ref=e10090]: "2.45"
+                      - generic [ref=e10091]:
+                        - text: 0%
+                        - emphasis
+                  - button "1.37 0%" [ref=e10094]:
+                    - generic [ref=e10097]:
+                      - paragraph [ref=e10100]: "1.37"
+                      - generic [ref=e10101]:
+                        - text: 0%
+                        - emphasis
+                  - button "1.25 0%" [ref=e10104]:
+                    - generic [ref=e10107]:
+                      - paragraph [ref=e10110]: "1.25"
+                      - generic [ref=e10111]:
+                        - text: 0%
+                        - emphasis
+                  - button "1.37 0%" [ref=e10114]:
+                    - generic [ref=e10117]:
+                      - paragraph [ref=e10120]: "1.37"
+                      - generic [ref=e10121]:
+                        - text: 0%
+                        - emphasis
+                  - button "1.90 0%" [ref=e10124]:
+                    - generic [ref=e10127]:
+                      - paragraph [ref=e10130]: "1.90"
+                      - generic [ref=e10131]:
+                        - text: 0%
+                        - emphasis
+                  - button "* 2.5 *" [ref=e10133]:
+                    - img "*" [ref=e10134]
+                    - paragraph [ref=e10136]: "2.5"
+                    - img "*" [ref=e10137]
+                  - button "1.65 0%" [ref=e10140]:
+                    - generic [ref=e10143]:
+                      - paragraph [ref=e10146]: "1.65"
+                      - generic [ref=e10147]:
+                        - text: 0%
+                        - emphasis
+                  - button "1.55 0%" [ref=e10150]:
+                    - generic [ref=e10153]:
+                      - paragraph [ref=e10156]: "1.55"
+                      - generic [ref=e10157]:
+                        - text: 0%
+                        - emphasis
+                  - button "2.10 0%" [ref=e10160]:
+                    - generic [ref=e10163]:
+                      - paragraph [ref=e10166]: "2.10"
+                      - generic [ref=e10167]:
+                        - text: 0%
+                        - emphasis
+                  - link "+280" [ref=e10168]:
+                    - /url: /sport/pre-match?leagueIds=129345&leagueIds=129428&leagueIds=122119&leagueIds=129362&leagueIds=87285&leagueIds=89615&leagueIds=129114&leagueIds=129128&leagueIds=297738&leagueIds=297800&leagueIds=297715&leagueIds=297818&leagueIds=133543&leagueIds=133523&leagueIds=253600&leagueIds=253691&leagueIds=146265&leagueIds=253475&leagueIds=253722&leagueIds=297820&leagueIds=298066&leagueIds=123936&leagueIds=123601&leagueIds=294611&leagueIds=294613&leagueIds=294594&leagueIds=294597&leagueIds=294615&leagueIds=294587&leagueIds=294589&leagueIds=294599&leagueIds=294596&leagueIds=294605&leagueIds=297916&leagueIds=126757&leagueIds=126864&leagueIds=132324&leagueIds=137495&leagueIds=137493&leagueIds=131619&leagueIds=142411&leagueIds=139616&leagueIds=139614&leagueIds=139611&leagueIds=139617&leagueIds=139615&leagueIds=254618&leagueIds=122076&leagueIds=122101&leagueIds=208831&leagueIds=253910&leagueIds=298036&leagueIds=253917&leagueIds=298034&leagueIds=298039&leagueIds=253919&leagueIds=253920&leagueIds=236226&leagueIds=236228&leagueIds=252974&leagueIds=252975&leagueIds=252976&leagueIds=142100&leagueIds=127338&leagueIds=294576&leagueIds=128848&leagueIds=126740&leagueIds=125664&leagueIds=128603&leagueIds=126062&leagueIds=255834&leagueIds=284302&leagueIds=287987&leagueIds=297938&leagueIds=294580&leagueIds=251310&leagueIds=251311&leagueIds=294624&leagueIds=122576&leagueIds=253903&leagueIds=253923&leagueIds=248770&leagueIds=248771&leagueIds=248773&leagueIds=248774&leagueIds=253901&leagueIds=152035&leagueIds=203915&leagueIds=258277&leagueIds=127845&leagueIds=182329&leagueIds=185220&leagueIds=93351&leagueIds=133585&eventsCounts=1&eventsCounts=3&eventsCounts=7&eventsCounts=1&eventsCounts=2&eventsCounts=2&eventsCounts=2&eventsCounts=2&eventsCounts=1&eventsCounts=4&eventsCounts=3&eventsCounts=6&eventsCounts=2&eventsCounts=4&eventsCounts=4&eventsCounts=2&eventsCounts=6&eventsCounts=4&eventsCounts=5&eventsCounts=2&eventsCounts=1&eventsCounts=1&eventsCounts=3&eventsCounts=6&eventsCounts=8&eventsCounts=10&eventsCounts=10&eventsCounts=8&eventsCounts=2&eventsCounts=12&eventsCounts=4&eventsCounts=4&eventsCounts=1&eventsCounts=1&eventsCounts=17&eventsCounts=1&eventsCounts=1&eventsCounts=1&eventsCounts=2&eventsCounts=10&eventsCounts=32&eventsCounts=2&eventsCounts=5&eventsCounts=6&eventsCounts=3&eventsCounts=2&eventsCounts=3&eventsCounts=3&eventsCounts=1&eventsCounts=4&eventsCounts=2&eventsCounts=2&eventsCounts=6&eventsCounts=5&eventsCounts=4&eventsCounts=2&eventsCounts=3&eventsCounts=10&eventsCounts=9&eventsCounts=3&eventsCounts=2&eventsCounts=5&eventsCounts=28&eventsCounts=3&eventsCounts=35&eventsCounts=1&eventsCounts=1&eventsCounts=1&eventsCounts=1&eventsCounts=2&eventsCounts=1&eventsCounts=1&eventsCounts=1&eventsCounts=2&eventsCounts=11&eventsCounts=3&eventsCounts=2&eventsCounts=1&eventsCounts=1&eventsCounts=6&eventsCounts=7&eventsCounts=3&eventsCounts=2&eventsCounts=4&eventsCounts=1&eventsCounts=5&eventsCounts=1&eventsCounts=1&eventsCounts=12&eventsCounts=1&eventsCounts=1&eventsCounts=1&eventsCounts=1&eventsCounts=2&eventsTime=3&isAllSport=true&ignoreSort=true&defaultSportId=1&eventId=54356470
+                    - generic [ref=e10169]: "+280"
+              - generic [ref=e10172] [cursor=pointer]:
+                - generic [ref=e10173]:
+                  - generic [ref=e10174]:
+                    - generic [ref=e10177]:
+                      - heading "დღეს" [level=4] [ref=e10178]
+                      - heading "15:35" [level=1] [ref=e10179]
+                    - generic [ref=e10181]:
+                      - generic [ref=e10182]:
+                        - img [ref=e10184]
+                        - generic [ref=e10185]: ჩინეთი (ქ)
+                      - generic [ref=e10186]:
+                        - img [ref=e10188]
+                        - generic [ref=e10189]: რუსეთი (ქ)
+                  - generic [ref=e10191]:
+                    - img [ref=e10195]
+                    - button [ref=e10199]:
+                      - img [ref=e10201]
+                    - button [ref=e10205]:
+                      - img [ref=e10206]
+                    - button [disabled] [ref=e10207]:
+                      - img [ref=e10208]
+                - generic [ref=e10211]:
+                  - button "1.50 0%" [ref=e10214]:
+                    - generic [ref=e10217]:
+                      - paragraph [ref=e10220]: "1.50"
+                      - generic [ref=e10221]:
+                        - text: 0%
+                        - emphasis
+                  - button "3.65 0%" [ref=e10224]:
+                    - generic [ref=e10227]:
+                      - paragraph [ref=e10230]: "3.65"
+                      - generic [ref=e10231]:
+                        - text: 0%
+                        - emphasis
+                  - button "5.00 0%" [ref=e10234]:
+                    - generic [ref=e10237]:
+                      - paragraph [ref=e10240]: "5.00"
+                      - generic [ref=e10241]:
+                        - text: 0%
+                        - emphasis
+                  - button "1.12 0%" [ref=e10244]:
+                    - generic [ref=e10247]:
+                      - paragraph [ref=e10250]: "1.12"
+                      - generic [ref=e10251]:
+                        - text: 0%
+                        - emphasis
+                  - button "1.18 0%" [ref=e10254]:
+                    - generic [ref=e10257]:
+                      - paragraph [ref=e10260]: "1.18"
+                      - generic [ref=e10261]:
+                        - text: 0%
+                        - emphasis
+                  - button "1.92 0%" [ref=e10264]:
+                    - generic [ref=e10267]:
+                      - paragraph [ref=e10270]: "1.92"
+                      - generic [ref=e10271]:
+                        - text: 0%
+                        - emphasis
+                  - button "1.80 0%" [ref=e10274]:
+                    - generic [ref=e10277]:
+                      - paragraph [ref=e10280]: "1.80"
+                      - generic [ref=e10281]:
+                        - text: 0%
+                        - emphasis
+                  - button "* 2.5 *" [ref=e10283]:
+                    - img "*" [ref=e10284]
+                    - paragraph [ref=e10286]: "2.5"
+                    - img "*" [ref=e10287]
+                  - button "1.80 0%" [ref=e10290]:
+                    - generic [ref=e10293]:
+                      - paragraph [ref=e10296]: "1.80"
+                      - generic [ref=e10297]:
+                        - text: 0%
+                        - emphasis
+                  - button "1.85 0%" [ref=e10300]:
+                    - generic [ref=e10303]:
+                      - paragraph [ref=e10306]: "1.85"
+                      - generic [ref=e10307]:
+                        - text: 0%
+                        - emphasis
+                  - button "1.75 0%" [ref=e10310]:
+                    - generic [ref=e10313]:
+                      - paragraph [ref=e10316]: "1.75"
+                      - generic [ref=e10317]:
+                        - text: 0%
+                        - emphasis
+                  - link "+276" [ref=e10318]:
+                    - /url: /sport/pre-match?leagueIds=129345&leagueIds=129428&leagueIds=122119&leagueIds=129362&leagueIds=87285&leagueIds=89615&leagueIds=129114&leagueIds=129128&leagueIds=297738&leagueIds=297800&leagueIds=297715&leagueIds=297818&leagueIds=133543&leagueIds=133523&leagueIds=253600&leagueIds=253691&leagueIds=146265&leagueIds=253475&leagueIds=253722&leagueIds=297820&leagueIds=298066&leagueIds=123936&leagueIds=123601&leagueIds=294611&leagueIds=294613&leagueIds=294594&leagueIds=294597&leagueIds=294615&leagueIds=294587&leagueIds=294589&leagueIds=294599&leagueIds=294596&leagueIds=294605&leagueIds=297916&leagueIds=126757&leagueIds=126864&leagueIds=132324&leagueIds=137495&leagueIds=137493&leagueIds=131619&leagueIds=142411&leagueIds=139616&leagueIds=139614&leagueIds=139611&leagueIds=139617&leagueIds=139615&leagueIds=254618&leagueIds=122076&leagueIds=122101&leagueIds=208831&leagueIds=253910&leagueIds=298036&leagueIds=253917&leagueIds=298034&leagueIds=298039&leagueIds=253919&leagueIds=253920&leagueIds=236226&leagueIds=236228&leagueIds=252974&leagueIds=252975&leagueIds=252976&leagueIds=142100&leagueIds=127338&leagueIds=294576&leagueIds=128848&leagueIds=126740&leagueIds=125664&leagueIds=128603&leagueIds=126062&leagueIds=255834&leagueIds=284302&leagueIds=287987&leagueIds=297938&leagueIds=294580&leagueIds=251310&leagueIds=251311&leagueIds=294624&leagueIds=122576&leagueIds=253903&leagueIds=253923&leagueIds=248770&leagueIds=248771&leagueIds=248773&leagueIds=248774&leagueIds=253901&leagueIds=152035&leagueIds=203915&leagueIds=258277&leagueIds=127845&leagueIds=182329&leagueIds=185220&leagueIds=93351&leagueIds=133585&eventsCounts=1&eventsCounts=3&eventsCounts=7&eventsCounts=1&eventsCounts=2&eventsCounts=2&eventsCounts=2&eventsCounts=2&eventsCounts=1&eventsCounts=4&eventsCounts=3&eventsCounts=6&eventsCounts=2&eventsCounts=4&eventsCounts=4&eventsCounts=2&eventsCounts=6&eventsCounts=4&eventsCounts=5&eventsCounts=2&eventsCounts=1&eventsCounts=1&eventsCounts=3&eventsCounts=6&eventsCounts=8&eventsCounts=10&eventsCounts=10&eventsCounts=8&eventsCounts=2&eventsCounts=12&eventsCounts=4&eventsCounts=4&eventsCounts=1&eventsCounts=1&eventsCounts=17&eventsCounts=1&eventsCounts=1&eventsCounts=1&eventsCounts=2&eventsCounts=10&eventsCounts=32&eventsCounts=2&eventsCounts=5&eventsCounts=6&eventsCounts=3&eventsCounts=2&eventsCounts=3&eventsCounts=3&eventsCounts=1&eventsCounts=4&eventsCounts=2&eventsCounts=2&eventsCounts=6&eventsCounts=5&eventsCounts=4&eventsCounts=2&eventsCounts=3&eventsCounts=10&eventsCounts=9&eventsCounts=3&eventsCounts=2&eventsCounts=5&eventsCounts=28&eventsCounts=3&eventsCounts=35&eventsCounts=1&eventsCounts=1&eventsCounts=1&eventsCounts=1&eventsCounts=2&eventsCounts=1&eventsCounts=1&eventsCounts=1&eventsCounts=2&eventsCounts=11&eventsCounts=3&eventsCounts=2&eventsCounts=1&eventsCounts=1&eventsCounts=6&eventsCounts=7&eventsCounts=3&eventsCounts=2&eventsCounts=4&eventsCounts=1&eventsCounts=5&eventsCounts=1&eventsCounts=1&eventsCounts=12&eventsCounts=1&eventsCounts=1&eventsCounts=1&eventsCounts=1&eventsCounts=2&eventsTime=3&isAllSport=true&ignoreSort=true&defaultSportId=1&eventId=54455712
+                    - generic [ref=e10319]: "+276"
+              - generic [ref=e10322] [cursor=pointer]:
+                - generic [ref=e10323]:
+                  - generic [ref=e10324]:
+                    - generic [ref=e10327]:
+                      - heading "დღეს" [level=4] [ref=e10328]
+                      - heading "16:00" [level=1] [ref=e10329]
+                    - generic [ref=e10331]:
+                      - generic [ref=e10332]:
+                        - img [ref=e10334]
+                        - generic [ref=e10335]: ინდონეზია (ქ)
+                      - generic [ref=e10336]:
+                        - img [ref=e10338]
+                        - generic [ref=e10339]: სინგაპური (ქ)
+                  - generic [ref=e10341]:
+                    - img [ref=e10345]
+                    - button [ref=e10349]:
+                      - img [ref=e10351]
+                    - button [ref=e10355]:
+                      - img [ref=e10356]
+                    - button [disabled] [ref=e10357]:
+                      - img [ref=e10358]
+                - generic [ref=e10361]:
+                  - button "1.16 0%" [ref=e10364]:
+                    - generic [ref=e10367]:
+                      - paragraph [ref=e10370]: "1.16"
+                      - generic [ref=e10371]:
+                        - text: 0%
+                        - emphasis
+                  - button "5.80 0%" [ref=e10374]:
+                    - generic [ref=e10377]:
+                      - paragraph [ref=e10380]: "5.80"
+                      - generic [ref=e10381]:
+                        - text: 0%
+                        - emphasis
+                  - button "10.00 0%" [ref=e10384]:
+                    - generic [ref=e10387]:
+                      - paragraph [ref=e10390]: "10.00"
+                      - generic [ref=e10391]:
+                        - text: 0%
+                        - emphasis
+                  - button "1.03 0%" [ref=e10394]:
+                    - generic [ref=e10397]:
+                      - paragraph [ref=e10400]: "1.03"
+                      - generic [ref=e10401]:
+                        - text: 0%
+                        - emphasis
+                  - button "1.06 0%" [ref=e10404]:
+                    - generic [ref=e10407]:
+                      - paragraph [ref=e10410]: "1.06"
+                      - generic [ref=e10411]:
+                        - text: 0%
+                        - emphasis
+                  - button "2.86 0%" [ref=e10414]:
+                    - generic [ref=e10417]:
+                      - paragraph [ref=e10420]: "2.86"
+                      - generic [ref=e10421]:
+                        - text: 0%
+                        - emphasis
+                  - button "2.40 0%" [ref=e10424]:
+                    - generic [ref=e10427]:
+                      - paragraph [ref=e10430]: "2.40"
+                      - generic [ref=e10431]:
+                        - text: 0%
+                        - emphasis
+                  - button "* 2.5 *" [ref=e10433]:
+                    - img "*" [ref=e10434]
+                    - paragraph [ref=e10436]: "2.5"
+                    - img "*" [ref=e10437]
+                  - button "1.43 0%" [ref=e10440]:
+                    - generic [ref=e10443]:
+                      - paragraph [ref=e10446]: "1.43"
+                      - generic [ref=e10447]:
+                        - text: 0%
+                        - emphasis
+                  - button "2.00 0%" [ref=e10450]:
+                    - generic [ref=e10453]:
+                      - paragraph [ref=e10456]: "2.00"
+                      - generic [ref=e10457]:
+                        - text: 0%
+                        - emphasis
+                  - button "1.60 0%" [ref=e10460]:
+                    - generic [ref=e10463]:
+                      - paragraph [ref=e10466]: "1.60"
+                      - generic [ref=e10467]:
+                        - text: 0%
+                        - emphasis
+                  - link "+276" [ref=e10468]:
+                    - /url: /sport/pre-match?leagueIds=129345&leagueIds=129428&leagueIds=122119&leagueIds=129362&leagueIds=87285&leagueIds=89615&leagueIds=129114&leagueIds=129128&leagueIds=297738&leagueIds=297800&leagueIds=297715&leagueIds=297818&leagueIds=133543&leagueIds=133523&leagueIds=253600&leagueIds=253691&leagueIds=146265&leagueIds=253475&leagueIds=253722&leagueIds=297820&leagueIds=298066&leagueIds=123936&leagueIds=123601&leagueIds=294611&leagueIds=294613&leagueIds=294594&leagueIds=294597&leagueIds=294615&leagueIds=294587&leagueIds=294589&leagueIds=294599&leagueIds=294596&leagueIds=294605&leagueIds=297916&leagueIds=126757&leagueIds=126864&leagueIds=132324&leagueIds=137495&leagueIds=137493&leagueIds=131619&leagueIds=142411&leagueIds=139616&leagueIds=139614&leagueIds=139611&leagueIds=139617&leagueIds=139615&leagueIds=254618&leagueIds=122076&leagueIds=122101&leagueIds=208831&leagueIds=253910&leagueIds=298036&leagueIds=253917&leagueIds=298034&leagueIds=298039&leagueIds=253919&leagueIds=253920&leagueIds=236226&leagueIds=236228&leagueIds=252974&leagueIds=252975&leagueIds=252976&leagueIds=142100&leagueIds=127338&leagueIds=294576&leagueIds=128848&leagueIds=126740&leagueIds=125664&leagueIds=128603&leagueIds=126062&leagueIds=255834&leagueIds=284302&leagueIds=287987&leagueIds=297938&leagueIds=294580&leagueIds=251310&leagueIds=251311&leagueIds=294624&leagueIds=122576&leagueIds=253903&leagueIds=253923&leagueIds=248770&leagueIds=248771&leagueIds=248773&leagueIds=248774&leagueIds=253901&leagueIds=152035&leagueIds=203915&leagueIds=258277&leagueIds=127845&leagueIds=182329&leagueIds=185220&leagueIds=93351&leagueIds=133585&eventsCounts=1&eventsCounts=3&eventsCounts=7&eventsCounts=1&eventsCounts=2&eventsCounts=2&eventsCounts=2&eventsCounts=2&eventsCounts=1&eventsCounts=4&eventsCounts=3&eventsCounts=6&eventsCounts=2&eventsCounts=4&eventsCounts=4&eventsCounts=2&eventsCounts=6&eventsCounts=4&eventsCounts=5&eventsCounts=2&eventsCounts=1&eventsCounts=1&eventsCounts=3&eventsCounts=6&eventsCounts=8&eventsCounts=10&eventsCounts=10&eventsCounts=8&eventsCounts=2&eventsCounts=12&eventsCounts=4&eventsCounts=4&eventsCounts=1&eventsCounts=1&eventsCounts=17&eventsCounts=1&eventsCounts=1&eventsCounts=1&eventsCounts=2&eventsCounts=10&eventsCounts=32&eventsCounts=2&eventsCounts=5&eventsCounts=6&eventsCounts=3&eventsCounts=2&eventsCounts=3&eventsCounts=3&eventsCounts=1&eventsCounts=4&eventsCounts=2&eventsCounts=2&eventsCounts=6&eventsCounts=5&eventsCounts=4&eventsCounts=2&eventsCounts=3&eventsCounts=10&eventsCounts=9&eventsCounts=3&eventsCounts=2&eventsCounts=5&eventsCounts=28&eventsCounts=3&eventsCounts=35&eventsCounts=1&eventsCounts=1&eventsCounts=1&eventsCounts=1&eventsCounts=2&eventsCounts=1&eventsCounts=1&eventsCounts=1&eventsCounts=2&eventsCounts=11&eventsCounts=3&eventsCounts=2&eventsCounts=1&eventsCounts=1&eventsCounts=6&eventsCounts=7&eventsCounts=3&eventsCounts=2&eventsCounts=4&eventsCounts=1&eventsCounts=5&eventsCounts=1&eventsCounts=1&eventsCounts=12&eventsCounts=1&eventsCounts=1&eventsCounts=1&eventsCounts=1&eventsCounts=2&eventsTime=3&isAllSport=true&ignoreSort=true&defaultSportId=1&eventId=54376994
+                    - generic [ref=e10469]: "+276"
+          - generic [ref=e10471]:
+            - generic [ref=e10472] [cursor=pointer]:
+              - generic [ref=e10474]:
+                - generic [ref=e10475]:
+                  - generic [ref=e10476]:
+                    - img "*" [ref=e10478]
+                    - generic [ref=e10479]:
+                      - generic [ref=e10480]:
+                        - text: NPL ACT
+                        - emphasis [ref=e10481]: "1"
+                      - paragraph [ref=e10482]: ავსტრალია
+                  - generic [ref=e10483]:
+                    - button "* ცხრილი" [ref=e10484]:
+                      - img "*" [ref=e10485]
+                      - generic [ref=e10486]: ცხრილი
+                    - button "* სპეც. ფსონები" [ref=e10487]:
+                      - img "*" [ref=e10488]
+                      - generic [ref=e10489]: სპეც. ფსონები
+                - generic [ref=e10490]:
+                  - button "* გოლი" [ref=e10491]:
+                    - img "*" [ref=e10492]
+                    - generic [ref=e10493]: გოლი
+                  - button "* კუთხური" [ref=e10494]:
+                    - img "*" [ref=e10495]
+                    - generic [ref=e10496]: კუთხური
+                  - button "* ბარათი" [ref=e10497]:
+                    - img "*" [ref=e10498]
+                    - generic [ref=e10499]: ბარათი
+              - generic [ref=e10500]:
+                - img [ref=e10502]
+                - button [ref=e10505]:
+                  - img [ref=e10506]
+                - button "*" [ref=e10510]:
+                  - img "*" [ref=e10511]
+            - generic [ref=e10512]:
+              - generic [ref=e10514]:
+                - generic [ref=e10515]: დროწყვილი
+                - generic [ref=e10516]:
+                  - generic [ref=e10517]: "1"
+                  - generic [ref=e10518]: X
+                  - generic [ref=e10519]: "2"
+                  - generic [ref=e10520]: 1X
+                  - generic [ref=e10521]: "12"
+                  - generic [ref=e10522]: X2
+                  - generic [ref=e10523]: ნაკ.
+                  - generic [ref=e10524]: ტოტ.
+                  - generic [ref=e10525]: მეტ.
+                  - generic [ref=e10526]: კი
+                  - generic [ref=e10527]: არა
+                  - generic [ref=e10528]: +
+              - generic [ref=e10531] [cursor=pointer]:
+                - generic [ref=e10532]:
+                  - generic [ref=e10533]:
+                    - generic [ref=e10537]: 08:06
+                    - generic [ref=e10542]:
+                      - generic [ref=e10543]:
+                        - img [ref=e10545]
+                        - generic [ref=e10546]: ბელკონენ იუნ.
+                      - generic [ref=e10547]:
+                        - img [ref=e10549]
+                        - generic [ref=e10550]: ტაგერანონგ იუნ.
+                  - generic [ref=e10552]:
+                    - img [ref=e10556]
+                    - button [ref=e10560]:
+                      - img [ref=e10562]
+                    - button [ref=e10566]:
+                      - img [ref=e10567]
+                    - button [ref=e10568]:
+                      - img [ref=e10569]
+                - generic [ref=e10572]:
+                  - button "2.55 0%" [ref=e10575]:
+                    - generic [ref=e10578]:
+                      - paragraph [ref=e10581]: "2.55"
+                      - generic [ref=e10582]:
+                        - text: 0%
+                        - emphasis
+                  - button "3.80 0%" [ref=e10585]:
+                    - generic [ref=e10588]:
+                      - paragraph [ref=e10591]: "3.80"
+                      - generic [ref=e10592]:
+                        - text: 0%
+                        - emphasis
+                  - button "2.10 0%" [ref=e10595]:
+                    - generic [ref=e10598]:
+                      - paragraph [ref=e10601]: "2.10"
+                      - generic [ref=e10602]:
+                        - text: 0%
+                        - emphasis
+                  - button "1.47 0%" [ref=e10605]:
+                    - generic [ref=e10608]:
+                      - paragraph [ref=e10611]: "1.47"
+                      - generic [ref=e10612]:
+                        - text: 0%
+                        - emphasis
+                  - button "1.19 0%" [ref=e10615]:
+                    - generic [ref=e10618]:
+                      - paragraph [ref=e10621]: "1.19"
+                      - generic [ref=e10622]:
+                        - text: 0%
+                        - emphasis
+                  - button "1.35 0%" [ref=e10625]:
+                    - generic [ref=e10628]:
+                      - paragraph [ref=e10631]: "1.35"
+                      - generic [ref=e10632]:
+                        - text: 0%
+                        - emphasis
+                  - button "2.90 0%" [ref=e10635]:
+                    - generic [ref=e10638]:
+                      - paragraph [ref=e10641]: "2.90"
+                      - generic [ref=e10642]:
+                        - text: 0%
+                        - emphasis
+                  - button "* 2.5 *" [ref=e10644]:
+                    - img "*" [ref=e10645]
+                    - paragraph [ref=e10647]: "2.5"
+                    - img "*" [ref=e10648]
+                  - button "1.29 0%" [ref=e10651]:
+                    - generic [ref=e10654]:
+                      - paragraph [ref=e10657]: "1.29"
+                      - generic [ref=e10658]:
+                        - text: 0%
+                        - emphasis
+                  - button "1.29 0%" [ref=e10661]:
+                    - generic [ref=e10664]:
+                      - paragraph [ref=e10667]: "1.29"
+                      - generic [ref=e10668]:
+                        - text: 0%
+                        - emphasis
+                  - button "2.90 0%" [ref=e10671]:
+                    - generic [ref=e10674]:
+                      - paragraph [ref=e10677]: "2.90"
+                      - generic [ref=e10678]:
+                        - text: 0%
+                        - emphasis
+                  - link "+692" [ref=e10679]:
+                    - /url: /sport/pre-match?leagueIds=129345&leagueIds=129428&leagueIds=122119&leagueIds=129362&leagueIds=87285&leagueIds=89615&leagueIds=129114&leagueIds=129128&leagueIds=297738&leagueIds=297800&leagueIds=297715&leagueIds=297818&leagueIds=133543&leagueIds=133523&leagueIds=253600&leagueIds=253691&leagueIds=146265&leagueIds=253475&leagueIds=253722&leagueIds=297820&leagueIds=298066&leagueIds=123936&leagueIds=123601&leagueIds=294611&leagueIds=294613&leagueIds=294594&leagueIds=294597&leagueIds=294615&leagueIds=294587&leagueIds=294589&leagueIds=294599&leagueIds=294596&leagueIds=294605&leagueIds=297916&leagueIds=126757&leagueIds=126864&leagueIds=132324&leagueIds=137495&leagueIds=137493&leagueIds=131619&leagueIds=142411&leagueIds=139616&leagueIds=139614&leagueIds=139611&leagueIds=139617&leagueIds=139615&leagueIds=254618&leagueIds=122076&leagueIds=122101&leagueIds=208831&leagueIds=253910&leagueIds=298036&leagueIds=253917&leagueIds=298034&leagueIds=298039&leagueIds=253919&leagueIds=253920&leagueIds=236226&leagueIds=236228&leagueIds=252974&leagueIds=252975&leagueIds=252976&leagueIds=142100&leagueIds=127338&leagueIds=294576&leagueIds=128848&leagueIds=126740&leagueIds=125664&leagueIds=128603&leagueIds=126062&leagueIds=255834&leagueIds=284302&leagueIds=287987&leagueIds=297938&leagueIds=294580&leagueIds=251310&leagueIds=251311&leagueIds=294624&leagueIds=122576&leagueIds=253903&leagueIds=253923&leagueIds=248770&leagueIds=248771&leagueIds=248773&leagueIds=248774&leagueIds=253901&leagueIds=152035&leagueIds=203915&leagueIds=258277&leagueIds=127845&leagueIds=182329&leagueIds=185220&leagueIds=93351&leagueIds=133585&eventsCounts=1&eventsCounts=3&eventsCounts=7&eventsCounts=1&eventsCounts=2&eventsCounts=2&eventsCounts=2&eventsCounts=2&eventsCounts=1&eventsCounts=4&eventsCounts=3&eventsCounts=6&eventsCounts=2&eventsCounts=4&eventsCounts=4&eventsCounts=2&eventsCounts=6&eventsCounts=4&eventsCounts=5&eventsCounts=2&eventsCounts=1&eventsCounts=1&eventsCounts=3&eventsCounts=6&eventsCounts=8&eventsCounts=10&eventsCounts=10&eventsCounts=8&eventsCounts=2&eventsCounts=12&eventsCounts=4&eventsCounts=4&eventsCounts=1&eventsCounts=1&eventsCounts=17&eventsCounts=1&eventsCounts=1&eventsCounts=1&eventsCounts=2&eventsCounts=10&eventsCounts=32&eventsCounts=2&eventsCounts=5&eventsCounts=6&eventsCounts=3&eventsCounts=2&eventsCounts=3&eventsCounts=3&eventsCounts=1&eventsCounts=4&eventsCounts=2&eventsCounts=2&eventsCounts=6&eventsCounts=5&eventsCounts=4&eventsCounts=2&eventsCounts=3&eventsCounts=10&eventsCounts=9&eventsCounts=3&eventsCounts=2&eventsCounts=5&eventsCounts=28&eventsCounts=3&eventsCounts=35&eventsCounts=1&eventsCounts=1&eventsCounts=1&eventsCounts=1&eventsCounts=2&eventsCounts=1&eventsCounts=1&eventsCounts=1&eventsCounts=2&eventsCounts=11&eventsCounts=3&eventsCounts=2&eventsCounts=1&eventsCounts=1&eventsCounts=6&eventsCounts=7&eventsCounts=3&eventsCounts=2&eventsCounts=4&eventsCounts=1&eventsCounts=5&eventsCounts=1&eventsCounts=1&eventsCounts=12&eventsCounts=1&eventsCounts=1&eventsCounts=1&eventsCounts=1&eventsCounts=2&eventsTime=3&isAllSport=true&ignoreSort=true&defaultSportId=1&eventId=54167618
+                    - generic [ref=e10680]: "+692"
+      - generic [ref=e9188]:
+        - generic [ref=e9194] [cursor=pointer]:
+          - generic [ref=e9195]:
+            - generic [ref=e9198]:
+              - img "*" [ref=e9199]
+              - generic [ref=e9200]:
+                - generic [ref=e9201]:
+                  - generic [ref=e9202]:
+                    - img "*" [ref=e9203]
+                    - generic [ref=e9204]: ლუქსემბურგი
+                  - generic [ref=e9205]:
+                    - generic [ref=e9208]:
+                      - heading "დღეს" [level=4] [ref=e9209]
+                      - heading "22:45" [level=1] [ref=e9210]
+                    - paragraph [ref=e9211]: ამხანაგური
+                    - generic [ref=e9212]: "+3052"
+                  - generic [ref=e9213]:
+                    - img "*" [ref=e9214]
+                    - generic [ref=e9215]: იტალია
+                - generic [ref=e9216]:
+                  - button "1 6.20 0%" [ref=e9219]:
+                    - generic:
+                      - generic:
+                        - generic [ref=e9221]:
+                          - generic [ref=e9222]: "1"
+                          - paragraph [ref=e9224]: "6.20"
+                        - generic [ref=e9225]:
+                          - text: 0%
+                          - emphasis
+                  - button "X 3.95 0%" [ref=e9228]:
+                    - generic:
+                      - generic:
+                        - generic [ref=e9230]:
+                          - generic [ref=e9231]: X
+                          - paragraph [ref=e9233]: "3.95"
+                        - generic [ref=e9234]:
+                          - text: 0%
+                          - emphasis
+                  - button "2 1.40 0%" [ref=e9237]:
+                    - generic:
+                      - generic:
+                        - generic [ref=e9239]:
+                          - generic [ref=e9240]: "2"
+                          - paragraph [ref=e9242]: "1.40"
+                        - generic [ref=e9243]:
+                          - text: 0%
+                          - emphasis
+            - generic [ref=e9246]:
+              - img "*" [ref=e9247]
+              - generic [ref=e9248]:
+                - generic [ref=e9249]:
+                  - generic [ref=e9250]:
+                    - img "*" [ref=e9251]
+                    - generic [ref=e9252]: ა. საბალენკა
+                  - generic [ref=e9253]:
+                    - generic [ref=e9256]:
+                      - heading "დღეს" [level=4] [ref=e9257]
+                      - heading "14:10" [level=1] [ref=e9258]
+                    - paragraph [ref=e9259]: Roland Garros
+                    - generic [ref=e9260]: "+223"
+                  - generic [ref=e9261]:
+                    - img "*" [ref=e9262]
+                    - generic [ref=e9263]: დ. შნეიდერი
+                - generic [ref=e9264]:
+                  - button "1 1.09 0%" [ref=e9267]:
+                    - generic:
+                      - generic:
+                        - generic [ref=e9269]:
+                          - generic [ref=e9270]: "1"
+                          - paragraph [ref=e9272]: "1.09"
+                        - generic [ref=e9273]:
+                          - text: 0%
+                          - emphasis
+                  - button "2 5.60 0%" [ref=e9276]:
+                    - generic:
+                      - generic:
+                        - generic [ref=e9278]:
+                          - generic [ref=e9279]: "2"
+                          - paragraph [ref=e9281]: "5.60"
+                        - generic [ref=e9282]:
+                          - text: 0%
+                          - emphasis
+            - generic [ref=e9285]:
+              - img "*" [ref=e9286]
+              - generic [ref=e9287]:
+                - generic [ref=e9288]:
+                  - generic [ref=e9289]:
+                    - img "*" [ref=e9290]
+                    - generic [ref=e9291]: ფ.ო. ალიასიმი
+                  - generic [ref=e9292]:
+                    - generic [ref=e9295]:
+                      - heading "დღეს" [level=4] [ref=e9296]
+                      - heading "15:20" [level=1] [ref=e9297]
+                    - paragraph [ref=e9298]: Roland Garros
+                    - generic [ref=e9299]: "+255"
+                  - generic [ref=e9300]:
+                    - img "*" [ref=e9301]
+                    - generic [ref=e9302]: ფ. კობოლი
+                - generic [ref=e9303]:
+                  - button "1 1.80 0%" [ref=e9306]:
+                    - generic:
+                      - generic:
+                        - generic [ref=e9308]:
+                          - generic [ref=e9309]: "1"
+                          - paragraph [ref=e9311]: "1.80"
+                        - generic [ref=e9312]:
+                          - text: 0%
+                          - emphasis
+                  - button "2 1.80 0%" [ref=e9315]:
+                    - generic:
+                      - generic:
+                        - generic [ref=e9317]:
+                          - generic [ref=e9318]: "2"
+                          - paragraph [ref=e9320]: "1.80"
+                        - generic [ref=e9321]:
+                          - text: 0%
+                          - emphasis
+            - generic [ref=e9324]:
+              - img "*" [ref=e9325]
+              - generic [ref=e9326]:
+                - generic [ref=e9327]:
+                  - generic [ref=e9328]:
+                    - img "*" [ref=e9329]
+                    - generic [ref=e9330]: მ. ბერეტინი
+                  - generic [ref=e9331]:
+                    - generic [ref=e9334]:
+                      - heading "დღეს" [level=4] [ref=e9335]
+                      - heading "22:15" [level=1] [ref=e9336]
+                    - paragraph [ref=e9337]: Roland Garros
+                    - generic [ref=e9338]: "+255"
+                  - generic [ref=e9339]:
+                    - img "*" [ref=e9340]
+                    - generic [ref=e9341]: მ. არნალდი
+                - generic [ref=e9342]:
+                  - button "1 1.45 0%" [ref=e9345]:
+                    - generic:
+                      - generic:
+                        - generic [ref=e9347]:
+                          - generic [ref=e9348]: "1"
+                          - paragraph [ref=e9350]: "1.45"
+                        - generic [ref=e9351]:
+                          - text: 0%
+                          - emphasis
+                  - button "2 2.40 0%" [ref=e9354]:
+                    - generic:
+                      - generic:
+                        - generic [ref=e9356]:
+                          - generic [ref=e9357]: "2"
+                          - paragraph [ref=e9359]: "2.40"
+                        - generic [ref=e9360]:
+                          - text: 0%
+                          - emphasis
+            - generic [ref=e9363]:
+              - img "*" [ref=e9364]
+              - generic [ref=e9365]:
+                - generic [ref=e9366]:
+                  - generic [ref=e9367]:
+                    - img "*" [ref=e9368]
+                    - generic [ref=e9369]: ნიდერლანდები
+                  - generic [ref=e9370]:
+                    - generic [ref=e9373]:
+                      - heading "დღეს" [level=4] [ref=e9374]
+                      - heading "22:45" [level=1] [ref=e9375]
+                    - paragraph [ref=e9376]: ამხანაგური
+                    - generic [ref=e9377]: "+3625"
+                  - generic [ref=e9378]:
+                    - img "*" [ref=e9379]
+                    - generic [ref=e9380]: ალჟირი
+                - generic [ref=e9381]:
+                  - button "1 1.30 0%" [ref=e9384]:
+                    - generic:
+                      - generic:
+                        - generic [ref=e9386]:
+                          - generic [ref=e9387]: "1"
+                          - paragraph [ref=e9389]: "1.30"
+                        - generic [ref=e9390]:
+                          - text: 0%
+                          - emphasis
+                  - button "X 4.40 0%" [ref=e9393]:
+                    - generic:
+                      - generic:
+                        - generic [ref=e9395]:
+                          - generic [ref=e9396]: X
+                          - paragraph [ref=e9398]: "4.40"
+                        - generic [ref=e9399]:
+                          - text: 0%
+                          - emphasis
+                  - button "2 7.40 0%" [ref=e9402]:
+                    - generic:
+                      - generic:
+                        - generic [ref=e9404]:
+                          - generic [ref=e9405]: "2"
+                          - paragraph [ref=e9407]: "7.40"
+                        - generic [ref=e9408]:
+                          - text: 0%
+                          - emphasis
+            - generic [ref=e9411]:
+              - img "*" [ref=e9412]
+              - generic [ref=e9413]:
+                - generic [ref=e9414]:
+                  - generic [ref=e9415]:
+                    - img "*" [ref=e9416]
+                    - generic [ref=e9417]: ლუქსემბურგი
+                  - generic [ref=e9418]:
+                    - generic [ref=e9421]:
+                      - heading "დღეს" [level=4] [ref=e9422]
+                      - heading "22:45" [level=1] [ref=e9423]
+                    - paragraph [ref=e9424]: ამხანაგური
+                    - generic [ref=e9425]: "+3052"
+                  - generic [ref=e9426]:
+                    - img "*" [ref=e9427]
+                    - generic [ref=e9428]: იტალია
+                - generic [ref=e9429]:
+                  - button "1 6.20 0%" [ref=e9432]:
+                    - generic:
+                      - generic:
+                        - generic [ref=e9434]:
+                          - generic [ref=e9435]: "1"
+                          - paragraph [ref=e9437]: "6.20"
+                        - generic [ref=e9438]:
+                          - text: 0%
+                          - emphasis
+                  - button "X 3.95 0%" [ref=e9441]:
+                    - generic:
+                      - generic:
+                        - generic [ref=e9443]:
+                          - generic [ref=e9444]: X
+                          - paragraph [ref=e9446]: "3.95"
+                        - generic [ref=e9447]:
+                          - text: 0%
+                          - emphasis
+                  - button "2 1.40 0%" [ref=e9450]:
+                    - generic:
+                      - generic:
+                        - generic [ref=e9452]:
+                          - generic [ref=e9453]: "2"
+                          - paragraph [ref=e9455]: "1.40"
+                        - generic [ref=e9456]:
+                          - text: 0%
+                          - emphasis
+            - generic [ref=e9459]:
+              - img "*" [ref=e9460]
+              - generic [ref=e9461]:
+                - generic [ref=e9462]:
+                  - generic [ref=e9463]:
+                    - img "*" [ref=e9464]
+                    - generic [ref=e9465]: ა. საბალენკა
+                  - generic [ref=e9466]:
+                    - generic [ref=e9469]:
+                      - heading "დღეს" [level=4] [ref=e9470]
+                      - heading "14:10" [level=1] [ref=e9471]
+                    - paragraph [ref=e9472]: Roland Garros
+                    - generic [ref=e9473]: "+223"
+                  - generic [ref=e9474]:
+                    - img "*" [ref=e9475]
+                    - generic [ref=e9476]: დ. შნეიდერი
+                - generic [ref=e9477]:
+                  - button "1 1.09 0%" [ref=e9480]:
+                    - generic:
+                      - generic:
+                        - generic [ref=e9482]:
+                          - generic [ref=e9483]: "1"
+                          - paragraph [ref=e9485]: "1.09"
+                        - generic [ref=e9486]:
+                          - text: 0%
+                          - emphasis
+                  - button "2 5.60 0%" [ref=e9489]:
+                    - generic:
+                      - generic:
+                        - generic [ref=e9491]:
+                          - generic [ref=e9492]: "2"
+                          - paragraph [ref=e9494]: "5.60"
+                        - generic [ref=e9495]:
+                          - text: 0%
+                          - emphasis
+          - generic [ref=e9496]:
+            - button [ref=e9497]
+            - button [ref=e9498]
+            - button [ref=e9499]
+            - button [ref=e9500]
+            - button [ref=e9501]
+        - button "* ბილეთების ისტორია" [ref=e9502] [cursor=pointer]:
+          - img "*" [ref=e9503]
+          - generic [ref=e9504]: ბილეთების ისტორია
+        - generic [ref=e9507]:
+          - generic [ref=e9510]:
+            - button "ბილეთი 0" [ref=e9511] [cursor=pointer]:
+              - generic [ref=e9512]:
+                - generic [ref=e9513]: ბილეთი
+                - emphasis [ref=e9514]: "0"
+            - button "შენ." [ref=e9515] [cursor=pointer]:
+              - generic [ref=e9517]: შენ.
+            - button "მიმდ." [ref=e9518] [cursor=pointer]:
+              - generic [ref=e9520]: მიმდ.
+          - generic [ref=e9522]:
+            - generic [ref=e9524]:
+              - generic [ref=e9525]:
+                - button "ექსპ." [ref=e9526] [cursor=pointer]:
+                  - generic [ref=e9527]: ექსპ.
+                - button "სისტ." [ref=e9528] [cursor=pointer]:
+                  - generic [ref=e9529]: სისტ.
+                - button "FAST." [ref=e9530] [cursor=pointer]:
+                  - generic [ref=e9531]: FAST.
+              - generic [ref=e9532]:
+                - button "Save" [disabled]:
+                  - img "Save"
+                - button [disabled]:
+                  - img
+            - generic [ref=e9534]:
+              - img [ref=e9535]
+              - paragraph [ref=e9541]:
+                - text: ბილეთი ცარიელია. გთხოვთ მონიშნოთ
+                - text: სასურველი პოზიცია
+              - button "* ბეთზონა" [ref=e9544] [cursor=pointer]:
+                - img "*" [ref=e9545]
+                - generic [ref=e9546]: ბეთზონა
+        - 'link "08 დღე : 09 საათი : 38 წუთი : 21 წამი" [ref=e10681] [cursor=pointer]':
+          - /url: https://crocobet.com/sport/pre-match?lang=ka&leagueIds=132679&eventsCounts=72&isAllSport=true&ignoreSort=false
+          - generic [ref=e9550]:
+            - generic [ref=e9551]:
+              - generic [ref=e9552]: "08"
+              - generic [ref=e9553]: დღე
+            - generic [ref=e9554]: ":"
+            - generic [ref=e9555]:
+              - generic [ref=e9556]: "09"
+              - generic [ref=e9557]: საათი
+            - generic [ref=e9558]: ":"
+            - generic [ref=e9559]:
+              - generic [ref=e9560]: "38"
+              - generic [ref=e9561]: წუთი
+            - generic [ref=e9562]: ":"
+            - generic [ref=e9563]:
+              - generic [ref=e9564]: "21"
+              - generic [ref=e9565]: წამი
+        - generic [ref=e9569] [cursor=pointer]:
+          - generic [ref=e9574]: ბეთზონა
+          - img [ref=e9577]
+  - generic [ref=e1618]:
+    - generic [ref=e1620]: ჩვენ ვიყენებთ Cookie ფაილებს, რათა გაგიმარტივოთ ნავიგაცია და მოვარგოთ ვებგვერდი თქვენს საჭიროებებს. დახურვის ღილაკზე დაჭერით თქვენ ეთანხმებით ჩვენს უსაფრთხოების პოლიტიკას
+    - button "ვეთანხმები" [ref=e1622] [cursor=pointer]
+    - img "close" [ref=e1624] [cursor=pointer]

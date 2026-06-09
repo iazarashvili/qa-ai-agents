@@ -1,0 +1,5 @@
+[     397ms] [LOG] Google Analytics Facade @ https://pre-prod.crocobet.com/libs_shared_src_index_ts-_b1010.a99a9743e386da26.js:0
+[     475ms] [ERROR] Access to script at 'https://pre-prod-mfe.crocobet.com/landing/remoteEntry.mjs' from origin 'https://pre-prod.crocobet.com' has been blocked by CORS policy: Permission was denied for this request to access the `local` address space. @ https://pre-prod.crocobet.com/:0
+[     475ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://pre-prod-mfe.crocobet.com/landing/remoteEntry.mjs:0
+[     482ms] [ERROR] ERROR TypeError: Failed to fetch dynamically imported module: https://pre-prod-mfe.crocobet.com/landing/remoteEntry.mjs @ https://pre-prod.crocobet.com/node_modules_angular_core_fesm2022_core_mjs.85a577d6dda2aeb9.js:0
+[   42585ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://10.80.150.10/UserCheck/PortalMain?IID=30EFB716-5A5A-5841-1F11-03077D67136A&origUrl=aHR0cHM6Ly9tYy55YW5kZXgucnUvbWV0cmlrYS90YWcuanM:0

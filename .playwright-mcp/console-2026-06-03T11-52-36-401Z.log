@@ -1,0 +1,36 @@
+[   43327ms] [LOG] Google Analytics Facade @ https://pre-prod.crocobet.com/libs_shared_src_index_ts-_b1010.a99a9743e386da26.js:0
+[   43899ms] [LOG] HOST RECEIVED CUSTOM EVENT CustomEvent @ https://pre-prod.crocobet.com/apps_web_src_bootstrap_ts.db0f33d95c34ea42.js:0
+[   44005ms] [LOG] Cache has been cleared. @ https://widget.crocobet.com//main.js:0
+[   44177ms] [WARNING] Failed to decode downloaded font: https://pre-prod.crocobet.com/assets/sport/fonts/CrocoSansBlackCaps.woff2?v=4 @ https://pre-prod.crocobet.com/sport/pre-match?lang=ka:0
+[   44177ms] [WARNING] OTS parsing error: invalid sfntVersion: 1008813135 @ https://pre-prod.crocobet.com/sport/pre-match?lang=ka:0
+[   44177ms] [WARNING] Failed to decode downloaded font: https://pre-prod.crocobet.com/assets/sport/fonts/CrocoSansBlackCaps.woff2?v=4 @ https://pre-prod.crocobet.com/sport/pre-match?lang=ka:0
+[   44177ms] [WARNING] OTS parsing error: invalid sfntVersion: 1008813135 @ https://pre-prod.crocobet.com/sport/pre-match?lang=ka:0
+[   44177ms] [WARNING] Failed to decode downloaded font: https://pre-prod.crocobet.com/assets/sport/fonts/CrocoSansBlackCaps.woff2?v=4 @ https://pre-prod.crocobet.com/sport/pre-match?lang=ka:0
+[   44177ms] [WARNING] OTS parsing error: invalid sfntVersion: 1008813135 @ https://pre-prod.crocobet.com/sport/pre-match?lang=ka:0
+[   44177ms] [WARNING] Failed to decode downloaded font: https://pre-prod.crocobet.com/assets/sport/fonts/CrocoSansBlackCaps.woff2?v=4 @ https://pre-prod.crocobet.com/sport/pre-match?lang=ka:0
+[   44177ms] [WARNING] OTS parsing error: invalid sfntVersion: 1008813135 @ https://pre-prod.crocobet.com/sport/pre-match?lang=ka:0
+[   44177ms] [WARNING] Failed to decode downloaded font: https://pre-prod.crocobet.com/assets/sport/fonts/CrocoSansBlackCaps.woff2?v=4 @ https://pre-prod.crocobet.com/sport/pre-match?lang=ka:0
+[   44177ms] [WARNING] OTS parsing error: invalid sfntVersion: 1008813135 @ https://pre-prod.crocobet.com/sport/pre-match?lang=ka:0
+[   44177ms] [WARNING] Failed to decode downloaded font: https://pre-prod.crocobet.com/assets/sport/fonts/CrocoSansBlackCaps.woff2?v=4 @ https://pre-prod.crocobet.com/sport/pre-match?lang=ka:0
+[   44177ms] [WARNING] OTS parsing error: invalid sfntVersion: 1008813135 @ https://pre-prod.crocobet.com/sport/pre-match?lang=ka:0
+[   44177ms] [WARNING] Failed to decode downloaded font: https://pre-prod.crocobet.com/assets/sport/fonts/CrocoSansBlackCaps.woff2?v=4 @ https://pre-prod.crocobet.com/sport/pre-match?lang=ka:0
+[   44177ms] [WARNING] OTS parsing error: invalid sfntVersion: 1008813135 @ https://pre-prod.crocobet.com/sport/pre-match?lang=ka:0
+[   44177ms] [WARNING] Failed to decode downloaded font: https://pre-prod.crocobet.com/assets/sport/fonts/CrocoSansBlackCaps.woff2?v=4 @ https://pre-prod.crocobet.com/sport/pre-match?lang=ka:0
+[   44177ms] [WARNING] OTS parsing error: invalid sfntVersion: 1008813135 @ https://pre-prod.crocobet.com/sport/pre-match?lang=ka:0
+[   44178ms] [WARNING] Failed to decode downloaded font: https://pre-prod.crocobet.com/assets/sport/fonts/CrocoSansBlackCaps.woff2?v=4 @ https://pre-prod.crocobet.com/remote-sport/default-libs_components_src_index_ts.d9a88c784f6e1377.js:0
+[   44178ms] [WARNING] OTS parsing error: invalid sfntVersion: 1008813135 @ https://pre-prod.crocobet.com/remote-sport/default-libs_components_src_index_ts.d9a88c784f6e1377.js:0
+[   44366ms] [WARNING] Failed to decode downloaded font: https://pre-prod.crocobet.com/assets/sport/fonts/CrocoSansBlackCaps.woff2?v=4 @ https://pre-prod.crocobet.com/sport/pre-match?lang=ka:0
+[   44366ms] [WARNING] OTS parsing error: invalid sfntVersion: 1008813135 @ https://pre-prod.crocobet.com/sport/pre-match?lang=ka:0
+[   44565ms] [WARNING] Failed to decode downloaded font: https://pre-prod.crocobet.com/assets/sport/fonts/CrocoSansBlackCaps.woff2?v=4 @ https://pre-prod.crocobet.com/sport/pre-match?lang=ka:0
+[   44565ms] [WARNING] OTS parsing error: invalid sfntVersion: 1008813135 @ https://pre-prod.crocobet.com/sport/pre-match?lang=ka:0
+[   44660ms] [WARNING] Zone Js detected. @ https://betbooster-widget.lvision.io/v3/prod/bundle-es5.js:0
+[   44711ms] [LOG] FastTrack CRM application loaded @ https://crm-lib.fasttrack-solutions.com/loader/fasttrack-crm.js?v=1780487599813:175
+[   44961ms] [WARNING] Widget Zone Js has been loaded. @ https://betbooster-widget.lvision.io/v3/prod/bundle-es5.js:0
+[   45362ms] [LOG] Fasttrack CRM: loginWithAuthToken, sid: [o6yRUQ127X3EDukuq2r3bcyroS25EHxt9Hz6xVh/oe8=], source: [undefined] @ https://crm-lib.fasttrack-solutions.com/lib/js/fasttrack-crm-app.js?v=ce9c069:0
+[   45362ms] [WARNING] Fasttrack CRM: loginWithAuthToken, source is not set @ https://crm-lib.fasttrack-solutions.com/lib/js/fasttrack-crm-app.js?v=ce9c069:0
+[   45583ms] [LOG] Fasttrack CRM: Successfully authenticated! @ https://crm-lib.fasttrack-solutions.com/lib/js/fasttrack-crm-app.js?v=ce9c069:0
+[   45583ms] [INFO] Rewards initialized @ https://crm-lib.fasttrack-solutions.com/wc/rewards-main.umd.cjs?v=494579:677
+[   45611ms] [WARNING] Failed to decode downloaded font: https://pre-prod.crocobet.com/assets/sport/fonts/CrocoSansBlackCaps.woff2?v=4 @ https://pre-prod.crocobet.com/sport/pre-match?lang=ka:0
+[   45611ms] [WARNING] OTS parsing error: invalid sfntVersion: 1008813135 @ https://pre-prod.crocobet.com/sport/pre-match?lang=ka:0
+[   47997ms] [WARNING] Fasttrack CRM: Disconnected from ws channel: private-prisma-176-1418227 @ https://crm-lib.fasttrack-solutions.com/lib/js/fasttrack-crm-app.js?v=ce9c069:0
+[   86172ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://10.80.150.10/UserCheck/PortalMain?IID=75E85D0F-83A3-8B6B-66F1-13EC28ADF7E9&origUrl=aHR0cHM6Ly9tYy55YW5kZXgucnUvbWV0cmlrYS90YWcuanM:0
