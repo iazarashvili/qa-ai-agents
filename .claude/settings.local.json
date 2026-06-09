@@ -13,7 +13,14 @@
       "Bash(find C:/iLoOoo/claude-agents/dashboard/.next -name route* -path */agent/run/*)",
       "Bash(find C:/iLoOoo/claude-agents/dashboard/node_modules/next/dist/docs -name *.md)",
       "Bash(curl:*)",
-      "Bash(find C:/iLoOoo/claude-agents/dashboard/node_modules/next/dist/docs -name *route* -o -name *api*)"
+      "Bash(find C:/iLoOoo/claude-agents/dashboard/node_modules/next/dist/docs -name *route* -o -name *api*)",
+      "Bash(find C:iLoOooqa-ai-agents -type f -name tailwind.config.*)",
+      "Bash(find C:iLoOooqa-ai-agents -type f \\\\\\(-name *.css -o -name *.scss \\\\\\))",
+      "Bash(find C:iLoOooqa-ai-agents/dashboard/src -type f \\\\\\(-name *.tsx -o -name *.ts -o -name *.css \\\\\\))",
+      "Bash(taskkill //F //IM node.exe)",
+      "Bash(cd:*)",
+      "Bash(node -e \"try { require.resolve\\(''shadcn/tailwind.css''\\); console.log\\(''resolves ok''\\) } catch\\(e\\) { console.log\\(''FAIL:'', e.message.split\\(''\\\\n''\\)[0]\\) }\")",
+      "Bash(node -e \"const p = require\\(''./node_modules/shadcn/package.json''\\); console.log\\(JSON.stringify\\(p.exports[''./tailwind.css''], null, 2\\)\\)\")"
     ]
   }
 }
