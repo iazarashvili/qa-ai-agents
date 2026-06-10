@@ -20,7 +20,13 @@
       "Bash(taskkill //F //IM node.exe)",
       "Bash(cd:*)",
       "Bash(node -e \"try { require.resolve\\(''shadcn/tailwind.css''\\); console.log\\(''resolves ok''\\) } catch\\(e\\) { console.log\\(''FAIL:'', e.message.split\\(''\\\\n''\\)[0]\\) }\")",
-      "Bash(node -e \"const p = require\\(''./node_modules/shadcn/package.json''\\); console.log\\(JSON.stringify\\(p.exports[''./tailwind.css''], null, 2\\)\\)\")"
+      "Bash(node -e \"const p = require\\(''./node_modules/shadcn/package.json''\\); console.log\\(JSON.stringify\\(p.exports[''./tailwind.css''], null, 2\\)\\)\")",
+      "Bash(find /c/iLoOoo/qa-ai-agents -name *.spec.ts -newer /c/iLoOoo/qa-ai-agents/dashboard/mcp-config.json -type f)",
+      "Bash(find /c/iLoOoo/qa-ai-agents -name *.spec.ts -type f)",
+      "Bash(npx tsc:*)",
+      "Bash(where claude:*)",
+      "Bash(node:*)",
+      "Bash(netstat -ano)"
     ]
   }
 }
