@@ -1,0 +1,512 @@
+{
+  "feature": "მოიწვიე მეგობარი (Refer Friend)",
+  "content_type": "Settings / Profile - Referral",
+  "url": "https://crocobet.com/profile/refer-friend",
+  "generated_at": "2026-06-10T12:00:00Z",
+  "total_cases": 25,
+  "design_techniques_applied": ["EP", "BVA", "State Transition", "Error Guessing"],
+  "categories": {
+    "happy_paths": [
+      {
+        "test_id": "REF-HP-01",
+        "target_component": "რეფერალ ბმულის Copy ღილაკი",
+        "test_technique": "EP",
+        "scenario": "რეფერალ ბმულის კოპირება clipboard-ში Copy ღილაკით",
+        "severity": "Critical",
+        "pre_conditions": "მომხმარებელი ავტორიზებულია და მოიწვიე მეგობარი გვერდი გახსნილია",
+        "test_steps": [
+          "1. რეფერალ ბმულის ველში ნახე URL: https://crocobet.com/?referralCode=CR95541UU",
+          "2. დააჭირე 'copy' ღილაკს ბმულის გვერდით",
+          "3. გახსენი ნებისმიერი ტექსტური ველი (მაგ: notepad ან ბრაუზერის address bar)",
+          "4. Ctrl+V-ით ჩასვი კოპირებული ტექსტი"
+        ],
+        "test_data": {
+          "expected_url": "https://crocobet.com/?referralCode=CR95541UU"
+        },
+        "expected_result": "ბმული წარმატებით დაკოპირდა clipboard-ში და ჩასმისას სრული URL ჩანს; Copy ღილაკზე ვიზუალური feedback (checkmark ან ტექსტის ცვლილება) გამოჩნდა"
+      },
+      {
+        "test_id": "REF-HP-02",
+        "target_component": "მოწვევის კოდის Copy ღილაკი",
+        "test_technique": "EP",
+        "scenario": "მოწვევის კოდის კოპირება clipboard-ში Copy ღილაკით",
+        "severity": "Critical",
+        "pre_conditions": "მომხმარებელი ავტორიზებულია და მოიწვიე მეგობარი გვერდი გახსნილია",
+        "test_steps": [
+          "1. მოწვევის კოდის ველში ნახე კოდი: CR95541UU",
+          "2. დააჭირე 'copy' ღილაკს კოდის გვერდით",
+          "3. გახსენი ნებისმიერი ტექსტური ველი",
+          "4. Ctrl+V-ით ჩასვი კოპირებული ტექსტი"
+        ],
+        "test_data": {
+          "expected_code": "CR95541UU"
+        },
+        "expected_result": "კოდი CR95541UU წარმატებით დაკოპირდა და ჩასმისას ზუსტი კოდი ჩანს; Copy ღილაკზე ვიზუალური feedback გამოჩნდა"
+      },
+      {
+        "test_id": "REF-HP-03",
+        "target_component": "QR კოდის სექცია",
+        "test_technique": "EP",
+        "scenario": "QR კოდის გამოსახვა და სკანირებადობის შემოწმება",
+        "severity": "Critical",
+        "pre_conditions": "მოიწვიე მეგობარი გვერდი გახსნილია",
+        "test_steps": [
+          "1. გადაახვიე QR კოდის სექციამდე",
+          "2. შეამოწმე რომ QR კოდის გამოსახულება ჩანს და არ არის დაბლურული",
+          "3. შეამოწმე Crocobet-ის ლოგო QR კოდის გვერდით",
+          "4. სკანირება მობილური ტელეფონით (QR scanner აპით)"
+        ],
+        "test_data": {
+          "expected_redirect": "https://crocobet.com/?referralCode=CR95541UU"
+        },
+        "expected_result": "QR კოდი მკაფიოდ ჩანს, სკანირებისას გადამისამართდება რეგისტრაციის გვერდზე referralCode პარამეტრით"
+      },
+      {
+        "test_id": "REF-HP-04",
+        "target_component": "რეფერალ ბმული",
+        "test_technique": "EP",
+        "scenario": "რეფერალ ბმულის ვალიდურობის შემოწმება - ბმულით გადასვლა ახალ ბრაუზერში",
+        "severity": "Critical",
+        "pre_conditions": "რეფერალ ბმული დაკოპირებულია",
+        "test_steps": [
+          "1. დააკოპირე რეფერალ ბმული",
+          "2. გახსენი incognito/private ბრაუზერის ფანჯარა",
+          "3. ჩასვი ბმული address bar-ში და დააჭირე Enter",
+          "4. შეამოწმე რომ რეგისტრაციის გვერდი/ფორმა გაიხსნა",
+          "5. შეამოწმე რომ რეფერალ კოდი ავტომატურად შეივსო პრომო კოდის ველში"
+        ],
+        "test_data": {
+          "referral_url": "https://crocobet.com/?referralCode=CR95541UU"
+        },
+        "expected_result": "რეგისტრაციის გვერდი იხსნება და პრომო კოდის ველში CR95541UU ავტომატურად არის შევსებული"
+      },
+      {
+        "test_id": "REF-HP-05",
+        "target_component": "საინფორმაციო ბანერი",
+        "test_technique": "EP",
+        "scenario": "ბანერის ტექსტის ხილვადობა და სისრულე",
+        "severity": "Medium",
+        "pre_conditions": "მოიწვიე მეგობარი გვერდი გახსნილია",
+        "test_steps": [
+          "1. წაიკითხე ბანერის ტექსტი გვერდის ზედა ნაწილში",
+          "2. შეამოწმე რომ ტექსტი სრულად ჩანს და არ არის truncated",
+          "3. შეამოწმე რომ ტექსტი ქართულად არის და გრამატიკულად გამართულია",
+          "4. შეამოწმე რომ მეთოდების აღწერა (ბმული, QR კოდი, მოწვევის კოდი) შეესაბამება ქვემოთ ნაჩვენებ ფუნქციონალს"
+        ],
+        "test_data": {},
+        "expected_result": "ბანერის ტექსტი სრულად ჩანს, ქართულად, აღწერილი სამივე მეთოდი შეესაბამება გვერდზე არსებულ ფუნქციონალს"
+      },
+      {
+        "test_id": "REF-HP-06",
+        "target_component": "Tooltip-ები (ⓘ აიქონები)",
+        "test_technique": "EP",
+        "scenario": "სამივე tooltip-ის გამოჩენა და ტექსტის შემოწმება",
+        "severity": "Medium",
+        "pre_conditions": "მოიწვიე მეგობარი გვერდი გახსნილია",
+        "test_steps": [
+          "1. მიიტანე მაუსი პირველ ⓘ აიქონზე ('გაუზიარე ბმული'-ს გვერდით) - წაიკითხე tooltip ტექსტი",
+          "2. მიიტანე მაუსი მეორე ⓘ აიქონზე ('მოწვევის კოდი'-ს გვერდით) - წაიკითხე tooltip ტექსტი",
+          "3. მიიტანე მაუსი მესამე ⓘ აიქონზე ('QR კოდი'-ს გვერდით) - წაიკითხე tooltip ტექსტი",
+          "4. შეამოწმე რომ თითოეული tooltip ტექსტი შეესაბამება შესაბამის სექციას"
+        ],
+        "test_data": {
+          "tooltip_1": "როდესაც შენი მეგობარი დააკლიკებს ბმულს, ის დაიწყებს რეგისტრაციას, სადაც შენი კოდი უკვე ავტომატურად იქნება მითითებული.",
+          "tooltip_2": "რეგისტრაციისას მეგობარმა თავად უნდა შეიყვანოს შენ მიერ გაგზავნილი კოდი პრომო კოდის ველში.",
+          "tooltip_3": "როდესაც შენი მეგობარი დაასკანერებს კოდს, გაიხსნება რეგისტრაციის ფანჯარა, სადაც შენი კოდი უკვე ავტომატურად იქნება შევსებული."
+        },
+        "expected_result": "სამივე tooltip გამოჩნდა hover-ზე, ტექსტი ქართულად არის და შეესაბამება თითოეულ სექციას"
+      }
+    ],
+    "functional_edge_cases": [
+      {
+        "test_id": "REF-EG-01",
+        "target_component": "Copy ღილაკი - ბმული",
+        "test_technique": "ErrorGuess",
+        "scenario": "ბმულის Copy ღილაკზე რამდენჯერმე ზედიზედ სწრაფი დაჭერა",
+        "severity": "Medium",
+        "pre_conditions": "მოიწვიე მეგობარი გვერდი გახსნილია",
+        "test_steps": [
+          "1. სწრაფად დააჭირე 'copy' ღილაკს ბმულის გვერდით 5-6-ჯერ ზედიზედ",
+          "2. შეამოწმე ღილაკის ვიზუალური მდგომარეობა",
+          "3. ჩასვი clipboard-ის შიგთავსი ტექსტურ ველში"
+        ],
+        "test_data": {},
+        "expected_result": "ღილაკი კორექტულად მუშაობს, ანიმაცია/feedback არ იშლება, clipboard-ში სწორი ბმულია"
+      },
+      {
+        "test_id": "REF-EG-02",
+        "target_component": "Copy ღილაკი - კოდი",
+        "test_technique": "ErrorGuess",
+        "scenario": "კოდის Copy ღილაკზე რამდენჯერმე ზედიზედ სწრაფი დაჭერა",
+        "severity": "Medium",
+        "pre_conditions": "მოიწვიე მეგობარი გვერდი გახსნილია",
+        "test_steps": [
+          "1. სწრაფად დააჭირე 'copy' ღილაკს კოდის გვერდით 5-6-ჯერ ზედიზედ",
+          "2. შეამოწმე ღილაკის ვიზუალური მდგომარეობა",
+          "3. ჩასვი clipboard-ის შიგთავსი ტექსტურ ველში"
+        ],
+        "test_data": {},
+        "expected_result": "ღილაკი კორექტულად მუშაობს, clipboard-ში CR95541UU კოდია"
+      },
+      {
+        "test_id": "REF-State-01",
+        "target_component": "Copy ღილაკის state transition",
+        "test_technique": "State",
+        "scenario": "Copy ღილაკის ვიზუალური state-ების ცვლილების შემოწმება (idle → copied → idle)",
+        "severity": "Medium",
+        "pre_conditions": "მოიწვიე მეგობარი გვერდი გახსნილია",
+        "test_steps": [
+          "1. შეამოწმე Copy ღილაკის საწყისი მდგომარეობა (copy აიქონი + 'copy' ტექსტი)",
+          "2. დააჭირე Copy ღილაკს",
+          "3. შეამოწმე ღილაკის მდგომარეობა კოპირების შემდეგ (checkmark აიქონი ან ტექსტის ცვლილება)",
+          "4. დაელოდე 2-3 წამს",
+          "5. შეამოწმე ღილაკი დაბრუნდა თუ არა საწყის მდგომარეობაში"
+        ],
+        "test_data": {},
+        "expected_result": "ღილაკი გადადის copied state-ში (checkmark), შემდეგ ავტომატურად ბრუნდება საწყის (copy icon) მდგომარეობაში"
+      },
+      {
+        "test_id": "REF-EG-03",
+        "target_component": "გვერდის განახლება (Page Refresh)",
+        "test_technique": "ErrorGuess",
+        "scenario": "გვერდის refresh-ის შემდეგ რეფერალ მონაცემების შენარჩუნება",
+        "severity": "High",
+        "pre_conditions": "მოიწვიე მეგობარი გვერდი გახსნილია",
+        "test_steps": [
+          "1. დაიმახსოვრე რეფერალ ბმული და კოდი",
+          "2. დააჭირე F5 ან Ctrl+R გვერდის განახლებისთვის",
+          "3. შეამოწმე რომ რეფერალ ბმული იგივეა",
+          "4. შეამოწმე რომ მოწვევის კოდი იგივეა",
+          "5. შეამოწმე QR კოდი ხელახლა გამოჩნდა თუ არა"
+        ],
+        "test_data": {
+          "expected_url": "https://crocobet.com/?referralCode=CR95541UU",
+          "expected_code": "CR95541UU"
+        },
+        "expected_result": "refresh-ის შემდეგ ყველა მონაცემი (ბმული, კოდი, QR) უცვლელია"
+      },
+      {
+        "test_id": "REF-EG-04",
+        "target_component": "რეფერალ ბმულის ტექსტი",
+        "test_technique": "ErrorGuess",
+        "scenario": "რეფერალ ბმულის ხელით მონიშვნა და კოპირება (არა Copy ღილაკით)",
+        "severity": "Medium",
+        "pre_conditions": "მოიწვიე მეგობარი გვერდი გახსნილია",
+        "test_steps": [
+          "1. სცადე მაუსით ბმულის ტექსტის მონიშვნა (select) ბმულის ველში",
+          "2. თუ მონიშვნა შესაძლებელია, Ctrl+C-ით დააკოპირე",
+          "3. ჩასვი სხვაგან და შეამოწმე სისრულე"
+        ],
+        "test_data": {},
+        "expected_result": "ბმულის ტექსტი ან მონიშნადია და სრულად კოპირდება, ან მხოლოდ Copy ღილაკით არის კოპირებადი (ორივე მისაღებია, მაგრამ UX-ის თვალსაზრისით Copy ღილაკი საკმარისია)"
+      },
+      {
+        "test_id": "REF-EG-05",
+        "target_component": "მოწვევის კოდის ტექსტი",
+        "test_technique": "ErrorGuess",
+        "scenario": "მოწვევის კოდის ხელით მონიშვნა და კოპირება",
+        "severity": "Medium",
+        "pre_conditions": "მოიწვიე მეგობარი გვერდი გახსნილია",
+        "test_steps": [
+          "1. სცადე მაუსით კოდის ტექსტის (CR95541UU) მონიშვნა ველში",
+          "2. თუ მონიშვნა შესაძლებელია, Ctrl+C-ით დააკოპირე",
+          "3. ჩასვი სხვაგან და შეადარე ორიგინალს"
+        ],
+        "test_data": {
+          "expected_code": "CR95541UU"
+        },
+        "expected_result": "კოდი კოპირდება სრულად, ზედმეტი space-ების გარეშე"
+      },
+      {
+        "test_id": "REF-EG-06",
+        "target_component": "Tooltip-ების ქცევა",
+        "test_technique": "ErrorGuess",
+        "scenario": "Tooltip-ის გამოჩენა/გაქრობა და სწრაფი გადასვლა ერთი tooltip-დან მეორეზე",
+        "severity": "Low",
+        "pre_conditions": "მოიწვიე მეგობარი გვერდი გახსნილია",
+        "test_steps": [
+          "1. მიიტანე მაუსი პირველ ⓘ აიქონზე - tooltip გამოჩნდა",
+          "2. სწრაფად გადაიტანე მაუსი მეორე ⓘ აიქონზე",
+          "3. შეამოწმე რომ პირველი tooltip გაქრა და მეორე გამოჩნდა",
+          "4. სწრაფად გადაიტანე მესამე ⓘ აიქონზე",
+          "5. შეამოწმე რომ ორი tooltip ერთდროულად არ ჩანს"
+        ],
+        "test_data": {},
+        "expected_result": "ერთდროულად მხოლოდ ერთი tooltip ჩანს, გადასვლისას წინა ქრება და ახალი გამოჩნდება"
+      },
+      {
+        "test_id": "REF-EG-07",
+        "target_component": "რეფერალ ბმულის referralCode პარამეტრი",
+        "test_technique": "ErrorGuess",
+        "scenario": "URL-ში referralCode პარამეტრის თანხვედრა მოწვევის კოდთან",
+        "severity": "High",
+        "pre_conditions": "მოიწვიე მეგობარი გვერდი გახსნილია",
+        "test_steps": [
+          "1. დააკოპირე რეფერალ ბმული და ამოიღე referralCode პარამეტრის მნიშვნელობა",
+          "2. დააკოპირე მოწვევის კოდი",
+          "3. შეადარე ორი მნიშვნელობა"
+        ],
+        "test_data": {
+          "url_code": "CR95541UU",
+          "display_code": "CR95541UU"
+        },
+        "expected_result": "referralCode URL პარამეტრი და მოწვევის კოდი იდენტურია (CR95541UU)"
+      },
+      {
+        "test_id": "REF-EG-08",
+        "target_component": "ბრაუზერის Back ღილაკი",
+        "test_technique": "ErrorGuess",
+        "scenario": "გვერდიდან გასვლა Back ღილაკით და დაბრუნება",
+        "severity": "Medium",
+        "pre_conditions": "მოიწვიე მეგობარი გვერდი გახსნილია, მანამდე სხვა გვერდი იყო გახსნილი",
+        "test_steps": [
+          "1. დააჭირე ბრაუზერის Back ღილაკს",
+          "2. დააჭირე Forward ღილაკს (ან ხელახლა შედი refer-friend გვერდზე)",
+          "3. შეამოწმე გვერდის მდგომარეობა"
+        ],
+        "test_data": {},
+        "expected_result": "გვერდი ნორმალურად იტვირთება, ყველა ელემენტი (ბმული, კოდი, QR) ჩანს"
+      }
+    ],
+    "ui_ux_responsive": [
+      {
+        "test_id": "REF-UX-01",
+        "target_component": "მთლიანი გვერდის layout",
+        "test_technique": "EP",
+        "scenario": "Desktop viewport-ზე ელემენტების განლაგების შემოწმება",
+        "severity": "Medium",
+        "pre_conditions": "მოიწვიე მეგობარი გვერდი გახსნილია desktop ბრაუზერში (1920x1080)",
+        "test_steps": [
+          "1. შეამოწმე ბანერის ტექსტი მარცხნივ და 'მოიწვიე მეგობარი' ბოქსი მარჯვნივ",
+          "2. შეამოწმე რომ ბმულის, კოდის და QR სექციები ვერტიკალურად არის განლაგებული ბოქსში",
+          "3. შეამოწმე Copy ღილაკები ველების მარჯვენა მხარეს არის",
+          "4. შეამოწმე QR კოდი და ლოგო ჰორიზონტალურად არის განლაგებული"
+        ],
+        "test_data": {
+          "viewport": "1920x1080"
+        },
+        "expected_result": "ელემენტები სწორად არის განლაგებული, ტექსტი არ არის გადაფარებული, spacing-ი თანაბარია"
+      },
+      {
+        "test_id": "REF-UX-02",
+        "target_component": "მთლიანი გვერდის layout - მობილური",
+        "test_technique": "EP",
+        "scenario": "მობილურ viewport-ზე responsive ქცევის შემოწმება",
+        "severity": "High",
+        "pre_conditions": "მოიწვიე მეგობარი გვერდი გახსნილია",
+        "test_steps": [
+          "1. ბრაუზერის DevTools-ით გადართე მობილურ ხედზე (375x812 - iPhone)",
+          "2. შეამოწმე ბანერის ტექსტი სრულად ჩანს და იკითხება",
+          "3. შეამოწმე 'მოიწვიე მეგობარი' ბოქსი ბანერის ქვემოთ გადავიდა",
+          "4. შეამოწმე Copy ღილაკები ხელმისაწვდომია (არ გადის ეკრანის ფარგლებს გარეთ)",
+          "5. შეამოწმე QR კოდი ჩანს და საკმარისი ზომისაა სკანირებისთვის",
+          "6. შეამოწმე ბმულის ტექსტი truncated-ია თუ სრულად ჩანს"
+        ],
+        "test_data": {
+          "viewport": "375x812"
+        },
+        "expected_result": "გვერდი responsive-ია, ყველა ელემენტი ჩანს და ფუნქციონალურია მობილურ ხედზე"
+      },
+      {
+        "test_id": "REF-UX-03",
+        "target_component": "მთლიანი გვერდის layout - ტაბლეტი",
+        "test_technique": "EP",
+        "scenario": "ტაბლეტის viewport-ზე responsive ქცევის შემოწმება",
+        "severity": "Medium",
+        "pre_conditions": "მოიწვიე მეგობარი გვერდი გახსნილია",
+        "test_steps": [
+          "1. ბრაუზერის DevTools-ით გადართე ტაბლეტის ხედზე (768x1024 - iPad)",
+          "2. შეამოწმე ყველა ელემენტის განლაგება",
+          "3. შეამოწმე Copy ღილაკები ხელმისაწვდომია",
+          "4. შეამოწმე QR კოდი ნორმალურ ზომაშია"
+        ],
+        "test_data": {
+          "viewport": "768x1024"
+        },
+        "expected_result": "გვერდი კორექტულად ჩანს ტაბლეტის ხედზე, ელემენტები არ არის გადაფარებული"
+      },
+      {
+        "test_id": "REF-UX-04",
+        "target_component": "Copy ღილაკების hover/active state",
+        "test_technique": "State",
+        "scenario": "Copy ღილაკების ვიზუალური state-ების შემოწმება (normal, hover, active)",
+        "severity": "Low",
+        "pre_conditions": "მოიწვიე მეგობარი გვერდი გახსნილია",
+        "test_steps": [
+          "1. მიიტანე მაუსი ბმულის Copy ღილაკზე - შეამოწმე hover ეფექტი",
+          "2. დააჭირე ღილაკს - შეამოწმე active/pressed ეფექტი",
+          "3. გაიმეორე იგივე კოდის Copy ღილაკისთვის",
+          "4. შეამოწმე cursor: pointer ორივე ღილაკზე"
+        ],
+        "test_data": {},
+        "expected_result": "ორივე Copy ღილაკს აქვს hover და active ვიზუალური ეფექტი, cursor pointer-ია"
+      },
+      {
+        "test_id": "REF-UX-05",
+        "target_component": "QR კოდის ხარისხი",
+        "test_technique": "EP",
+        "scenario": "QR კოდის სიმკვეთრე და Crocobet ლოგოს ხარისხი",
+        "severity": "Medium",
+        "pre_conditions": "მოიწვიე მეგობარი გვერდი გახსნილია",
+        "test_steps": [
+          "1. შეამოწმე QR კოდის გამოსახულების სიმკვეთრე (არ არის pixelated ან blurry)",
+          "2. შეამოწმე Crocobet ლოგო მკაფიოდ ჩანს QR კოდის გვერდით",
+          "3. შეამოწმე QR კოდის ზომა საკმარისია სკანირებისთვის (მინიმუმ 100x100px)",
+          "4. შეამოწმე ბოქსის ფონი და QR კოდის კონტრასტი"
+        ],
+        "test_data": {},
+        "expected_result": "QR კოდი მკაფიოა, ლოგო ჩანს, კონტრასტი საკმარისია სკანირებისთვის"
+      },
+      {
+        "test_id": "REF-UX-06",
+        "target_component": "Tab/Keyboard ნავიგაცია",
+        "test_technique": "EP",
+        "scenario": "კლავიატურით ნავიგაცია Copy ღილაკებზე",
+        "severity": "Medium",
+        "pre_conditions": "მოიწვიე მეგობარი გვერდი გახსნილია",
+        "test_steps": [
+          "1. დააჭირე Tab ღილაკს რამდენჯერმე",
+          "2. შეამოწმე რომ ფოკუსი გადადის Copy ღილაკებზე",
+          "3. როცა Copy ღილაკზეა ფოკუსი, დააჭირე Enter ან Space",
+          "4. შეამოწმე რომ კოპირება შესრულდა"
+        ],
+        "test_data": {},
+        "expected_result": "Tab-ით ფოკუსი გადადის ღილაკებზე, focus indicator ჩანს, Enter/Space-ით კოპირება მუშაობს"
+      }
+    ],
+    "security_localization": [
+      {
+        "test_id": "REF-SC-01",
+        "target_component": "რეფერალ ბმულის URL პარამეტრი",
+        "test_technique": "ErrorGuess",
+        "scenario": "referralCode URL პარამეტრის მანიპულაცია - XSS injection",
+        "severity": "Critical",
+        "pre_conditions": "ბრაუზერი გახსნილია",
+        "test_steps": [
+          "1. გახსენი ახალი tab და შეიყვანე: https://crocobet.com/?referralCode=<script>alert('xss')</script>",
+          "2. შეამოწმე გვერდის ქცევა - alert ხომ არ გამოჩნდა",
+          "3. შეამოწმე რომ script tag დაიფილტრა ან escaped-ია"
+        ],
+        "test_data": {
+          "malicious_url": "https://crocobet.com/?referralCode=<script>alert('xss')</script>"
+        },
+        "expected_result": "XSS კოდი არ შესრულდა, გვერდი უსაფრთხოდ მუშაობს, script tag escaped ან დაფილტრულია"
+      },
+      {
+        "test_id": "REF-SC-02",
+        "target_component": "რეფერალ ბმულის URL პარამეტრი",
+        "test_technique": "ErrorGuess",
+        "scenario": "referralCode URL პარამეტრის მანიპულაცია - SQL injection",
+        "severity": "Critical",
+        "pre_conditions": "ბრაუზერი გახსნილია",
+        "test_steps": [
+          "1. გახსენი: https://crocobet.com/?referralCode=' OR 1=1 --",
+          "2. შეამოწმე გვერდის ქცევა",
+          "3. შეამოწმე რომ არანაირი unexpected მონაცემი არ გამოჩნდა",
+          "4. შეამოწმე error message ხომ არ გამოჩნდა database-ის ინფორმაციით"
+        ],
+        "test_data": {
+          "malicious_url": "https://crocobet.com/?referralCode=' OR 1=1 --"
+        },
+        "expected_result": "SQL injection კოდი არ შესრულდა, არანაირი database error არ გამოჩნდა"
+      },
+      {
+        "test_id": "REF-SC-03",
+        "target_component": "რეფერალ ბმულის URL პარამეტრი",
+        "test_technique": "ErrorGuess",
+        "scenario": "referralCode URL პარამეტრის მანიპულაცია - HTML injection",
+        "severity": "High",
+        "pre_conditions": "ბრაუზერი გახსნილია",
+        "test_steps": [
+          "1. გახსენი: https://crocobet.com/?referralCode=<b>bold</b><iframe src='https://evil.com'>",
+          "2. შეამოწმე რეგისტრაციის გვერდზე პრომო კოდის ველი",
+          "3. შეამოწმე რომ HTML tag-ები არ დარენდერდა"
+        ],
+        "test_data": {
+          "malicious_url": "https://crocobet.com/?referralCode=<b>bold</b><iframe src='https://evil.com'>"
+        },
+        "expected_result": "HTML injection არ მუშაობს, tag-ები escaped ან strip-ედია, iframe არ ჩაიტვირთა"
+      },
+      {
+        "test_id": "REF-SC-04",
+        "target_component": "რეფერალ კოდი URL-ში",
+        "test_technique": "ErrorGuess",
+        "scenario": "რეფერალ კოდის ხილვადობა URL-ში - სენსიტიური მონაცემების ექსპოზიცია",
+        "severity": "Medium",
+        "pre_conditions": "მოიწვიე მეგობარი გვერდი გახსნილია",
+        "test_steps": [
+          "1. შეამოწმე ბრაუზერის address bar - ხომ არ ჩანს რეფერალ კოდი URL-ში",
+          "2. შეამოწმე page source - ხომ არ არის სენსიტიური ინფორმაცია (API key, token) HTML-ში",
+          "3. შეამოწმე Network tab - API request-ებში ხომ არ არის ზედმეტი მონაცემები response-ში"
+        ],
+        "test_data": {},
+        "expected_result": "მხოლოდ რეფერალ კოდი ჩანს (რაც ნორმალურია), სხვა სენსიტიური მონაცემი არ არის ექსპოზირებული"
+      },
+      {
+        "test_id": "REF-SC-05",
+        "target_component": "გვერდის ხელმისაწვდომობა",
+        "test_technique": "EP",
+        "scenario": "არაავტორიზებული მომხმარებლის წვდომა refer-friend გვერდზე",
+        "severity": "High",
+        "pre_conditions": "მომხმარებელი არ არის ავტორიზებული (გამოსული ანგარიშიდან)",
+        "test_steps": [
+          "1. გახსენი incognito ფანჯარა",
+          "2. პირდაპირ შეიყვანე URL: https://crocobet.com/profile/refer-friend",
+          "3. შეამოწმე გვერდის ქცევა"
+        ],
+        "test_data": {
+          "url": "https://crocobet.com/profile/refer-friend"
+        },
+        "expected_result": "არაავტორიზებული მომხმარებელი გადამისამართდება login გვერდზე, refer-friend გვერდის შიგთავსი არ ჩანს"
+      }
+    ]
+  },
+  "observations": [
+    {
+      "type": "UI Flaw",
+      "description": "რეფერალ ბმულის ველში URL ტექსტი truncated-ია ('https://crocobet.com/?...' ჩანს). მომხმარებელს არ შეუძლია სრული ბმულის ნახვა Copy-მდე.",
+      "recommendation": "ბმულის ველში სრული URL უნდა ჩანდეს ან hover-ზე tooltip-ით სრული ბმული გამოჩნდეს",
+      "severity": "Low"
+    },
+    {
+      "type": "Bad UX",
+      "description": "QR კოდის ქვეშ არ არის მითითებული რა ხდება სკანირების შემდეგ (მაგალითად, 'სკანირების შემდეგ გაიხსნება რეგისტრაციის გვერდი'). მომხმარებელმა tooltip-ზე უნდა hover-ი გააკეთოს ამის გასაგებად.",
+      "recommendation": "QR კოდის ქვეშ მცირე ტექსტური აღწერის დამატება",
+      "severity": "Low"
+    },
+    {
+      "type": "Bad UX",
+      "description": "არ არის social media sharing ღილაკები (Facebook, WhatsApp, Telegram) რეფერალ ბმულის გასაზიარებლად. მომხმარებელმა ხელით უნდა დააკოპიროს და გააზიაროს.",
+      "recommendation": "Social sharing ღილაკების დამატება ბმულის გვერდით",
+      "severity": "Low"
+    },
+    {
+      "type": "Accessibility Issue",
+      "description": "Tooltip-ები მხოლოდ hover-ზე ჩანს. მობილურ მოწყობილობაზე hover არ არსებობს, ამიტომ tooltip-ის ინფორმაცია შეიძლება მიუწვდომელი იყოს.",
+      "recommendation": "ⓘ აიქონზე click/tap-ითაც უნდა გამოჩნდეს tooltip მობილურისთვის",
+      "severity": "Medium"
+    }
+  ],
+  "design_insights": [
+    {
+      "insight": "REF-EG-01 და REF-EG-02 ცალ-ცალკეა, რადგან ორი სხვადასხვა Copy ღილაკია სხვადასხვა content-ით (URL vs Code) - ერთის წარმატება არ გარანტირებს მეორეს",
+      "cases_affected": ["REF-EG-01", "REF-EG-02"],
+      "technique": "ErrorGuess"
+    },
+    {
+      "insight": "State Transition ტესტი (REF-State-01) ორივე Copy ღილაკის state-ს ამოწმებს ერთ ტესტში, რადგან ქცევა იდენტურია",
+      "cases_affected": ["REF-State-01"],
+      "technique": "State"
+    },
+    {
+      "insight": "Security ტესტები ფოკუსირებულია referralCode URL პარამეტრზე, რადგან ეს ერთადერთი user-manipulable input-ია ამ გვერდზე",
+      "cases_affected": ["REF-SC-01", "REF-SC-02", "REF-SC-03"],
+      "technique": "ErrorGuess"
+    },
+    {
+      "insight": "Responsive ტესტები 3 viewport-ზე (desktop, tablet, mobile) ცალ-ცალკეა, რადგან layout-ის breakpoint-ები განსხვავებულ ქცევას იწვევს",
+      "cases_affected": ["REF-UX-01", "REF-UX-02", "REF-UX-03"],
+      "technique": "EP"
+    }
+  ]
+}
