@@ -1,0 +1,4 @@
+[      42ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://pre-prod-mfe.crocobet.com/polyfills.a7bd5af46c1948a6.js:0
+[      43ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://pre-prod-mfe.crocobet.com/main.4631e3eaa092b57b.js:0
+[      44ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://pre-prod-mfe.crocobet.com/styles.5105f1fe0d154d28.css:0
+[      53ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://pre-prod-mfe.crocobet.com/favicon.ico:0
