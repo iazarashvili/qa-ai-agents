@@ -1,0 +1,189 @@
+- generic [active] [ref=e1]:
+  - main [ref=e4]:
+    - generic [ref=e7]:
+      - img "Logo" [ref=e9] [cursor=pointer]
+      - generic [ref=e12]:
+        - generic [ref=e16] [cursor=pointer]:
+          - img "sport.svg" [ref=e17]
+          - generic [ref=e18]: სპორტი
+        - generic [ref=e21] [cursor=pointer]:
+          - img "live.svg" [ref=e22]
+          - generic [ref=e23]: LIVE
+        - generic [ref=e26] [cursor=pointer]:
+          - img "slots.svg" [ref=e27]
+          - generic [ref=e28]: სლოტები
+        - generic [ref=e31] [cursor=pointer]:
+          - img "casino.svg" [ref=e32]
+          - generic [ref=e33]: კაზინო
+        - generic [ref=e36] [cursor=pointer]:
+          - img "fastgame.svg" [ref=e37]
+          - generic [ref=e38]: თამაშები
+        - generic [ref=e39] [cursor=pointer]:
+          - generic [ref=e40]: ახალი
+          - generic [ref=e42]:
+            - img "games.svg" [ref=e43]
+            - generic [ref=e44]: P2P
+        - generic [ref=e47] [cursor=pointer]:
+          - img "poker.svg" [ref=e48]
+          - generic [ref=e49]: პოკერი
+        - generic [ref=e52] [cursor=pointer]:
+          - img "virtual.svg" [ref=e53]
+          - generic [ref=e54]: VIRTUAL
+        - generic [ref=e57] [cursor=pointer]:
+          - img "promos.svg" [ref=e58]
+          - generic [ref=e59]: აქციები
+    - generic [ref=e61]:
+      - generic [ref=e63]:
+        - generic [ref=e64]:
+          - text: prev
+          - generic [ref=e65] [cursor=pointer]: next
+          - generic:
+            - img "*" [ref=e69] [cursor=pointer]
+            - img "*" [ref=e73] [cursor=pointer]
+            - img "*" [ref=e77] [cursor=pointer]
+            - img "*" [ref=e81] [cursor=pointer]
+            - img "*" [ref=e85] [cursor=pointer]
+            - img "*" [ref=e89] [cursor=pointer]
+            - img "*" [ref=e93] [cursor=pointer]
+            - img "*" [ref=e97] [cursor=pointer]
+            - img "*" [ref=e101] [cursor=pointer]
+        - generic [ref=e102]:
+          - button "დეპოზიტი" [ref=e103] [cursor=pointer]:
+            - img [ref=e104]
+            - text: დეპოზიტი
+          - generic [ref=e107]:
+            - generic [ref=e108]:
+              - text: "90.36"
+              - paragraph [ref=e109]: ₾
+            - img [ref=e110] [cursor=pointer]
+          - generic [ref=e120]:
+            - img "Profile Img" [ref=e122] [cursor=pointer]
+            - generic [ref=e124] [cursor=pointer]:
+              - generic [ref=e125]: sportTest12300
+              - generic [ref=e127]: "3189887"
+      - generic [ref=e131]:
+        - generic [ref=e132]:
+          - paragraph [ref=e134]: მომხმარებლის მენიუ
+          - generic [ref=e135]:
+            - link "შეტყობინებები" [ref=e136] [cursor=pointer]:
+              - /url: /profile/notifications
+            - link "ბონუსები" [ref=e137] [cursor=pointer]:
+              - /url: /profile/bonuses
+            - link "მისიები" [ref=e138] [cursor=pointer]:
+              - /url: /profile/missions
+            - link "დეპოზიტი" [ref=e139] [cursor=pointer]:
+              - /url: /profile/deposit
+            - link "განაღდება" [ref=e140] [cursor=pointer]:
+              - /url: /profile/withdraw
+            - link "IBAN განაღდება" [ref=e141] [cursor=pointer]:
+              - /url: /profile/special-withdraw
+            - link "ტრანზაქციების ისტორია" [ref=e142] [cursor=pointer]:
+              - /url: /profile/transactions-history
+            - link "მოიწვიე მეგობარი ახალი" [ref=e143] [cursor=pointer]:
+              - /url: /profile/refer-friend
+              - text: მოიწვიე მეგობარი
+              - generic [ref=e145]: ახალი
+            - link "პრომო კოდი" [ref=e146] [cursor=pointer]:
+              - /url: /profile/promo-code
+            - link "პროფილი" [ref=e147] [cursor=pointer]:
+              - /url: /profile/info
+            - link "ვერიფიკაცია" [ref=e148] [cursor=pointer]:
+              - /url: /profile/verification
+            - link "Croco Card" [ref=e149] [cursor=pointer]:
+              - /url: /profile/croco-card
+            - link "სალაროები" [ref=e150] [cursor=pointer]:
+              - /url: /profile/cash-desks
+        - generic [ref=e153]:
+          - generic [ref=e155]: მოიწვიე მეგობარი
+          - generic [ref=e156]:
+            - generic [ref=e158]: "მოიწვიე მეგობრები crocobet.com-ზე და დასაჩუქრდით ფრისპინებით! აირჩიე შენთვის მარტივი მეთოდი: გაუზიარე მეგობრებს ბმული, სთხოვე დაასკანერონ QR კოდი და მიჰყვნენ რეგისტრაციისა და ვერიფიკაციის პროცესს, ან გაუგზავნე შენი მოწვევის კოდი - საჭიროა, რომ ის ჩაწერონ პრომო კოდის ველში რეგისტრაციისას და დაასრულონ რეგისტრაცია/ვერიფიკაცია"
+            - generic [ref=e159]:
+              - generic [ref=e160]: მოიწვიე მეგობარი
+              - generic [ref=e161]:
+                - generic [ref=e162]: გაუზიარე ბმული
+                - img [ref=e164] [cursor=pointer]
+              - generic [ref=e165]:
+                - generic [ref=e166]: https://crocobet.com/?referralCode=CR95541UU
+                - generic [ref=e170] [cursor=pointer]:
+                  - generic [ref=e171]:
+                    - generic:
+                      - img
+                    - img [ref=e173]
+                  - generic [ref=e176]: copy
+              - generic [ref=e177]:
+                - generic [ref=e178]: ან გაუგზავნე მოწვევის კოდი
+                - img [ref=e180] [cursor=pointer]
+              - generic [ref=e181]:
+                - generic [ref=e182]: CR95541UU
+                - generic [ref=e186] [cursor=pointer]:
+                  - generic [ref=e187]:
+                    - generic:
+                      - img
+                    - img [ref=e189]
+                  - generic [ref=e192]: copy
+              - generic [ref=e193]:
+                - generic [ref=e194]: ან სთხოვე, რომ დაასკანეროს QR კოდი
+                - img [ref=e196] [cursor=pointer]
+              - img "Logo" [ref=e198]
+      - generic [ref=e205]:
+        - generic [ref=e207]:
+          - generic [ref=e208]:
+            - img "bog" [ref=e209]
+            - img "tbc" [ref=e210]
+            - img "liberty" [ref=e211]
+            - img "visa" [ref=e212]
+          - generic [ref=e213]:
+            - img "ka" [ref=e215] [cursor=pointer]
+            - img "en" [ref=e217] [cursor=pointer]
+            - img "ru" [ref=e219] [cursor=pointer]
+            - img "tr" [ref=e221] [cursor=pointer]
+        - generic [ref=e222]:
+          - generic [ref=e223]:
+            - generic [ref=e224]:
+              - heading "ჩვენ შესახებ" [level=3] [ref=e225]
+              - generic [ref=e226] [cursor=pointer]: ზოგადი წესები
+              - generic [ref=e227] [cursor=pointer]: სპორტის წესები
+              - generic [ref=e228] [cursor=pointer]: სამორინის რეგლამენტი
+              - generic [ref=e229] [cursor=pointer]: შეზღუდული ქვეყნები
+              - generic [ref=e230] [cursor=pointer]: 25+
+              - generic [ref=e231] [cursor=pointer]: შეთავაზებები
+            - generic [ref=e232]:
+              - heading "გამოგვყევით" [level=3] [ref=e233]
+              - link "Facebook" [ref=e234] [cursor=pointer]:
+                - /url: https://www.facebook.com/crocobet
+                - generic [ref=e235]: Facebook
+              - link "Instagram" [ref=e236] [cursor=pointer]:
+                - /url: https://www.instagram.com/crocobet_com/
+                - generic [ref=e237]: Instagram
+              - link "Youtube" [ref=e238] [cursor=pointer]:
+                - /url: https://www.youtube.com/@crocobet-7649
+                - generic [ref=e239]: Youtube
+            - generic [ref=e240]:
+              - heading "საკონტაქტო ინფორმაცია" [level=3] [ref=e241]
+              - generic [ref=e243]: "*0707"
+              - generic [ref=e245]: (032) 2597777
+              - generic [ref=e247]: support@crocobet.com
+              - generic [ref=e248] [cursor=pointer]: სალაროები
+          - generic [ref=e249]:
+            - generic [ref=e250]:
+              - generic: Live Chat
+            - link "messenger messenger" [ref=e251] [cursor=pointer]:
+              - /url: "#"
+              - generic: messenger
+              - img "messenger" [ref=e252]
+            - link "viber viber" [ref=e253] [cursor=pointer]:
+              - /url: "#"
+              - generic: viber
+              - img "viber" [ref=e254]
+            - link "telegram telegram" [ref=e255] [cursor=pointer]:
+              - /url: "#"
+              - generic: telegram
+              - img "telegram" [ref=e256]
+        - generic [ref=e257]:
+          - generic [ref=e258]:
+            - generic [ref=e259]: ნებართვა N19-04/90 / ნებართვა N19-05/384 / ნებართვა N19-10/001 / ნებართვა N19-11/001 / ნებართვა N19-12/001
+            - generic [ref=e260]: © 2016-2026 crocobet.com. V.4.5.0 ყველა უფლება დაცულია
+          - img "25+" [ref=e262]
+  - generic:
+    - generic:
+      - generic: Show my rewards

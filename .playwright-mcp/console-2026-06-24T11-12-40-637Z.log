@@ -1,0 +1,13 @@
+[    1418ms] [LOG] Google Analytics Facade @ https://crocobet.com/node_modules_sentry_angular_fesm2020_sentry-angular_mjs-_9f501.c8b97f94300f7b07.js:0
+[    1891ms] [LOG] Filtered Panels: [] @ https://crocobet.com/node_modules_sentry_angular_fesm2020_sentry-angular_mjs-_9f501.c8b97f94300f7b07.js:0
+[    2147ms] [TIMEEND] generateLandingData: 0.234130859375 ms @ https://crocobet.com/node_modules_croco_store_fesm2022_croco-store_mjs-_5c6a0.74c706c340e97f41.js:0
+[    2149ms] [LOG] Filtered Panels: [Object, Object, Object, Object, Object, Object] @ https://crocobet.com/node_modules_sentry_angular_fesm2020_sentry-angular_mjs-_9f501.c8b97f94300f7b07.js:0
+[    2181ms] [LOG] Cache has been cleared. @ https://crocobet.com/node_modules_sentry_angular_fesm2020_sentry-angular_mjs-_9f501.c8b97f94300f7b07.js:0
+[    2667ms] [LOG] FastTrack CRM application loaded @ https://crocobet.com/node_modules_sentry_angular_fesm2020_sentry-angular_mjs-_9f501.c8b97f94300f7b07.js:0
+[    3368ms] [LOG] Fasttrack CRM: loginWithAuthToken, sid: [Ne5cP7r7qUJg4v3p/JP9TC5KNoGxpsq0dnMia03h+cs=], source: [undefined] @ https://crocobet.com/node_modules_sentry_angular_fesm2020_sentry-angular_mjs-_9f501.c8b97f94300f7b07.js:0
+[    3368ms] [WARNING] Fasttrack CRM: loginWithAuthToken, source is not set @ https://crocobet.com/node_modules_sentry_angular_fesm2020_sentry-angular_mjs-_9f501.c8b97f94300f7b07.js:0
+[    3671ms] [LOG] Fasttrack CRM: Successfully authenticated! @ https://crocobet.com/node_modules_sentry_angular_fesm2020_sentry-angular_mjs-_9f501.c8b97f94300f7b07.js:0
+[    3672ms] [INFO] Rewards initialized @ https://crocobet.com/node_modules_sentry_angular_fesm2020_sentry-angular_mjs-_9f501.c8b97f94300f7b07.js:0
+[    3883ms] [WARNING] [Rewards] [sdk-full] Rewards not enabled @ https://crocobet.com/node_modules_sentry_angular_fesm2020_sentry-angular_mjs-_9f501.c8b97f94300f7b07.js:0
+[    3883ms] [ERROR] [sdk-full] Could not load configuration {message: Rewards not enabled} @ https://crocobet.com/node_modules_sentry_angular_fesm2020_sentry-angular_mjs-_9f501.c8b97f94300f7b07.js:0
+[    5035ms] [WARNING] Fasttrack CRM: Disconnected from ws channel: private-prisma-176-1418227 @ https://crocobet.com/node_modules_sentry_angular_fesm2020_sentry-angular_mjs-_9f501.c8b97f94300f7b07.js:0

@@ -1,0 +1,18 @@
+[    1041ms] [LOG] Google Analytics Facade @ https://crocobet.com/node_modules_sentry_angular_fesm2020_sentry-angular_mjs-_9f501.c8b97f94300f7b07.js:0
+[    1276ms] [LOG] Filtered Panels: [] @ https://crocobet.com/node_modules_sentry_angular_fesm2020_sentry-angular_mjs-_9f501.c8b97f94300f7b07.js:0
+[    1581ms] [TIMEEND] generateLandingData: 0.44189453125 ms @ https://crocobet.com/node_modules_croco_store_fesm2022_croco-store_mjs-_5c6a0.74c706c340e97f41.js:0
+[    1585ms] [LOG] Filtered Panels: [Object, Object, Object, Object, Object, Object] @ https://crocobet.com/node_modules_sentry_angular_fesm2020_sentry-angular_mjs-_9f501.c8b97f94300f7b07.js:0
+[    1919ms] [LOG] Cache has been cleared. @ https://crocobet.com/node_modules_sentry_angular_fesm2020_sentry-angular_mjs-_9f501.c8b97f94300f7b07.js:0
+[   16406ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://10.80.150.10/UserCheck/PortalMain?IID=1C0C865D-D67B-6287-B372-CB732BE66E2C&origUrl=aHR0cHM6Ly9tYy55YW5kZXgucnUvbWV0cmlrYS90YWcuanM:0
+[   78546ms] [WARNING] [Meta Pixel] - You are sending a non-standard event 'Login'. The preferred way to send these events is using trackCustom. See 'https://developers.facebook.com/docs/ads-for-websites/pixel-events/#events' for more information. @ https://crocobet.com/node_modules_sentry_angular_fesm2020_sentry-angular_mjs-_9f501.c8b97f94300f7b07.js:0
+[   78592ms] [LOG] Cache has been cleared. @ https://crocobet.com/node_modules_sentry_angular_fesm2020_sentry-angular_mjs-_9f501.c8b97f94300f7b07.js:0
+[   78712ms] [TIMEEND] generateLandingData: 0.385986328125 ms @ https://crocobet.com/node_modules_croco_store_fesm2022_croco-store_mjs-_5c6a0.74c706c340e97f41.js:0
+[   78714ms] [LOG] Filtered Panels: [Object, Object, Object, Object, Object, Object] @ https://crocobet.com/node_modules_sentry_angular_fesm2020_sentry-angular_mjs-_9f501.c8b97f94300f7b07.js:0
+[   79491ms] [LOG] FastTrack CRM application loaded @ https://crocobet.com/node_modules_sentry_angular_fesm2020_sentry-angular_mjs-_9f501.c8b97f94300f7b07.js:0
+[   79954ms] [LOG] Fasttrack CRM: loginWithAuthToken, sid: [Ne5cP7r7qUJg4v3p/JP9TC5KNoGxpsq0dnMia03h+cs=], source: [undefined] @ https://crocobet.com/node_modules_sentry_angular_fesm2020_sentry-angular_mjs-_9f501.c8b97f94300f7b07.js:0
+[   79955ms] [WARNING] Fasttrack CRM: loginWithAuthToken, source is not set @ https://crocobet.com/node_modules_sentry_angular_fesm2020_sentry-angular_mjs-_9f501.c8b97f94300f7b07.js:0
+[   80259ms] [LOG] Fasttrack CRM: Successfully authenticated! @ https://crocobet.com/node_modules_sentry_angular_fesm2020_sentry-angular_mjs-_9f501.c8b97f94300f7b07.js:0
+[   80259ms] [INFO] Rewards initialized @ https://crocobet.com/node_modules_sentry_angular_fesm2020_sentry-angular_mjs-_9f501.c8b97f94300f7b07.js:0
+[   80503ms] [WARNING] [Rewards] [sdk-full] Rewards not enabled @ https://crocobet.com/node_modules_sentry_angular_fesm2020_sentry-angular_mjs-_9f501.c8b97f94300f7b07.js:0
+[   80503ms] [ERROR] [sdk-full] Could not load configuration {message: Rewards not enabled} @ https://crocobet.com/node_modules_sentry_angular_fesm2020_sentry-angular_mjs-_9f501.c8b97f94300f7b07.js:0
+[   81839ms] [WARNING] Fasttrack CRM: Disconnected from ws channel: private-prisma-176-1418227 @ https://crocobet.com/node_modules_sentry_angular_fesm2020_sentry-angular_mjs-_9f501.c8b97f94300f7b07.js:0

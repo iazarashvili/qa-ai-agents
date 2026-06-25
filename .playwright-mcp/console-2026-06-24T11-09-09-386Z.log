@@ -1,0 +1,2 @@
+[    1686ms] [LOG] Google Analytics Facade @ https://pre-prod.crocobet.com/libs_shared_src_index_ts-_b1010.a99a9743e386da26.js:0
+[   43631ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://10.80.150.10/UserCheck/PortalMain?IID=0968B2D2-C423-1BC2-468F-49B0B7677776&origUrl=aHR0cHM6Ly9tYy55YW5kZXgucnUvbWV0cmlrYS90YWcuanM:0
